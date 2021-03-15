@@ -1,0 +1,6330 @@
+[
+  {
+    "id": "5fb693b5dd6774076443b29a",
+    "type": "Issue",
+    "name": "unleash virtual portals",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "08e1c849-303f-4efa-87d5-c2ca71299e34",
+      "89622af5-b9b5-4dca-976f-9b6617b50fe0",
+      "339102ac-8331-4c6d-82be-8263bafa6f50",
+      "4e82ea76-b037-461e-b0f3-d84c0dd7ddfb",
+      "a342fecd-f655-4750-a1ba-3d5b8503828c"
+    ],
+    "createdAt": 1605800884953,
+    "finishedAt": 1605801806091
+  },
+  {
+    "id": "6011619bf83a44739dcae4f1",
+    "type": "Issue",
+    "name": "disintermediate end-to-end channels",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 8,
+    "comments": [],
+    "createdAt": 1611751835554,
+    "finishedAt": 1612633992212
+  },
+  {
+    "id": "5cffa5cee24609001f70575e",
+    "type": "Issue",
+    "name": "evolve enterprise convergence",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1560257998619,
+    "finishedAt": 1606844960604
+  },
+  {
+    "id": "5fbffd99b4e59f366c8224f9",
+    "type": "Issue",
+    "name": "evolve vertical e-services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1606417817046,
+    "finishedAt": 1606487931496
+  },
+  {
+    "id": "5f97f1a7a5ee9b3e80e2a836",
+    "type": "Issue",
+    "name": "monetize real-time infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1603793319216,
+    "finishedAt": 1603812598994
+  },
+  {
+    "id": "5e8b435364472a3e42b425ef",
+    "type": "Issue",
+    "name": "empower strategic e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1586185043828,
+    "finishedAt": 1608120747982
+  },
+  {
+    "id": "5f8585a0fe8a193d0cc094ac",
+    "type": "Issue",
+    "name": "seize front-end partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1602586016830,
+    "finishedAt": 1607333432523
+  },
+  {
+    "id": "6008269c8ba9dc1cd2622983",
+    "type": "Issue",
+    "name": "harness seamless platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "e9152c7a-83b1-41d1-af94-59df0639f871"
+    ],
+    "createdAt": 1611146908060,
+    "finishedAt": 1611483129131
+  },
+  {
+    "id": "5f4f683e223dec59de47f3df",
+    "type": "Issue",
+    "name": "cultivate robust ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1599039550136,
+    "finishedAt": 1599246169698
+  },
+  {
+    "id": "5fbb822447ef3f257c59772a",
+    "type": "Issue",
+    "name": "embrace frictionless relationships",
+    "status": "closed",
+    "resolution": "duplicate",
+    "resolvedBy": 2,
+    "comments": [
+      "7dfc3c7d-1605-454e-8552-32bb71544364",
+      "5524907a-f730-487c-ba58-6d62772460d8"
+    ],
+    "createdAt": 1606124068120,
+    "finishedAt": 1607331044521
+  },
+  {
+    "id": "5e788d240b67f4308ae46872",
+    "type": "Issue",
+    "name": "matrix sticky channels",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1584958755007,
+    "finishedAt": 1601558054217
+  },
+  {
+    "id": "5f588f5d1453c046ae871801",
+    "type": "Issue",
+    "name": "productize open-source web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "987f11ff-7a6e-4433-9ef9-23437c4fcf35",
+      "60df44ad-abe7-4e2c-9c08-c33f105d2ceb"
+    ],
+    "createdAt": 1599639389776,
+    "finishedAt": 1602519204468
+  },
+  {
+    "id": "5fa9af7f0953ed0d1e01b404",
+    "type": "Issue",
+    "name": "engineer clicks-and-mortar blockchains",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [
+      "c068b498-0dc9-49a0-a57c-732ebc965ec7"
+    ],
+    "createdAt": 1604956030986,
+    "finishedAt": 1605530427458
+  },
+  {
+    "id": "5ddfa94629af1d001d587559",
+    "type": "Issue",
+    "name": "synthesize value-added partnerships",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1574938950580,
+    "finishedAt": 1603816596858
+  },
+  {
+    "id": "5fa43cfd7d06014073c7601a",
+    "type": "Issue",
+    "name": "maximize collaborative systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1604599037277,
+    "finishedAt": 1604907349219
+  },
+  {
+    "id": "600e8ca7fc49a078560bf306",
+    "type": "Issue",
+    "name": "benchmark bleeding-edge e-services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "194b5584-92ce-4c21-96e7-59044d93dbcc",
+      "06af5f9b-90c0-4f1b-9f94-5e048ae1a16c",
+      "30b6c88b-6879-45f3-89c6-6d96cb7367a0",
+      "378acbdf-e4c5-4ee8-a6b1-52229ce45c8b"
+    ],
+    "createdAt": 1611566247014,
+    "finishedAt": 1612173880159
+  },
+  {
+    "id": "5eea0b51bbb8a511ac454ccf",
+    "type": "Issue",
+    "name": "reinvent wireless communities",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "2e812a07-7e5d-42d7-9805-caf297575d02",
+      "01421408-92d8-464b-9320-202ea50a56bb"
+    ],
+    "createdAt": 1592396625220,
+    "finishedAt": 1601400856674
+  },
+  {
+    "id": "5f7f15502f585043f53a4941",
+    "type": "Issue",
+    "name": "benchmark revolutionary vortals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1602164048357,
+    "finishedAt": 1602592726768
+  },
+  {
+    "id": "5dd7d5e11221540504ec26be",
+    "type": "Issue",
+    "name": "synthesize web-enabled mindshare",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1574426081265,
+    "finishedAt": 1603817631381
+  },
+  {
+    "id": "5fc666a61430ad536dc0883d",
+    "type": "Issue",
+    "name": "transform revolutionary paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1606837926836,
+    "finishedAt": 1606980497431
+  },
+  {
+    "id": "5f686f8377afaa17984bcd89",
+    "type": "Issue",
+    "name": "revolutionize world-class deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1600679811259,
+    "finishedAt": 1601374188656
+  },
+  {
+    "id": "5fbe2cc062894b694b7ffc17",
+    "type": "Issue",
+    "name": "redefine B2B architectures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1606298816760,
+    "finishedAt": 1606303884336
+  },
+  {
+    "id": "5f8a0aa9a4fbbb63eab5422b",
+    "type": "Issue",
+    "name": "streamline customized applications",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1602882217021,
+    "finishedAt": 1603114412437
+  },
+  {
+    "id": "5fada445e3cc041f2d29ce79",
+    "type": "Issue",
+    "name": "architect magnetic methodologies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1605215301796,
+    "finishedAt": 1605530438213
+  },
+  {
+    "id": "5e0631f0f3f60814c5e5cb2c",
+    "type": "Issue",
+    "name": "iterate turn-key communities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "c32a4270-3545-47f7-93a3-15dc2f891202",
+      "fd339a5b-5de3-4a2a-b9b1-72cd81a9ce3e",
+      "6b6406ff-1437-4e38-b6d2-de8aa459cd28",
+      "887d19a5-109a-4cb8-b22f-6c2fc52f74a7"
+    ],
+    "createdAt": 1577464304776,
+    "finishedAt": 1610584792018
+  },
+  {
+    "id": "5efd9fc8a7941d1f58f0fb67",
+    "type": "Issue",
+    "name": "syndicate bleeding-edge schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1593679816900,
+    "finishedAt": 1600706731548
+  },
+  {
+    "id": "600b08561ab53e007d47b0da",
+    "type": "Issue",
+    "name": "benchmark mission-critical niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "21dfbb91-61d5-4d2a-a2d2-ed1b80adc731",
+      "ab09f710-4b00-49bb-9a8e-145fc71c0e38",
+      "d729d237-c8e8-4389-b869-af3d00e94895",
+      "0b8b6c82-76fa-41d9-9732-0fc8a8497da0",
+      "d34718ac-875a-4e98-8d88-127d75791178"
+    ],
+    "createdAt": 1611335766657,
+    "finishedAt": 1611681871996
+  },
+  {
+    "id": "5d2c331229af1d001c9b71a0",
+    "type": "Issue",
+    "name": "aggregate back-end portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1563177746892,
+    "finishedAt": 1603817995681
+  },
+  {
+    "id": "5f9192fe27b55750ece73480",
+    "type": "Issue",
+    "name": "iterate frictionless infrastructures",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "7c79c618-6ebb-4ef1-b542-f75fb47591cf",
+      "06ae08da-d76f-4ff4-ba45-f57f1bff5513",
+      "e0855eaa-af59-437e-b8ec-a27a7e486f3b",
+      "da4214aa-ffa7-4f04-8fb1-e0a5efefa91b",
+      "8f079d37-abd7-4e6b-858a-04d708a2758f"
+    ],
+    "createdAt": 1603375870445,
+    "finishedAt": 1605783107367
+  },
+  {
+    "id": "5e4ed22295a0373be4cb2f25",
+    "type": "Issue",
+    "name": "expedite scalable e-business",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1582223905471,
+    "finishedAt": 1611667470373
+  },
+  {
+    "id": "5f76e1722da9305351399c81",
+    "type": "Issue",
+    "name": "visualize wireless markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1601626482469,
+    "finishedAt": 1601896060570
+  },
+  {
+    "id": "5f841bbefe8a193d0cbe5ed5",
+    "type": "Issue",
+    "name": "disintermediate mission-critical e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "18d3dd5b-7257-474e-b253-8e1cc1f5f240"
+    ],
+    "createdAt": 1602493373830,
+    "finishedAt": 1611926237609
+  },
+  {
+    "id": "5f7659e0653fd6406828f186",
+    "type": "Issue",
+    "name": "transform value-added infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "2ad82de5-3384-4416-a38b-03c8e010a9ba",
+      "1cadbcc4-6987-45eb-b488-2d86d7c86abb",
+      "6e5d9403-bda0-4073-b930-40aad1d1c4b8",
+      "1f02fbf4-dc6a-4235-b0be-c8dc11254e47"
+    ],
+    "createdAt": 1601591776387,
+    "finishedAt": 1604933850080
+  },
+  {
+    "id": "5eb3ef67ebaabf22874292d3",
+    "type": "Issue",
+    "name": "disintermediate dynamic relationships",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1588850533235,
+    "finishedAt": 1601297529876
+  },
+  {
+    "id": "5f08b469762dfd2a2354b48b",
+    "type": "Issue",
+    "name": "integrate e-business functionalities",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1594405993680,
+    "finishedAt": 1612779745536
+  },
+  {
+    "id": "5f995af986ad384f7768b5cd",
+    "type": "Issue",
+    "name": "enable bleeding-edge experiences",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "27a095ac-0713-47c9-96bf-d5fa86e0af72",
+      "53dbc8f0-7a37-45d7-bab4-a673c2e83afb"
+    ],
+    "createdAt": 1603885817099,
+    "finishedAt": 1604673106240
+  },
+  {
+    "id": "5fc7420ab31c964100bcd6ca",
+    "type": "Issue",
+    "name": "leverage web-enabled synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [
+      "08e3f3ee-5190-4b97-b1bf-60d646328ae1"
+    ],
+    "createdAt": 1606894089951,
+    "finishedAt": 1606917293653
+  },
+  {
+    "id": "5f5282a31d0eea1f3f9b0a17",
+    "type": "Issue",
+    "name": "synergize bricks-and-clicks e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1599242915575,
+    "finishedAt": 1605164141995
+  },
+  {
+    "id": "5fb3a32dbc5aa96799e08272",
+    "type": "Issue",
+    "name": "recontextualize viral platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1605608237721,
+    "finishedAt": 1605777872927
+  },
+  {
+    "id": "5f7af5de827c303c6a350423",
+    "type": "Issue",
+    "name": "harness bleeding-edge platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "4d1a6e27-1425-4202-aa00-b82d6c0bf12f",
+      "5d814ab8-60fe-4bde-a575-63f69b0dd620",
+      "8cf63423-45d2-4dab-ae54-711fb7e6b1d6",
+      "a936d5f5-0dfb-4a8a-ba66-fad74dfdee78",
+      "b48d63d0-ccd1-4556-ae2c-2e4b4ab0ddb2"
+    ],
+    "createdAt": 1601893854799,
+    "finishedAt": 1602006389003
+  },
+  {
+    "id": "5fabca24576ebb493347d033",
+    "type": "Issue",
+    "name": "incubate proactive deliverables",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1605093924054,
+    "finishedAt": 1605709107449
+  },
+  {
+    "id": "5ea0189e3392a92eb949cf1e",
+    "type": "Issue",
+    "name": "productize collaborative paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "d82c34cc-cb12-4e07-bc7e-46dc5c4ddaf5",
+      "9602ed64-301b-4dd6-9dfe-bdd475a46dd6",
+      "25b7f4b5-e132-4684-98fc-4cca865fee28"
+    ],
+    "createdAt": 1587550366028,
+    "finishedAt": 1600765948782
+  },
+  {
+    "id": "5e29b97446599a7e3b701ac1",
+    "type": "Issue",
+    "name": "aggregate compelling systems",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "178e527f-5140-4564-ab95-de4933b2bb83",
+      "1b99acdf-2a34-4b8c-9900-f8cedc752c7f",
+      "5a6c4aeb-b672-49ed-9748-96f747bf99cd"
+    ],
+    "createdAt": 1579792756737,
+    "finishedAt": 1607330911498
+  },
+  {
+    "id": "5de9edd1f17a104457bbb067",
+    "type": "Issue",
+    "name": "productize sexy deliverables",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "3393e005-1c05-4c09-ab23-c7bfdcb764f5",
+      "67f338a2-acd1-4c90-b826-44f464b7386c",
+      "1dfb20b6-e166-41c8-91d2-aca9bf3e447f",
+      "e446b508-c033-41c2-a9df-13aa91b7950b",
+      "9855f097-066f-4acf-afff-f71ebdc92ba6"
+    ],
+    "createdAt": 1575611855751,
+    "finishedAt": 1607096523267
+  },
+  {
+    "id": "5fb7d65583420411a697129b",
+    "type": "Issue",
+    "name": "mesh B2C e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1605883477576,
+    "finishedAt": 1607447980665
+  },
+  {
+    "id": "5dd7ca6f29af1decb1188af2",
+    "type": "Issue",
+    "name": "utilize enterprise bandwidth",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1574423151763,
+    "finishedAt": 1607599799412
+  },
+  {
+    "id": "5f63952b45d44e7d440014a5",
+    "type": "Issue",
+    "name": "embrace ubiquitous markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "ebfd3d04-80c4-43a5-a2d7-2d14eb49677b",
+      "c7424ca8-92c1-4ca1-871b-ccf43eef4695",
+      "05967266-1da9-404b-8f6b-f46b1be5be48",
+      "e99d4784-5984-4718-9d23-adf5b7075834",
+      "1c02db43-0838-4aad-99f1-ea7afb3bcc93",
+      "fdb5ad18-3dbc-45dd-a33b-b26893433bda"
+    ],
+    "createdAt": 1600361771018,
+    "finishedAt": 1602515495460
+  },
+  {
+    "id": "5f3bba4e86966e756e471bc0",
+    "type": "Issue",
+    "name": "transition plug-and-play interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "08160bc6-1f05-4526-8a74-5f3e2ef0d187",
+      "ea221ec2-6441-4b01-ad59-9a61061e52b5",
+      "a0abfbda-1867-4602-99c2-747fe2db6b28",
+      "cb4b6468-66ed-4d94-b2d0-ecb5e44c75de"
+    ],
+    "createdAt": 1597749838175,
+    "finishedAt": 1605865198820
+  },
+  {
+    "id": "5d6d510c8c7003001da0fdff",
+    "type": "Issue",
+    "name": "innovate impactful users",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1567445260841,
+    "finishedAt": 1611926262583
+  },
+  {
+    "id": "5fc637c2604d543e8d0b3e04",
+    "type": "Issue",
+    "name": "extend proactive functionalities",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "c184b1a9-7a85-4c9f-baa2-a6748e3f9918"
+    ],
+    "createdAt": 1606825922340,
+    "finishedAt": 1607335453287
+  },
+  {
+    "id": "5f9b12d2c9b8b244791afef8",
+    "type": "Issue",
+    "name": "deploy dot-com ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1603998418613,
+    "finishedAt": 1605002883747
+  },
+  {
+    "id": "5f64c4a5a54aeb07fcd2046e",
+    "type": "Issue",
+    "name": "envisioneer 24/365 channels",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1600439461172,
+    "finishedAt": 1607591813060
+  },
+  {
+    "id": "5f3ea9be2ee3d83837ae2526",
+    "type": "Issue",
+    "name": "innovate virtual architectures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1597942206503,
+    "finishedAt": 1599503485772
+  },
+  {
+    "id": "5fab01228738783fe7bcdc53",
+    "type": "Issue",
+    "name": "seize interactive solutions",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [
+      "36db3cea-f48e-4171-bcba-2bddc0ab9a9a",
+      "53fde098-96ef-44f2-b281-92f9cfe49bbe",
+      "55f96df5-b274-4955-a210-1b3f5ea9c667"
+    ],
+    "createdAt": 1605042466057,
+    "finishedAt": 1605530458973
+  },
+  {
+    "id": "5f1ebdc8b435c934e9a7adc2",
+    "type": "Issue",
+    "name": "empower next-generation e-markets",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "2b345be2-6944-4458-aad4-990352ada8ca",
+      "af953735-8d74-4031-96cd-efceb8767ea0",
+      "547a3c59-3d2d-4959-b531-9c5ec66f9d31",
+      "62591388-9ba1-4842-a914-3705d4f549f8",
+      "b47395c8-4b62-44a5-a76b-11f9f5f96fb2"
+    ],
+    "createdAt": 1595850184802,
+    "finishedAt": 1607331180219
+  },
+  {
+    "id": "5f8615eee4ef223c2211ae46",
+    "type": "Issue",
+    "name": "redefine ubiquitous metrics",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1602622957987,
+    "finishedAt": 1602775209608
+  },
+  {
+    "id": "5ec399ee03153b011693a009",
+    "type": "Issue",
+    "name": "engineer revolutionary schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1589877230577,
+    "finishedAt": 1608582170858
+  },
+  {
+    "id": "5f64ca3623963d3399b6c25b",
+    "type": "Issue",
+    "name": "e-enable web-enabled systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1600440885964,
+    "finishedAt": 1601374521163
+  },
+  {
+    "id": "5ffd79fc7ff8c845fdc9f500",
+    "type": "Issue",
+    "name": "empower rich web-readiness",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1610447356676,
+    "finishedAt": 1610469813171
+  },
+  {
+    "id": "5fcf594d8382db1f426feeb3",
+    "type": "Issue",
+    "name": "integrate cutting-edge e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "b2d9d51a-0a1b-43be-9bd5-501e3ced84e9",
+      "528ca45c-aaba-4ceb-ab3a-85f77a6101d8",
+      "6647da85-bd1b-44d5-957c-dadff3729470",
+      "a40d42dc-b509-48b7-ad3b-f7bed98a77c7",
+      "2af63057-c89d-44de-ba16-4028fc7a1713",
+      "de213206-e697-438d-8ad5-e64e1e578c26",
+      "e84f29dd-7baa-4455-b737-388c9d71ebe8"
+    ],
+    "createdAt": 1607424333480,
+    "finishedAt": 1607456941229
+  },
+  {
+    "id": "6017d1fa2151cc5bedef59a6",
+    "type": "Issue",
+    "name": "deploy cross-platform infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "001bd18d-069e-42ab-9a86-d33012dd6ae0",
+      "295d666f-a8b3-4264-af3c-5b248ce6bdef",
+      "3ec98204-c3b1-43d2-84eb-d8db31582cc6",
+      "a8b23623-961c-49da-967c-4c2b23baead2",
+      "74ec950d-876c-42d9-839b-f5cd8b69941f",
+      "e2438a1e-91ef-494e-a7f7-ad937bef4312"
+    ],
+    "createdAt": 1612173818786,
+    "finishedAt": 1612865132012
+  },
+  {
+    "id": "5fbb7c3dee7da345493dc284",
+    "type": "Issue",
+    "name": "drive bleeding-edge web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [
+      "9cbe7940-95c3-40aa-9760-4c4d18a7ea8d"
+    ],
+    "createdAt": 1606122557184,
+    "finishedAt": 1612446620341
+  },
+  {
+    "id": "5ed50ac090cbc93819b7d59a",
+    "type": "Issue",
+    "name": "repurpose seamless users",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "6748fbe2-1137-43da-8091-d35781455d75",
+      "098199e7-36b2-4295-b397-28bc3f5783a2",
+      "a8b52d77-fbd3-4f71-bd6e-55f1a546115a",
+      "1a2887da-b6ce-4ac2-be81-67a6c64c5217",
+      "b3285441-82f7-4045-95cf-138b6a83c377",
+      "9803b40f-46e9-4bf2-ac48-be5125321ac8"
+    ],
+    "createdAt": 1591020224521,
+    "finishedAt": 1602169391578
+  },
+  {
+    "id": "5dc1822ba2b79e001c8f9096",
+    "type": "Issue",
+    "name": "morph ubiquitous e-business",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1572962859088,
+    "finishedAt": 1607599622966
+  },
+  {
+    "id": "5f311a5059fb1338b40bccab",
+    "type": "Issue",
+    "name": "drive dynamic interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1597053520483,
+    "finishedAt": 1605798556948
+  },
+  {
+    "id": "5f43b34d1a93b24f968f9e38",
+    "type": "Issue",
+    "name": "embrace dynamic ROI",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1598272333838,
+    "finishedAt": 1606387313414
+  },
+  {
+    "id": "5f2d6a9ef52f593bb48ad627",
+    "type": "Issue",
+    "name": "deliver bleeding-edge portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "6a9bf6a1-4bdf-4ebc-b935-d2feabdb1964",
+      "ce8de0b1-ab1a-41e7-a081-b69e4243009b",
+      "d06549b4-05da-4dd2-ab29-0222f987d96d",
+      "e130f5ea-a51d-4e81-a62c-445ed79256e3",
+      "82db6734-478a-4f8b-b20e-353d584ccadf",
+      "301e01e5-efb2-4190-9c9a-94478f136634",
+      "ffdb1dbd-5f9f-4307-a939-c89ce0f270e1"
+    ],
+    "createdAt": 1596811934036,
+    "finishedAt": 1603903648105
+  },
+  {
+    "id": "5fe5ddbbd059891e03591bd5",
+    "type": "Issue",
+    "name": "transform global communities",
+    "status": "inProgress",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1608900027525
+  },
+  {
+    "id": "5d812ed14b92d7001d6e4c2a",
+    "type": "Issue",
+    "name": "streamline mission-critical relationships",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1568747217470,
+    "finishedAt": 1607330695953
+  },
+  {
+    "id": "5d85256a701665001cdce446",
+    "type": "Issue",
+    "name": "cultivate interactive communities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [
+      "7db13614-ce16-4467-88a9-c796c2dd4ed5",
+      "e3ba7bc1-2e9a-4ae4-8eb7-89384c9bc066",
+      "c48a8911-8f9d-4c9b-8c17-4c6b119e01c8",
+      "9290bec5-d3a9-4b91-b7ba-4dcd25955f2c",
+      "33aad0d4-35be-4ad6-8335-1a9c0fc9f3ca",
+      "3fd9600e-3ed6-4d2b-a1e2-4570953a9584",
+      "94a96acd-ac36-4003-9e75-3581be0addcf"
+    ],
+    "createdAt": 1569006953931,
+    "finishedAt": 1603817842522
+  },
+  {
+    "id": "5f523ec9e216571755e8b706",
+    "type": "Issue",
+    "name": "exploit robust e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1599225545486,
+    "finishedAt": 1607591955951
+  },
+  {
+    "id": "5e8b625ca77dde10f3876d5f",
+    "type": "Issue",
+    "name": "enhance interactive initiatives",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1586192988693,
+    "finishedAt": 1603289412772
+  },
+  {
+    "id": "5f9b37e9cfb02f536a1b2853",
+    "type": "Issue",
+    "name": "generate interactive users",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1604007913151,
+    "finishedAt": 1604584936660
+  },
+  {
+    "id": "5f80594819291a33a0da1ea8",
+    "type": "Issue",
+    "name": "innovate open-source networks",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1602246984419,
+    "finishedAt": 1602586124772
+  },
+  {
+    "id": "5fd1e8664d5c733839d4c542",
+    "type": "Issue",
+    "name": "reinvent sexy paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1607592038239,
+    "finishedAt": 1607939580553
+  },
+  {
+    "id": "5fae66bf5b28b67a6ad23889",
+    "type": "Issue",
+    "name": "expedite web-enabled niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1605265087498,
+    "finishedAt": 1605513848986
+  },
+  {
+    "id": "5fce305c74f5c100795c1aa5",
+    "type": "Issue",
+    "name": "transition cross-media ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1607348313728,
+    "finishedAt": 1608644931073
+  },
+  {
+    "id": "5d1a085fa7571c001f580427",
+    "type": "Issue",
+    "name": "engage e-business blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "d1eb8b92-8045-423c-95c1-8a61a326e27c",
+      "4bc8aa29-9d33-4d38-a250-9dd7617d80ef",
+      "77a9faca-c5e8-42ce-abd8-8ec8cbf8776d",
+      "6a95b296-3f22-448a-aa5b-94821ade95c9",
+      "7d4ecfb9-05d3-48d6-92ac-c62bacd66bd1",
+      "61acbf34-4b18-4cdf-a57e-561a83fb16ab",
+      "7f648610-e941-46fc-8fc9-349c6d8e5c2e"
+    ],
+    "createdAt": 1561987166977,
+    "finishedAt": 1603818018048
+  },
+  {
+    "id": "5fe5fc29de225e592a6aa3e3",
+    "type": "Issue",
+    "name": "embrace holistic mindshare",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "5f2987fa-5791-48d4-8ffb-87a5ff5636e1",
+      "d91bd185-95ee-44c7-a0f6-4b2e05537f92",
+      "cc291a7f-e56f-4a08-8dfc-4b1bdf5c7560",
+      "d6802fbc-7a50-46dc-8e87-6624b1e4e676",
+      "74fddef3-9fc1-4886-9729-fe710648563d",
+      "a5c61b3a-b748-4863-9371-b17c638884b2"
+    ],
+    "createdAt": 1608907817073,
+    "finishedAt": 1611768289443
+  },
+  {
+    "id": "5f437edc5e2fec00d4bebe86",
+    "type": "Issue",
+    "name": "e-enable 24/365 vortals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1598258907946,
+    "finishedAt": 1599154346834
+  },
+  {
+    "id": "5ea800fb3c56c04d4594d3b8",
+    "type": "Issue",
+    "name": "orchestrate real-time blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [
+      "0c61593d-fc7f-4113-850e-33a94eff4e47",
+      "ce51a139-83e3-4d89-8324-b88d0e5d1d0e",
+      "36279102-9a90-4527-a9e3-5af062974de9",
+      "347222fd-de02-4e74-a5ca-247afbe3bb9b",
+      "6cc06d5c-d5a3-4f71-a276-d24cae7c3240",
+      "74128a17-3aa9-4061-9266-5a5a6a58b0f4",
+      "017d2337-9b7e-471b-85c3-9e9243bc96f0"
+    ],
+    "createdAt": 1588068603471,
+    "finishedAt": 1607331313329
+  },
+  {
+    "id": "5f919ffa89c54973a4ecc44e",
+    "type": "Issue",
+    "name": "whiteboard out-of-the-box deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1603379194167,
+    "finishedAt": 1603972838976
+  },
+  {
+    "id": "5d778b6d122154001d79b849",
+    "type": "Issue",
+    "name": "strategize efficient infrastructures",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1568115565617,
+    "finishedAt": 1603809857926
+  },
+  {
+    "id": "59fb5a7cff29730022e143e7",
+    "type": "Issue",
+    "name": "aggregate customized portals",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1509644924266,
+    "finishedAt": 1603819082149
+  },
+  {
+    "id": "5f91996609268a0cda56e473",
+    "type": "Issue",
+    "name": "drive front-end action-items",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "c63db5d3-0c70-4706-bc79-48536ca4d510",
+      "54f24476-a550-4feb-a0d8-cdcb2160b184",
+      "39b991a9-cd0b-4cb7-8383-474e444232be",
+      "045eba52-9155-4aca-a9e1-bbb63a0f825f",
+      "c5c5bbb8-9731-4c9f-8031-9c46322237fb"
+    ],
+    "createdAt": 1603377510635,
+    "finishedAt": 1603921145362
+  },
+  {
+    "id": "5fd8b2e8d9358529d6ccee44",
+    "type": "Issue",
+    "name": "generate customized metrics",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "0dd32a0f-9f6e-4a13-8096-86fe0609f344",
+      "34d48fef-2bd6-475a-b084-5e46f20eb10e"
+    ],
+    "createdAt": 1608037096430,
+    "finishedAt": 1608287137227
+  },
+  {
+    "id": "5f297ae72d95b32da769bf52",
+    "type": "Issue",
+    "name": "leverage virtual solutions",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1596553958782,
+    "finishedAt": 1603929418792
+  },
+  {
+    "id": "5f2e8370588eb841e836dcc3",
+    "type": "Issue",
+    "name": "morph seamless methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1596883824708,
+    "finishedAt": 1610630979363
+  },
+  {
+    "id": "5e78fb8f0b67f4308ae6486f",
+    "type": "Issue",
+    "name": "extend mission-critical bandwidth",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1584987022213,
+    "finishedAt": 1607339570464
+  },
+  {
+    "id": "60016de30ea39748cfb47312",
+    "type": "Issue",
+    "name": "reintermediate bricks-and-clicks e-markets",
+    "status": "inProgress",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1610706403481
+  },
+  {
+    "id": "5fc617b91430ad536dbfa228",
+    "type": "Issue",
+    "name": "matrix value-added e-business",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "f78a43f3-4c1e-49bb-9386-4c5ea65ba4d4",
+      "dc135bd6-8ddb-49e2-b1ec-83a9fd7df62b",
+      "8d47336f-4e85-4e19-815e-5207bb5fa12b"
+    ],
+    "createdAt": 1606817721749,
+    "finishedAt": 1606826268874
+  },
+  {
+    "id": "5ef21838c56c400ff1ea26aa",
+    "type": "Issue",
+    "name": "benchmark cross-media e-markets",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1592924216314,
+    "finishedAt": 1605515423359
+  },
+  {
+    "id": "5e8b5b26926234377cec1f69",
+    "type": "Issue",
+    "name": "enhance virtual markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1586191142173,
+    "finishedAt": 1603289480875
+  },
+  {
+    "id": "5f2819d9235ebe52c81fa628",
+    "type": "Issue",
+    "name": "aggregate mission-critical methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1596463577612,
+    "finishedAt": 1600683192902
+  },
+  {
+    "id": "5f918b2df2bfd742fe7cea52",
+    "type": "Issue",
+    "name": "reinvent bricks-and-clicks schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "a5c9ffa4-725e-4a03-be59-f40252569bf5",
+      "fc57511c-f76f-4846-81ea-3e1eda98065a",
+      "5451ce8f-7493-4050-8793-a1d443e0da65",
+      "5781a1be-9b28-4264-a312-edf7b1a6c955",
+      "b4d2bb89-bad7-45ed-8dd8-7f37dbec49ec",
+      "b1f30999-ddf8-4a8c-8abd-264dace0e81a"
+    ],
+    "createdAt": 1603373869110,
+    "finishedAt": 1606945280900
+  },
+  {
+    "id": "6011935233e33c3b314bbaf0",
+    "type": "Issue",
+    "name": "visualize customized platforms",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1611764562239,
+    "finishedAt": 1611764716946
+  },
+  {
+    "id": "5f6d0193a31d5a68e0251323",
+    "type": "Issue",
+    "name": "evolve user-centric schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "94e3cac2-cac0-47c3-b9ac-c4b4cf737c12",
+      "4f7050d0-55dc-4e21-9c65-1fbac1a4f493",
+      "5b52baf5-f24f-471c-8ea5-de0fc3f18850",
+      "3a92be5d-493f-4e03-8829-753ea7517f48"
+    ],
+    "createdAt": 1600979347025,
+    "finishedAt": 1604933612271
+  },
+  {
+    "id": "6016055b847db202c61d3935",
+    "type": "Issue",
+    "name": "streamline holistic mindshare",
+    "status": "inProgress",
+    "resolvedBy": 6,
+    "comments": [
+      "111507b4-ae50-4617-af97-df9a34f8ebb4"
+    ],
+    "createdAt": 1612055899693
+  },
+  {
+    "id": "5f8eed6de792730205c8e63d",
+    "type": "Issue",
+    "name": "synergize wireless e-commerce",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 10,
+    "comments": [],
+    "createdAt": 1603202413088,
+    "finishedAt": 1605193307878
+  },
+  {
+    "id": "5dd80d18701665146adb8c09",
+    "type": "Issue",
+    "name": "transition bleeding-edge action-items",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "f55ab733-9764-46be-99b0-fcc4c2537088",
+      "e4becfab-554f-486f-8cc3-dffbba538095",
+      "d2b0b086-9989-4f20-b231-8355567569bb",
+      "e66a2a7e-0c68-4947-97e3-e1aef66c6c13"
+    ],
+    "createdAt": 1574440216896,
+    "finishedAt": 1603816541676
+  },
+  {
+    "id": "5f61ffd9ebc21a00ea2ae87b",
+    "type": "Issue",
+    "name": "redefine efficient web-readiness",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [
+      "d1567893-50f2-455c-9e03-98c36e3ebbce",
+      "69e3c224-8692-4ae3-992f-f122b21be8d5",
+      "d9c4dd73-70eb-41f0-a448-d42b4fdf7523",
+      "233928e6-bd18-42bb-9d08-44bc89bd6e37"
+    ],
+    "createdAt": 1600258008861,
+    "finishedAt": 1605520861156
+  },
+  {
+    "id": "5fe5b721d059891e0358d324",
+    "type": "Issue",
+    "name": "envisioneer clicks-and-mortar initiatives",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 8,
+    "comments": [],
+    "createdAt": 1608890145197,
+    "finishedAt": 1611224285132
+  },
+  {
+    "id": "5d812f134b92d7001d6e4c5d",
+    "type": "Issue",
+    "name": "synergize real-time models",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "ea8ca2e9-2e2d-4bb2-a23c-a6f3afa72bf5",
+      "fbd79576-3647-4f7a-b4a9-8cb3af1a934c",
+      "b13b15f4-91ea-402d-a713-dc2ed9eed284",
+      "66e11abe-7a12-4713-940d-572cc9d8439a",
+      "7668c885-58c0-4391-b915-b5bb80d54ec7"
+    ],
+    "createdAt": 1568747283136,
+    "finishedAt": 1607330688548
+  },
+  {
+    "id": "5fd13a685d23da5929e299d5",
+    "type": "Issue",
+    "name": "extend customized infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [
+      "26135723-37d3-4f8b-bac9-235cd65a8ac3",
+      "0f9e7e2e-d299-484d-b95d-553f4fbc301f",
+      "d93528fa-997c-460c-a9ea-50925df16810",
+      "d6509844-8d71-46fd-8b47-b55fc15d7dc3",
+      "4750afff-2ba3-459a-8487-6f3d80409b25",
+      "2512629d-51a8-4c6e-97d4-6328d32383ab",
+      "363862aa-c3a4-4b9a-98a8-2ce0b0f18582"
+    ],
+    "createdAt": 1607547496460,
+    "finishedAt": 1608286468372
+  },
+  {
+    "id": "5f1c0eb2288cf9747b586ac9",
+    "type": "Issue",
+    "name": "iterate viral e-services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "f548e9de-141d-402a-a34e-dd630315fa28",
+      "4b51008d-f4d3-4eb0-a315-0aa7923c8e16",
+      "eeaa80d4-9c49-4e1b-a32d-9c2866e05cf9",
+      "16a618a4-bab9-4eea-be35-ff1bc0c089a1",
+      "d36f89cd-eca2-4ba0-8cfc-4de02bf5523b",
+      "90c625bb-8924-439f-a185-3f1bce5c49ad",
+      "044cc3ea-b055-472a-bdf8-2254a52be24c"
+    ],
+    "createdAt": 1595674290278,
+    "finishedAt": 1601387688515
+  },
+  {
+    "id": "5f92e745543f8e33d5b8ebc4",
+    "type": "Issue",
+    "name": "synergize intuitive models",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "a3f96711-c39e-479e-83a4-81ef6d5b1a68",
+      "2245501c-06e5-4886-bc46-cba6bb682e6c",
+      "b2bffbd7-5b09-4945-952d-5b209c36bae5",
+      "ee11f212-e382-40f8-825a-6130570388ca"
+    ],
+    "createdAt": 1603462981342,
+    "finishedAt": 1604397254680
+  },
+  {
+    "id": "5f560b05aba19c2626d519f7",
+    "type": "Issue",
+    "name": "envisioneer real-time deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1599474437163,
+    "finishedAt": 1601374165362
+  },
+  {
+    "id": "5fc521f9aee1df2e154d09e5",
+    "type": "Issue",
+    "name": "streamline e-business experiences",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1606754809414,
+    "finishedAt": 1606988592847
+  },
+  {
+    "id": "5fc0e4cb27a3e85c1ef11d58",
+    "type": "Issue",
+    "name": "engineer front-end infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1606477003548,
+    "finishedAt": 1606483404968
+  },
+  {
+    "id": "5f9ad7cded47480c5a0b894d",
+    "type": "Issue",
+    "name": "brand cross-media web-readiness",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "940283ef-c88c-442e-95b5-d24f5531021b",
+      "8b3cd3b8-5952-4a46-b267-f1f32438dd39",
+      "e09578eb-0898-4e5e-b589-0fbfff1bd83e",
+      "54e138cf-19cf-4f22-9ecf-611ecf8c2508",
+      "58e55563-c0cb-418e-a462-ed825baa6246"
+    ],
+    "createdAt": 1603983309413,
+    "finishedAt": 1605271781886
+  },
+  {
+    "id": "5fe4512239653205d35f37f2",
+    "type": "Issue",
+    "name": "whiteboard intuitive relationships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "75d696bf-f358-4ef6-ab64-52f6819f617f",
+      "5306797e-cae4-477b-9499-bb2ac51b4bc8",
+      "8487af27-0002-4a14-b268-95dd24c32e2d"
+    ],
+    "createdAt": 1608798497642,
+    "finishedAt": 1608969373823
+  },
+  {
+    "id": "5f119713ef887476c34f815e",
+    "type": "Issue",
+    "name": "benchmark one-to-one models",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "71ee04f2-e7e1-4532-bd52-4aa82a4575b3",
+      "2c0309a2-a0ab-4704-bdd4-b66860f172f0",
+      "b7b12723-e08c-4c89-9882-43db1f2d587c",
+      "038fd86a-6344-49d7-bf39-51682ddb2b8a",
+      "62a36cb5-a3f7-4000-b1f3-2708659ff260",
+      "aa278838-75d8-46ab-8f5b-a824080adcc2"
+    ],
+    "createdAt": 1594988307376,
+    "finishedAt": 1601999205524
+  },
+  {
+    "id": "5f64c9875e27060b30a670bc",
+    "type": "Issue",
+    "name": "reinvent virtual solutions",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1600440710901,
+    "finishedAt": 1608539109443
+  },
+  {
+    "id": "5d85267129af1d001c37b1c2",
+    "type": "Issue",
+    "name": "seize e-business synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "fc31cdf1-764d-41eb-9546-f87bc67a0cdd",
+      "613cd167-45b2-4c71-9a5f-6b87b1cee687"
+    ],
+    "createdAt": 1569007217256,
+    "finishedAt": 1603816289569
+  },
+  {
+    "id": "5c812e16eb5e0d0020ca3235",
+    "type": "Issue",
+    "name": "iterate rich e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1551969814397,
+    "finishedAt": 1605785169900
+  },
+  {
+    "id": "5fabdea4d3afdf67a384b458",
+    "type": "Issue",
+    "name": "maximize back-end synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1605099172310,
+    "finishedAt": 1611327274945
+  },
+  {
+    "id": "5eff4d1a7a467d74b02b60aa",
+    "type": "Issue",
+    "name": "aggregate mission-critical solutions",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1593789722168,
+    "finishedAt": 1603922854675
+  },
+  {
+    "id": "5fa56d815bee652a2e3092a3",
+    "type": "Issue",
+    "name": "iterate 24/365 e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1604676993163,
+    "finishedAt": 1604878726861
+  },
+  {
+    "id": "5f80984e7648b404e9d52b93",
+    "type": "Issue",
+    "name": "expedite cross-media networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1602263118719,
+    "finishedAt": 1603101328750
+  },
+  {
+    "id": "5ebfce04ea140b4e78e47d28",
+    "type": "Issue",
+    "name": "mesh cross-media technologies",
+    "status": "inProgress",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1589628418642
+  },
+  {
+    "id": "60119ce0be36c66ea20b26df",
+    "type": "Issue",
+    "name": "transform value-added content",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "9c2748dd-b3ae-4ccc-8be4-dc248e4f23db",
+      "39e62d6f-40ae-4c36-9937-19a8fe139dd8"
+    ],
+    "createdAt": 1611767008677,
+    "finishedAt": 1611767287419
+  },
+  {
+    "id": "5f5f3dfd48f73033ec63cf27",
+    "type": "Issue",
+    "name": "deploy dot-com interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "36da8dcd-6b90-45b4-885a-3fffb95ff7a6",
+      "a68d4ec3-0bef-427d-9443-55afe402cd6c"
+    ],
+    "createdAt": 1600077309044,
+    "finishedAt": 1601374152361
+  },
+  {
+    "id": "5f918bceae32305a268c8d85",
+    "type": "Issue",
+    "name": "facilitate strategic users",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [
+      "70d4eabd-449a-40fe-8e4f-fbd48a6881da",
+      "bc463c71-18a0-4d5e-82ce-95df4699d405",
+      "fb634cb1-11c1-437d-87d8-b30e974e54d2",
+      "138c7398-259a-480f-91f5-332714301217",
+      "482868ac-1c34-44be-a195-7b111a53fc18"
+    ],
+    "createdAt": 1603374030303,
+    "finishedAt": 1607086515848
+  },
+  {
+    "id": "5ef1f8a6748bb86e2134fded",
+    "type": "Issue",
+    "name": "enable transparent schemas",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1592916134679,
+    "finishedAt": 1601461869317
+  },
+  {
+    "id": "5f89b2e949d6a5175e87b6bd",
+    "type": "Issue",
+    "name": "expedite e-business channels",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [
+      "82bf4639-742f-437e-9ee6-b5717c173c95",
+      "520862a0-0cbd-418e-bafd-27e8d4d5dd5b",
+      "481e9f83-0dec-4763-8107-da8ff6f22f64",
+      "85fe6976-3708-448b-accc-e65518bb8b82",
+      "f8c59ed6-d096-4d4b-8a60-d47e91d4b8de",
+      "a2e8f3b4-f827-49cf-8977-fb01c7a75d96"
+    ],
+    "createdAt": 1602859752774,
+    "finishedAt": 1604337326320
+  },
+  {
+    "id": "5ede3af0281527476255616f",
+    "type": "Issue",
+    "name": "recontextualize out-of-the-box blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "49b62b36-abaa-4280-852d-259bd3077240",
+      "c1107fd5-3a09-41eb-b04c-173f3e66d34c",
+      "8cadd502-072f-48a2-8f43-a8bf280ba037"
+    ],
+    "createdAt": 1591622384467,
+    "finishedAt": 1604916181335
+  },
+  {
+    "id": "5f172550888d0e7bf2c7d361",
+    "type": "Issue",
+    "name": "benchmark clicks-and-mortar blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "877e5ff9-7f81-407f-bb4e-64fc94b8faf6",
+      "6470e4ad-c0a7-4606-ab07-abba4e89951f",
+      "87d48d42-7444-4ca9-b1d5-f66155f66e3c",
+      "78180d21-e972-4895-b6c0-0d28b5489376",
+      "b7ba76bc-1610-466c-814c-7d343df6e8ef",
+      "81167bde-ce37-4148-80df-7e695f54d758"
+    ],
+    "createdAt": 1595352400198,
+    "finishedAt": 1602498197748
+  },
+  {
+    "id": "5fbfbc03c81d3941fc67a3a9",
+    "type": "Issue",
+    "name": "disintermediate front-end systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1606401027099,
+    "finishedAt": 1606806448549
+  },
+  {
+    "id": "5f918c05e2e7224bbbd05a55",
+    "type": "Issue",
+    "name": "iterate revolutionary relationships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1603374085259,
+    "finishedAt": 1607349375557
+  },
+  {
+    "id": "5f5b92194de4364b1674bb85",
+    "type": "Issue",
+    "name": "target e-business portals",
+    "status": "closed",
+    "resolution": "duplicate",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1599836697322,
+    "finishedAt": 1607591167036
+  },
+  {
+    "id": "5f9188d8f2bfd742fe7ce465",
+    "type": "Issue",
+    "name": "engage distributed initiatives",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1603373272631,
+    "finishedAt": 1608196702583
+  },
+  {
+    "id": "5bcf45586a249e001cac04be",
+    "type": "Issue",
+    "name": "benchmark cross-platform markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1540310360029,
+    "finishedAt": 1603818782512
+  },
+  {
+    "id": "5e8b5be0a1831d2d42015e60",
+    "type": "Issue",
+    "name": "deliver innovative vortals",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1586191328796,
+    "finishedAt": 1601390624445
+  },
+  {
+    "id": "5eb3f14f568c2062009ce647",
+    "type": "Issue",
+    "name": "architect viral functionalities",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1588851023076,
+    "finishedAt": 1601297559980
+  },
+  {
+    "id": "5e5d2d93f6449b7820f76d30",
+    "type": "Issue",
+    "name": "repurpose cross-platform functionalities",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "241f30e0-71b2-40eb-ac1b-7d6b7cc87023",
+      "a893eea8-d64c-490f-913f-2a25c58989b0",
+      "603ae8e5-e9e8-4776-8af7-cc4e4cdf699b",
+      "80058d24-b18e-45a9-adff-28959e976720",
+      "d7560c65-90c6-4171-8d31-ecee2eb927d7",
+      "552718cc-e40a-4236-835e-fb7fce0b199c"
+    ],
+    "createdAt": 1583164819362,
+    "finishedAt": 1603817374829
+  },
+  {
+    "id": "5f9aba19c92c883868746b86",
+    "type": "Issue",
+    "name": "target bleeding-edge blockchains",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1603975702977,
+    "finishedAt": 1604330649685
+  },
+  {
+    "id": "5ed9ddc082c0a36073542131",
+    "type": "Issue",
+    "name": "empower revolutionary e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1591336384167,
+    "finishedAt": 1602168635461
+  },
+  {
+    "id": "5f9035868e250d082d21f8a0",
+    "type": "Issue",
+    "name": "disintermediate customized experiences",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "09c7b98c-7a65-4d23-b437-52811b333198",
+      "a3ed5c50-37ff-4fb8-a2bd-b15cdb0ab79c"
+    ],
+    "createdAt": 1603286406324,
+    "finishedAt": 1607098190293
+  },
+  {
+    "id": "600ed652d0298358e11d6d31",
+    "type": "Issue",
+    "name": "maximize real-time solutions",
+    "status": "inProgress",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1611585106569
+  },
+  {
+    "id": "5fb4e00bddafcb183735f8e7",
+    "type": "Issue",
+    "name": "generate innovative infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1605689355044,
+    "finishedAt": 1606420766364
+  },
+  {
+    "id": "5f9cc614da8cd526b24dc1e5",
+    "type": "Issue",
+    "name": "whiteboard enterprise e-commerce",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1604109843915,
+    "finishedAt": 1604933931068
+  },
+  {
+    "id": "5eb3cba82880b37ece3210ba",
+    "type": "Issue",
+    "name": "drive bricks-and-clicks web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1588841384798,
+    "finishedAt": 1604956083259
+  },
+  {
+    "id": "5eff67df58dfa05d20c612b0",
+    "type": "Issue",
+    "name": "target virtual e-services",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1593796575959,
+    "finishedAt": 1604434001008
+  },
+  {
+    "id": "6009558dd4ca6d119c1fcfee",
+    "type": "Issue",
+    "name": "synthesize seamless niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "046c2f2e-a0f0-4c38-a6c1-789ca8171f1a",
+      "1c7b3ca0-53e8-4aca-9055-12203acb19f5",
+      "5416a7db-eb46-4d6e-aaa1-5b4ccf7c0165"
+    ],
+    "createdAt": 1611224461197,
+    "finishedAt": 1613030970621
+  },
+  {
+    "id": "5f15764ad8e9f9753328d9ad",
+    "type": "Issue",
+    "name": "disintermediate customized deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1595242058547,
+    "finishedAt": 1599936642069
+  },
+  {
+    "id": "5d63cd53701665001d5a8e5d",
+    "type": "Issue",
+    "name": "e-enable turn-key metrics",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 5,
+    "comments": [
+      "8325b8d4-310c-43dd-aa2c-f8741bc3199a",
+      "91201abc-5cf3-4b0d-96c5-a5bd2a925cf2",
+      "d9e185d7-050e-40a9-a6d6-44f7a5a8edcc"
+    ],
+    "createdAt": 1566821715260,
+    "finishedAt": 1608287002799
+  },
+  {
+    "id": "5d63ebb063890d001d679051",
+    "type": "Issue",
+    "name": "utilize best-of-breed models",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "4a65a59e-fe96-4996-b203-57e05cc667f7",
+      "ec059c81-a9a3-43a2-aaab-7d1f51697163",
+      "528b9515-e29e-41fb-a979-d3bd57a53a74",
+      "a9f2b24f-2d46-498c-a0f5-4f3220254e17",
+      "0f1e5004-8b66-4061-b3d5-e65f534c0298"
+    ],
+    "createdAt": 1566829487989,
+    "finishedAt": 1602855303270
+  },
+  {
+    "id": "5f96bbe5a5ee9b3e80e0e448",
+    "type": "Issue",
+    "name": "architect world-class initiatives",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1603714021325,
+    "finishedAt": 1608641943549
+  },
+  {
+    "id": "5f6b9b57c86cc52860e19319",
+    "type": "Issue",
+    "name": "deliver transparent web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "4cdb7658-a1f6-41d7-bb95-02a5985dfc09",
+      "848898d2-773f-4fce-9339-a1cd5100362e",
+      "eb3e8e86-0d0b-4d84-94c9-456c7253733e",
+      "a2d43850-467e-4bee-9f54-d70d3cf76ae2"
+    ],
+    "createdAt": 1600887639074,
+    "finishedAt": 1606474834612
+  },
+  {
+    "id": "5e8b3e02a77dde10f386bcf9",
+    "type": "Issue",
+    "name": "repurpose killer ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "07a63574-1855-4adf-aca7-70588ce789b9",
+      "ae6ab058-234a-4bb1-b8dd-60d4d8e470a2"
+    ],
+    "createdAt": 1586183682135,
+    "finishedAt": 1601461846711
+  },
+  {
+    "id": "5ef04d60373ecb3db80cfbf3",
+    "type": "Issue",
+    "name": "revolutionize integrated solutions",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "22d8bbef-ffbe-451f-833e-0b8a7fde9173",
+      "4deba1ed-5395-4998-b152-8f2fdcdc8ffa",
+      "c38cb553-5ebd-4698-91dd-8a4186dd37a5",
+      "eb1c4d3e-a490-4540-9b63-b303f31033b4",
+      "dfcfb5fa-1d7e-4916-a83a-4e5689e1015b",
+      "bb3cd647-066c-45b6-af24-84c08a053624"
+    ],
+    "createdAt": 1592806752948,
+    "finishedAt": 1607331030254
+  },
+  {
+    "id": "5f86f763172aec7001f3e5b8",
+    "type": "Issue",
+    "name": "expedite 24/365 architectures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 8,
+    "comments": [
+      "67553e42-70a1-4796-8b84-75219ca728c3",
+      "029e7188-425f-4ae7-bd75-57e55f4a52d6",
+      "d5a007a1-30fb-4d2c-8874-86e0c3258790",
+      "f9c80906-34d8-407c-8007-7ae9732b3bcf",
+      "7c84fed5-04ea-4561-b1d4-39a99da66b78",
+      "adfe7792-eee7-4271-b88a-d142e8430588",
+      "527c573f-907f-44be-9aab-4ee698af4987"
+    ],
+    "createdAt": 1602680675374,
+    "finishedAt": 1603188661522
+  },
+  {
+    "id": "5f876783b086cf179b1c8c99",
+    "type": "Issue",
+    "name": "incentivize interactive initiatives",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [
+      "6aff6723-8c54-495a-8344-fc5cbb3e9055",
+      "0eb15f65-3876-43de-a170-a96e7c29bfc0",
+      "da599a08-367e-49af-91bd-176ed804de06",
+      "95483ebe-db1f-4ae4-b64f-a38b9f4288b5",
+      "618ec069-9545-4695-aba4-31c681384bff"
+    ],
+    "createdAt": 1602709379313,
+    "finishedAt": 1602775194145
+  },
+  {
+    "id": "5e8b5df7e02325509019ab6e",
+    "type": "Issue",
+    "name": "embrace distributed platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "c6c1bc3c-f045-4dad-81cc-d66a9ceb00a0",
+      "cce0fa01-368b-48a1-b1b0-bd554cae240d",
+      "4e998b88-f5ba-4d29-b476-68648361747e",
+      "fde5bb99-14c2-4564-bd6b-a4595c00e3e7",
+      "83f6af06-6c9a-499d-8456-513cda5d5a21"
+    ],
+    "createdAt": 1586191863408,
+    "finishedAt": 1601390438550
+  },
+  {
+    "id": "5f85bb0cff04d625a38b1a01",
+    "type": "Issue",
+    "name": "deliver bricks-and-clicks e-markets",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1602599692957,
+    "finishedAt": 1603811722771
+  },
+  {
+    "id": "5fa5a9ae63d11c729f32b57f",
+    "type": "Issue",
+    "name": "architect cross-platform communities",
+    "status": "inProgress",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1604692398289
+  },
+  {
+    "id": "5e41844ed8e45e2a39dd09ef",
+    "type": "Issue",
+    "name": "embrace holistic methodologies",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1581352014581,
+    "finishedAt": 1607330454652
+  },
+  {
+    "id": "5fc7a632a9c39663736e199d",
+    "type": "Issue",
+    "name": "disintermediate out-of-the-box solutions",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1606919730593,
+    "finishedAt": 1608838675000
+  },
+  {
+    "id": "60119e88ea61694676f524cd",
+    "type": "Issue",
+    "name": "mesh web-enabled niches",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1611767432756,
+    "finishedAt": 1611768033686
+  },
+  {
+    "id": "5fbbb3b3cad8f12be21ac873",
+    "type": "Issue",
+    "name": "engage turn-key web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1606136754335,
+    "finishedAt": 1606825909484
+  },
+  {
+    "id": "5d8526a929af1d001c37b1db",
+    "type": "Issue",
+    "name": "transform global deliverables",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1569007273175,
+    "finishedAt": 1603816362685
+  },
+  {
+    "id": "5f96c08de852aa66abb5921a",
+    "type": "Issue",
+    "name": "mesh out-of-the-box e-markets",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1603715213602,
+    "finishedAt": 1603811400806
+  },
+  {
+    "id": "5e8b42da06d3116e738292d5",
+    "type": "Issue",
+    "name": "scale synergistic interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1586184922940,
+    "finishedAt": 1601462002438
+  },
+  {
+    "id": "5fa3dc76e77c2176aebebda0",
+    "type": "Issue",
+    "name": "benchmark back-end metrics",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1604574326630,
+    "finishedAt": 1604903127533
+  },
+  {
+    "id": "5f204f33fc8e8b02eabc9cf3",
+    "type": "Issue",
+    "name": "monetize synergistic content",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "7319c8ed-c4fe-4815-a1eb-f1084f65e34f",
+      "cc109890-8cfc-4d63-9da4-79a831b3a5f7",
+      "32b1bbc8-d4f9-4c5f-a99d-dd2f4edd4050",
+      "2ddb29d6-be53-4f22-86c5-7e5b734acbe8",
+      "0f6e737f-d5e0-456d-a069-e34dabdeb38d",
+      "dbd64030-1558-48e5-82fc-0b5f788cc872",
+      "a8a210c9-1fab-4248-9d77-043aaf7a3eb6"
+    ],
+    "createdAt": 1595952946942,
+    "finishedAt": 1600079515660
+  },
+  {
+    "id": "5ed79bbe41c72210ae02903c",
+    "type": "Issue",
+    "name": "morph next-generation users",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 5,
+    "comments": [
+      "0d082122-a716-4452-b867-50c2d675713d",
+      "230efded-a643-47a4-bfdb-04dafa561d96"
+    ],
+    "createdAt": 1591188413957,
+    "finishedAt": 1602464703765
+  },
+  {
+    "id": "5d67e1cc63890d001e7b7aa8",
+    "type": "Issue",
+    "name": "visualize cross-platform technologies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1567089100266,
+    "finishedAt": 1607325364791
+  },
+  {
+    "id": "5f7a3a514adb1b43d2e9c428",
+    "type": "Issue",
+    "name": "aggregate innovative ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "00127018-6675-4f9d-953e-2f629e43d7d4",
+      "339299df-39dd-4daa-b840-f2f382c1ffa9",
+      "38ca2464-0b3c-4151-bf24-9dc686c8cb0b",
+      "bc5dfa35-a3df-4dca-962e-5c0d819fb13f",
+      "217c4b3c-393f-48ed-a577-dc3302d43ab6",
+      "74ef6cfb-add7-4022-9f62-52df6e55e99c",
+      "2425111e-1c84-4759-bf45-5b8f9f715988"
+    ],
+    "createdAt": 1601845841038,
+    "finishedAt": 1604934004769
+  },
+  {
+    "id": "5c24c1d5ac9765001bb74025",
+    "type": "Issue",
+    "name": "aggregate revolutionary e-services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1545912789113,
+    "finishedAt": 1603816107757
+  },
+  {
+    "id": "5f9c12fb321cfd197678769b",
+    "type": "Issue",
+    "name": "enhance compelling technologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1604063995554,
+    "finishedAt": 1605532571242
+  },
+  {
+    "id": "5d0781f3a56a8e001e76963e",
+    "type": "Issue",
+    "name": "engineer web-enabled action-items",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "83f59d62-009f-4b54-905c-0b4bcd80799d",
+      "2e046e6c-abbe-4e53-9174-1c4efdf7174f",
+      "a3e3c3b7-858e-43dc-b5c2-0a193335e452",
+      "0b06b44e-09c4-4d89-a21e-3ac8fe1a701e",
+      "92669591-7729-46ac-93b4-7e300b5a858f",
+      "2d25f209-8fa2-4ac8-a379-0c372605666a"
+    ],
+    "createdAt": 1560773107551,
+    "finishedAt": 1606843031027
+  },
+  {
+    "id": "5f9c12d7cff9e85e231ca2d0",
+    "type": "Issue",
+    "name": "leverage seamless channels",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [
+      "d51773b1-45e0-4545-a2d4-ad78659c8af7",
+      "74b58ace-a89e-4d8d-b193-8c4f18ecf7fe",
+      "c552131f-d9de-467f-875d-eef9a1562b90",
+      "90d74c2f-ebaf-4563-bcdb-3e5c2f6ee42c",
+      "29dd49f3-9c84-4af2-9065-ba225b80a440",
+      "5215edd9-ca2b-4cea-bd7a-6e0acf1b1452"
+    ],
+    "createdAt": 1604063958982,
+    "finishedAt": 1604064081957
+  },
+  {
+    "id": "5f4e9675188a1a105a04ca1d",
+    "type": "Issue",
+    "name": "facilitate seamless e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1598985845741,
+    "finishedAt": 1598994995190
+  },
+  {
+    "id": "5e8b488164472a3e42b43fb4",
+    "type": "Issue",
+    "name": "deploy front-end infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1586186369708,
+    "finishedAt": 1607332965235
+  },
+  {
+    "id": "5fd130dffdbb837ab4d794aa",
+    "type": "Issue",
+    "name": "benchmark wireless e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "2245b6f4-e0d6-4b56-85bc-448820a4efc2",
+      "a4397a91-62ac-45dc-bb91-ea424f436423",
+      "b51cec5c-d978-43a0-907f-2e9567289336",
+      "0541567d-03ed-48c9-adf7-3982d0ae2c72"
+    ],
+    "createdAt": 1607545055234,
+    "finishedAt": 1610617574154
+  },
+  {
+    "id": "60119e88eb4cef1319c8f24d",
+    "type": "Issue",
+    "name": "mesh 24/7 users",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "54636347-1e73-489e-8d8b-33bd575d3ad5",
+      "1dd2bd90-8770-4d15-9f86-8e68c08cf120",
+      "01a5c799-386d-4c5c-b36c-55458303889c",
+      "aeb8b2c9-9eb1-409e-baee-90e498203c00",
+      "0a7e8a43-7cd5-432d-9634-59a49949353e",
+      "6d62c73b-afde-4d47-9468-646d95d3550c"
+    ],
+    "createdAt": 1611767432764,
+    "finishedAt": 1611768076792
+  },
+  {
+    "id": "60119e886f3b224023db9cd0",
+    "type": "Issue",
+    "name": "generate enterprise mindshare",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "1d8f3b49-6bde-4b5c-96e3-eec8c6a5ee95",
+      "79537b39-f737-4bfd-a4da-2ac6392055f0",
+      "f3d419b8-2862-49fc-9eee-dbcec35dd3c6",
+      "551e46ed-5cde-4e1f-b764-a1322a7095f3"
+    ],
+    "createdAt": 1611767432589,
+    "finishedAt": 1611768096110
+  },
+  {
+    "id": "5f901ec62bd1295a974bc7d7",
+    "type": "Issue",
+    "name": "benchmark user-centric partnerships",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1603280582759,
+    "finishedAt": 1606223111285
+  },
+  {
+    "id": "5cb5a7831ead5100205c8a79",
+    "type": "Issue",
+    "name": "cultivate dynamic paradigms",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 1,
+    "comments": [],
+    "createdAt": 1555408771913,
+    "finishedAt": 1603818333120
+  },
+  {
+    "id": "5f4e52eb4e28d61074934540",
+    "type": "Issue",
+    "name": "grow vertical technologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1598968555734,
+    "finishedAt": 1600708467791
+  },
+  {
+    "id": "5f36a6976cab700da31f98e2",
+    "type": "Issue",
+    "name": "syndicate strategic experiences",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1597417111248,
+    "finishedAt": 1602169007495
+  },
+  {
+    "id": "5f2922b96c6a2816ab0cfba0",
+    "type": "Issue",
+    "name": "innovate wireless portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1596531384772,
+    "finishedAt": 1610538868010
+  },
+  {
+    "id": "5b04c7c495ceaa001be442f7",
+    "type": "Issue",
+    "name": "grow cross-platform action-items",
+    "status": "open",
+    "comments": [],
+    "createdAt": 1527039940536,
+    "finishedAt": 1603814572882
+  },
+  {
+    "id": "5e10692569ae5a01bf6ec578",
+    "type": "Issue",
+    "name": "scale robust web-readiness",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1578133797239,
+    "finishedAt": 1603817601153
+  },
+  {
+    "id": "5f76df038c415e47f1f8137a",
+    "type": "Issue",
+    "name": "cultivate bricks-and-clicks blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1601625859391,
+    "finishedAt": 1601626199980
+  },
+  {
+    "id": "5f9c19d3cfb02f536a1c9057",
+    "type": "Issue",
+    "name": "seize out-of-the-box synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1604065747055,
+    "finishedAt": 1607597387558
+  },
+  {
+    "id": "601c142e4ce2400ed0d483b8",
+    "type": "Issue",
+    "name": "strategize sexy eyeballs",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1612452909996,
+    "finishedAt": 1612457930005
+  },
+  {
+    "id": "5f927e4aae32305a268d92b6",
+    "type": "Issue",
+    "name": "implement dot-com systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "7330ea26-0d0b-41b9-a24a-6336f3a0d5db",
+      "09c97729-e49b-47d3-95f6-b2148d4dff2c",
+      "ed516852-486c-401d-9c4f-05ecb9c51fb6",
+      "35048e5a-6f86-46fe-bb97-b3e90fdc149e",
+      "43632470-afe6-4b6e-8c3b-aaedfbebbb55"
+    ],
+    "createdAt": 1603436106217,
+    "finishedAt": 1607339953836
+  },
+  {
+    "id": "5fbb7f1f48762855d5962443",
+    "type": "Issue",
+    "name": "leverage killer deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "7c8e3954-3c95-47d8-b37c-6c592de7004a",
+      "618409f3-888f-495c-b18a-cf0ecf995518"
+    ],
+    "createdAt": 1606123294955,
+    "finishedAt": 1606399012013
+  },
+  {
+    "id": "5efdc42a4236a04c6be16a92",
+    "type": "Issue",
+    "name": "harness e-business web-readiness",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "1f7f35bd-bb1d-454b-b073-89919a147c5e",
+      "e177967f-04e8-445f-9322-ce353ef0d086",
+      "c4214e21-4f75-4f20-ae92-77bcfef77494",
+      "920a8b33-7fa9-4fbf-9f33-f011d5681bd9"
+    ],
+    "createdAt": 1593689130146,
+    "finishedAt": 1603979953044
+  },
+  {
+    "id": "5fbb7fa057636e6e3089388d",
+    "type": "Issue",
+    "name": "incentivize user-centric e-commerce",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "c33bb5f4-5d33-4a1a-8a8a-d328e08302b6"
+    ],
+    "createdAt": 1606123424658,
+    "finishedAt": 1607421725432
+  },
+  {
+    "id": "5faccd293bd9a9794414e168",
+    "type": "Issue",
+    "name": "facilitate robust methodologies",
+    "status": "inProgress",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1605160233285
+  },
+  {
+    "id": "6022721c0204b84f6dd6a0fd",
+    "type": "Issue",
+    "name": "maximize cross-platform initiatives",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "ff35652b-b734-4ad2-8702-0d1ee06d353f",
+      "11170eeb-5fc9-460b-87d6-20821fdea097",
+      "a4aeb02c-59e1-4c71-865c-634fabb9a664",
+      "fcbd734f-460a-4182-b359-9598b801444c",
+      "8f4d84e9-5c05-41fb-a0eb-dba5074d795b",
+      "aa67f28f-c488-4859-977c-0877a478c94f"
+    ],
+    "createdAt": 1612870169946,
+    "finishedAt": 1612958429584
+  },
+  {
+    "id": "5f690462318b980bf56ba107",
+    "type": "Issue",
+    "name": "visualize wireless architectures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1600717922211,
+    "finishedAt": 1604238499521
+  },
+  {
+    "id": "5f730cf5f9449a1f7b729653",
+    "type": "Issue",
+    "name": "aggregate one-to-one e-business",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1601375477391,
+    "finishedAt": 1604933949448
+  },
+  {
+    "id": "5fd73a9fdbabf34dc818ac77",
+    "type": "Issue",
+    "name": "envisioneer efficient architectures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "30fbe2ac-b59c-4d63-9f5f-97694ca35e92",
+      "3586436c-d763-4035-ac65-8e0db4cc6e08"
+    ],
+    "createdAt": 1607940767042,
+    "finishedAt": 1608021275879
+  },
+  {
+    "id": "5f96cf4457dce26f255f3fc0",
+    "type": "Issue",
+    "name": "expedite global ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "16ab6995-7323-40d0-b5de-03bbafc2cda1",
+      "c6a9f703-d6eb-4b1b-8f24-4cac4a35dd93"
+    ],
+    "createdAt": 1603718980256,
+    "finishedAt": 1607948584093
+  },
+  {
+    "id": "5f7f0bc4e305b903ec812cfe",
+    "type": "Issue",
+    "name": "grow rich blockchains",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "1af5bc42-b297-4e87-a737-f7444b3b3853"
+    ],
+    "createdAt": 1602161604667,
+    "finishedAt": 1602681506678
+  },
+  {
+    "id": "5dd6aa764b92d70cc17608b2",
+    "type": "Issue",
+    "name": "matrix web-enabled web services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "6d92981c-07c6-49ff-b4ab-f21606e6b5fd",
+      "287dcd36-29f9-41fd-8330-94697a35bfe9"
+    ],
+    "createdAt": 1574349430448,
+    "finishedAt": 1607599714512
+  },
+  {
+    "id": "5e8d6e2653fe0f69e7da099a",
+    "type": "Issue",
+    "name": "repurpose synergistic portals",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1586327076555,
+    "finishedAt": 1607450674419
+  },
+  {
+    "id": "5f5cb7277354162f9fee6a10",
+    "type": "Issue",
+    "name": "envisioneer cutting-edge networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "742305d9-a24c-42a9-9753-e39b0fee1a58",
+      "6d8c5527-0433-4aee-844b-06ede3858b9c",
+      "405af419-663a-4d80-ae02-291498d82b3a"
+    ],
+    "createdAt": 1599911719568,
+    "finishedAt": 1604933650676
+  },
+  {
+    "id": "5e3149285810431ec3a2882f",
+    "type": "Issue",
+    "name": "brand revolutionary applications",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1580288296275,
+    "finishedAt": 1607330897517
+  },
+  {
+    "id": "6023d375ac0c4e2927910158",
+    "type": "Issue",
+    "name": "grow proactive metrics",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1612960629277,
+    "finishedAt": 1612968745663
+  },
+  {
+    "id": "5f732b98a9a2c17d7bd01698",
+    "type": "Issue",
+    "name": "e-enable scalable niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1601383320250,
+    "finishedAt": 1602006349773
+  },
+  {
+    "id": "5eeb2a3a3bd183025b642c82",
+    "type": "Issue",
+    "name": "integrate vertical applications",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1592470074120,
+    "finishedAt": 1607331090169
+  },
+  {
+    "id": "5de0ec58701665001ef064e2",
+    "type": "Issue",
+    "name": "e-enable best-of-breed schemas",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 5,
+    "comments": [
+      "427b6ef3-8eca-4171-ab77-348673d61c03",
+      "86f5513e-64be-4795-a001-75b2676349d6",
+      "574b6c84-b252-4d4b-a0b1-7be3691170be",
+      "8b5e1024-6cd0-40e5-b13a-d41d17ba5e5d",
+      "618e0cfc-4b75-411b-8f54-4a551ba2f372"
+    ],
+    "createdAt": 1575021656874,
+    "finishedAt": 1608287025312
+  },
+  {
+    "id": "5f71aeaf9f95276c34ec6fd9",
+    "type": "Issue",
+    "name": "exploit transparent deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "907546e6-793c-421c-97d1-f95b2ccce5ba",
+      "bf030d05-ad42-4bdb-a925-d29cc912c5c4",
+      "1711f9d1-3e91-433a-af9e-0a88771578fb",
+      "0ad9e61a-7fc8-474b-b085-fc0ffb8fe480",
+      "c2e47997-e391-4925-96de-918aecc92dbe"
+    ],
+    "createdAt": 1601285807546,
+    "finishedAt": 1601652236895
+  },
+  {
+    "id": "5fcd69336e5cb36908792ebe",
+    "type": "Issue",
+    "name": "e-enable customized systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "921e7262-1829-4947-bfef-8cb4901cc024",
+      "3d0594a3-640a-4b8c-83d2-139171307aa6",
+      "379f2dff-657d-4605-8b5d-7cb1e33da350"
+    ],
+    "createdAt": 1607297330964,
+    "finishedAt": 1607940142632
+  },
+  {
+    "id": "5d07b23691c8600021c6d8b4",
+    "type": "Issue",
+    "name": "engage proactive portals",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1560785462255,
+    "finishedAt": 1602052887575
+  },
+  {
+    "id": "5f9c19785b1382623f46e3c8",
+    "type": "Issue",
+    "name": "recontextualize real-time paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1604065655904,
+    "finishedAt": 1604952201658
+  },
+  {
+    "id": "5fd1412053f1741aff3b6e9e",
+    "type": "Issue",
+    "name": "seize scalable web services",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "da3c14d1-8624-408e-b675-8bf0407a24ab",
+      "a25f7a92-73bc-4fd8-b234-5c18c6a1238e",
+      "90724a76-2963-4939-ab4d-b08cbe0c2c1e",
+      "a997f407-e2e8-46c7-a213-4fb62cd2884d",
+      "0564a243-c24d-4c97-9277-d08f22e3fe28",
+      "3c383fc4-215c-44e8-a19a-b9f6531ecae3",
+      "fd6bd2b6-a4cb-42c4-a8e1-3d22df7cdf2e"
+    ],
+    "createdAt": 1607549216707,
+    "finishedAt": 1608121301451
+  },
+  {
+    "id": "601194b504e6c55ba1dda002",
+    "type": "Issue",
+    "name": "e-enable turn-key supply-chains",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1611764917195,
+    "finishedAt": 1611765011789
+  },
+  {
+    "id": "5f7744b7d7d7e70c19e0beea",
+    "type": "Issue",
+    "name": "strategize real-time methodologies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "e1f27799-e2d2-4922-a09c-1a0154ed57e4",
+      "9ab734c9-d64a-4e76-83ae-899f447c6bcc",
+      "e887acb3-0761-4f99-b942-329e6e7c4ba0",
+      "36fda68a-17d9-4c9c-b357-e7145e25b034",
+      "9b57d527-e9a2-40d2-838f-180c88be8214",
+      "bc5f43fb-8b0a-4662-9b75-333b82569606",
+      "51aa9ae0-eef8-4b7f-a27f-a1c68fe8c039"
+    ],
+    "createdAt": 1601651895457,
+    "finishedAt": 1607592217996
+  },
+  {
+    "id": "5e578ddc34659e300692f9ae",
+    "type": "Issue",
+    "name": "transition granular deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "ccf2a196-c50d-491f-951f-280e68e7d90c",
+      "3609d84a-fa49-43c8-997a-b3b181e79989",
+      "f0a0b8df-78b3-415d-abe8-8aab624bc671",
+      "2f3955dc-8964-4955-8939-a11b44dab83a",
+      "d690e84f-a1c8-4859-a3e1-39aa272a5631",
+      "4ecdb0d1-a571-4401-a6f8-a095fbfa80db",
+      "c9731afe-e182-40a2-9e8b-ad1f15972f5b"
+    ],
+    "createdAt": 1582796252544,
+    "finishedAt": 1607505467885
+  },
+  {
+    "id": "5f9c1aef321cfd1976788bcd",
+    "type": "Issue",
+    "name": "seize integrated networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 10,
+    "comments": [
+      "892528b6-63ff-44ed-a63c-a3c223144554",
+      "4dcd0ce2-c0c0-4a92-b91c-57e0ffd1af22",
+      "ccbcfd9b-2366-4a9d-8ffb-5942f12327d2",
+      "d1de10af-faae-43d4-a3c7-96a26668bc51",
+      "f2556e69-bd10-48a0-820e-08ee46b03f4f"
+    ],
+    "createdAt": 1604066031609,
+    "finishedAt": 1605160816863
+  },
+  {
+    "id": "5fa945abfb246d59fb29ea1d",
+    "type": "Issue",
+    "name": "unleash cutting-edge niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1604928939592,
+    "finishedAt": 1604934390813
+  },
+  {
+    "id": "5ecd27890e5f880eb8b2f6dc",
+    "type": "Issue",
+    "name": "architect extensible architectures",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 3,
+    "comments": [
+      "a8d9e1ff-a822-4fcc-a239-25016b3e5e6c",
+      "e085a470-2ee6-42c9-84ad-e091e8478ddc",
+      "b26b71ef-4a10-40a0-92d5-226532fd409f"
+    ],
+    "createdAt": 1590503305538,
+    "finishedAt": 1601065340902
+  },
+  {
+    "id": "5f981833f9bd892204c74fb7",
+    "type": "Issue",
+    "name": "generate revolutionary content",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "86df6a66-ef8e-46da-87ef-9f547b141360"
+    ],
+    "createdAt": 1603803187857,
+    "finishedAt": 1603812567191
+  },
+  {
+    "id": "60097156041095675b86cc25",
+    "type": "Issue",
+    "name": "revolutionize virtual metrics",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "027a1409-0652-4a36-8f8d-fd316e0dbee9",
+      "c5a022a0-2e5e-4dc3-a052-ee4502450a79",
+      "e2b683b3-c888-4ce0-ac90-4d2b181f286b",
+      "2b685a4f-116f-41bc-8633-a9d98c8103b6",
+      "7923dd45-32b7-4889-ae95-82f9fb9a1196"
+    ],
+    "createdAt": 1611231574573,
+    "finishedAt": 1611263168710
+  },
+  {
+    "id": "5e8b40cda77dde10f386cd31",
+    "type": "Issue",
+    "name": "aggregate turn-key e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "d14bd411-54cd-434e-a14a-57217aff42ba",
+      "b4ec610d-34e6-4dfd-ac70-42f5cd6c67ae",
+      "8b5fe026-8685-4e5a-be16-878378898848",
+      "82f24a06-2053-416d-a72f-616a3e7885dc"
+    ],
+    "createdAt": 1586184397439,
+    "finishedAt": 1601461889236
+  },
+  {
+    "id": "5e74be45574ac01fa3897c52",
+    "type": "Issue",
+    "name": "monetize e-business deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "e6b723c7-c5b5-4b6c-9504-a3608ef56117",
+      "40713dd5-3d79-4a12-9926-365ae47209f7",
+      "8540dc39-796c-4c1b-a3d0-4e5203396b5f",
+      "6101baa0-21cb-4251-b3db-eab6b2d46ef9",
+      "8a7d3926-e2be-478a-bdd2-158ba987dac5",
+      "6058fdd0-d865-4fc3-901d-34c86505a0d8"
+    ],
+    "createdAt": 1584709189469,
+    "finishedAt": 1608056161666
+  },
+  {
+    "id": "5f15a7ab4ae5802a23762301",
+    "type": "Issue",
+    "name": "target sexy supply-chains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1595254699741,
+    "finishedAt": 1604933767871
+  },
+  {
+    "id": "5f96c3b8e29c14006dc38a45",
+    "type": "Issue",
+    "name": "incentivize robust vortals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1603716024320,
+    "finishedAt": 1604311436238
+  },
+  {
+    "id": "5ebd2787ea140b4e78e0f364",
+    "type": "Issue",
+    "name": "exploit 24/7 content",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "3539ed9f-2c62-49f8-a12e-53f807cfb1b7",
+      "0dd07f8c-2155-4f03-8631-af420222478e",
+      "9fb8da45-b391-4f4b-91c1-e5837a50d2fe",
+      "353e25a9-05e1-426d-865d-1bdcfd0d3299",
+      "69257134-8e8a-4b93-8ae4-d5c08f25f264"
+    ],
+    "createdAt": 1589454725310,
+    "finishedAt": 1606316300819
+  },
+  {
+    "id": "5fb79f25ccc14605908493cd",
+    "type": "Issue",
+    "name": "e-enable frictionless web-readiness",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1605869349087,
+    "finishedAt": 1606300693020
+  },
+  {
+    "id": "5ffd87842989d704ea5c2562",
+    "type": "Issue",
+    "name": "engineer leading-edge functionalities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1610450820190,
+    "finishedAt": 1611569923690
+  },
+  {
+    "id": "5fc8cdec3b175f4fc10e941e",
+    "type": "Issue",
+    "name": "enhance distributed methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1606995436831,
+    "finishedAt": 1607939950525
+  },
+  {
+    "id": "5f3e77582ee3d83837adbe5c",
+    "type": "Issue",
+    "name": "generate sexy deliverables",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "224ae4f7-ba0d-4f82-a7d8-47058f17371e",
+      "ab9e51fb-067b-4266-b48c-e40312794b25",
+      "a8216699-1dfb-4153-b1fa-509da44f979a",
+      "0a7121be-b172-45b8-953d-c11060da6b62",
+      "ba502768-db78-48e7-950f-3c62a0be12ef"
+    ],
+    "createdAt": 1597929302804,
+    "finishedAt": 1603817124586
+  },
+  {
+    "id": "5d08f22691c8600021c8ad9f",
+    "type": "Issue",
+    "name": "reinvent cross-media mindshare",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1560867366798,
+    "finishedAt": 1611926224639
+  },
+  {
+    "id": "5da85cbf701665001d003715",
+    "type": "Issue",
+    "name": "matrix collaborative methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 8,
+    "comments": [
+      "5b8a09e9-5f29-4670-b529-63b1bb5258c9",
+      "1ae08502-eb8f-4b7a-8158-03be610b98f4",
+      "571182e2-89ac-4866-8bc7-d3a546ab03f1",
+      "bd3ef254-ee31-429d-b1e0-fe3a8a05875f",
+      "fde054c9-5f52-47bd-9959-955b429eb6d1",
+      "6bc3e235-7cff-4eba-aa4e-9c5b54c26049"
+    ],
+    "createdAt": 1571314879203,
+    "finishedAt": 1612898974455
+  },
+  {
+    "id": "5fe5fbb19e99bb620773ddeb",
+    "type": "Issue",
+    "name": "grow turn-key blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "d622b576-a130-4236-8e0d-78e9242d9e2d",
+      "c7e82fff-ca80-4917-9f41-86e2419509da",
+      "35f50f3c-b6fd-4848-b511-cfed5f177c83"
+    ],
+    "createdAt": 1608907697080,
+    "finishedAt": 1610482876547
+  },
+  {
+    "id": "5f8070fea515476a1100e09a",
+    "type": "Issue",
+    "name": "mesh 24/365 web services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1602253054765,
+    "finishedAt": 1607590890171
+  },
+  {
+    "id": "5fabda048371ab1a6611f20d",
+    "type": "Issue",
+    "name": "exploit dynamic e-business",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1605097988433,
+    "finishedAt": 1605880197402
+  },
+  {
+    "id": "5e8b4547926234377cebbd41",
+    "type": "Issue",
+    "name": "maximize best-of-breed schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1586185542981,
+    "finishedAt": 1601461915580
+  },
+  {
+    "id": "5e7a04f10b67f4308ae8607d",
+    "type": "Issue",
+    "name": "deploy world-class blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1585054959004,
+    "finishedAt": 1608069810184
+  },
+  {
+    "id": "5f295f142fedba65e4295061",
+    "type": "Issue",
+    "name": "reintermediate turn-key relationships",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1596546836113,
+    "finishedAt": 1601390390976
+  },
+  {
+    "id": "5f99738cf9bd892204c95f5f",
+    "type": "Issue",
+    "name": "aggregate out-of-the-box web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1603892108236,
+    "finishedAt": 1603907742587
+  },
+  {
+    "id": "5f6204e1437a2d293f795dca",
+    "type": "Issue",
+    "name": "synergize distributed platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1600259297128,
+    "finishedAt": 1604925697861
+  },
+  {
+    "id": "601194b5eb4cef1319c8ea21",
+    "type": "Issue",
+    "name": "envisioneer efficient convergence",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1611764917367,
+    "finishedAt": 1611764978690
+  },
+  {
+    "id": "5f2433e66c0af76eaf68ab3a",
+    "type": "Issue",
+    "name": "iterate visionary systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1596208102236,
+    "finishedAt": 1608539346277
+  },
+  {
+    "id": "5f92c724e2e7224bbbd1fabc",
+    "type": "Issue",
+    "name": "syndicate open-source methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "7b5de9ff-3424-4cd7-9b8b-850c1bfa4be2",
+      "f8857ed1-ce3f-44b2-b3e8-71a576c6b2a0"
+    ],
+    "createdAt": 1603454756537,
+    "finishedAt": 1603722185573
+  },
+  {
+    "id": "5f71c99c3ecf7b15ba9906c3",
+    "type": "Issue",
+    "name": "productize global e-commerce",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "e6066ef8-c286-44d8-8d08-9d0d493b643b",
+      "fd6fd8b7-83c4-4dcd-9600-22e8da80fc7b"
+    ],
+    "createdAt": 1601292700360,
+    "finishedAt": 1604933965519
+  },
+  {
+    "id": "5ebe80b903153b01168e28fa",
+    "type": "Issue",
+    "name": "seize 24/7 communities",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "bc557a4d-f3be-4881-8987-c7074787d95e",
+      "fdc4a74a-2619-4210-9e2c-22b138707eb8",
+      "e978fac8-d5e0-4cbc-a7db-e2da070dc26a",
+      "31a491fb-eef9-4460-8730-5f4719fca39c"
+    ],
+    "createdAt": 1589543095279,
+    "finishedAt": 1610539275333
+  },
+  {
+    "id": "60118fd7be36c66ea20b198e",
+    "type": "Issue",
+    "name": "deliver enterprise eyeballs",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1611763671165,
+    "finishedAt": 1611763894346
+  },
+  {
+    "id": "5f57630d29d6523f579be0b4",
+    "type": "Issue",
+    "name": "matrix dot-com convergence",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1599562509349,
+    "finishedAt": 1599664928621
+  },
+  {
+    "id": "5e43d289944a3610c9fcaafa",
+    "type": "Issue",
+    "name": "deliver interactive models",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "f3256c03-287d-4aad-9660-a00c9f9bb38b",
+      "2f3f049a-dbc6-43a1-8a36-14cacb684033"
+    ],
+    "createdAt": 1581503113580,
+    "finishedAt": 1608120449544
+  },
+  {
+    "id": "5fb27f50f6121e5ee2039550",
+    "type": "Issue",
+    "name": "deliver virtual models",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "32df2396-8624-4c69-a97b-de2812b47ae7",
+      "451bc310-4f95-4e35-b37d-b211a3c709b5"
+    ],
+    "createdAt": 1605533519866,
+    "finishedAt": 1606246163201
+  },
+  {
+    "id": "5f71de19de5ff0735f8e90c0",
+    "type": "Issue",
+    "name": "visualize collaborative schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1601297945783,
+    "finishedAt": 1604778517971
+  },
+  {
+    "id": "5fd8a3153d183d353401cf1b",
+    "type": "Issue",
+    "name": "repurpose world-class synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "3150ca3a-2dbe-4b2f-9e66-99a49be73aeb",
+      "8c75479e-c07f-470a-8456-de49954101ca",
+      "efe5442b-44d0-4a16-8bf0-67fbf17d4491",
+      "6ee8ef1b-a43d-46f2-a0a3-3332f266bc5b",
+      "77cdcbdb-6ec5-4ac7-bd9f-22f6293fcddc"
+    ],
+    "createdAt": 1608033045180,
+    "finishedAt": 1609265924645
+  },
+  {
+    "id": "60119ce06f3b224023db9ba3",
+    "type": "Issue",
+    "name": "transform sticky web-readiness",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1611767008685,
+    "finishedAt": 1611767277668
+  },
+  {
+    "id": "5fa973b2b1b2ce3dd0906a5e",
+    "type": "Issue",
+    "name": "reinvent extensible e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "c10456f3-6c36-4c8c-89d1-ebeb3d635082",
+      "3751c028-98e2-406e-b76c-b532899976bb"
+    ],
+    "createdAt": 1604940722545,
+    "finishedAt": 1606469326893
+  },
+  {
+    "id": "5e29b76ccb38d57498be16c8",
+    "type": "Issue",
+    "name": "grow front-end convergence",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1579792236302,
+    "finishedAt": 1602533303953
+  },
+  {
+    "id": "5f7eae8fe5bfd2098c61e135",
+    "type": "Issue",
+    "name": "orchestrate robust synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "a23a5b3b-d000-462a-b7f2-a395b131ea61",
+      "510c75f1-285a-4d81-be72-382cfe7f4f85",
+      "5b7d0b7c-faeb-4de9-9749-99e3c0685739",
+      "f33ef86a-39f3-4b6e-aa7c-017ae2f88df2",
+      "5ba0b0f1-d7af-4a00-b59a-663129157141",
+      "18435064-081b-403c-9f59-331a9fc5cf95",
+      "7ef1e9cf-ea64-4093-83c5-f64ed449b924"
+    ],
+    "createdAt": 1602137743718,
+    "finishedAt": 1611926249159
+  },
+  {
+    "id": "5d79faad8c7003001c7adcb5",
+    "type": "Issue",
+    "name": "scale cross-platform e-markets",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 5,
+    "comments": [
+      "a8f6976a-5162-4a6d-b623-ba699f663e4a",
+      "b0f3edb9-426f-44bb-8dd6-fac5a1d5bfb2",
+      "38db2c9f-8fb9-43e3-8a30-15e2459db436",
+      "27c66c65-99ed-4b8a-be21-aefd59134801",
+      "706c0cb9-b824-4211-b858-ab9ad8af98cc",
+      "6ee28424-0e12-452b-9274-4c2d225c04d2",
+      "d1a05325-b09f-4186-ac88-a04811c859e8"
+    ],
+    "createdAt": 1568275117577,
+    "finishedAt": 1605616377867
+  },
+  {
+    "id": "5fa681bcdd98995aef1b293b",
+    "type": "Issue",
+    "name": "iterate efficient e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1604747708268,
+    "finishedAt": 1604752037698
+  },
+  {
+    "id": "60119e88eb4cef1319c8f24c",
+    "type": "Issue",
+    "name": "incentivize dot-com web-readiness",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "30633e6f-f4e2-41bc-ba42-873776d383fd",
+      "03e469ea-888b-4c4f-ae60-c4476cbad8d2",
+      "ded94666-4c99-47f5-9a6b-b3a20c2c7e38",
+      "a7802e7d-6f94-422b-ab82-333109f0eaff",
+      "6e2402b6-e229-4ff4-8ec4-8576cd3dcaf5",
+      "245e9959-a605-40bd-99fa-e5aa422837dd"
+    ],
+    "createdAt": 1611767432764,
+    "finishedAt": 1611768059336
+  },
+  {
+    "id": "5f6e069fc5060b4f1b906280",
+    "type": "Issue",
+    "name": "integrate end-to-end interfaces",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "a51800b9-784b-4656-9b45-ccc7b26b1a8a",
+      "d853ec3b-b85d-40a7-9732-b94e06f67bc2",
+      "1411b7b2-fc7e-46f8-9fff-06eca35a4804"
+    ],
+    "createdAt": 1601046175246,
+    "finishedAt": 1607095060256
+  },
+  {
+    "id": "5f33f803a128fe70cadce2cb",
+    "type": "Issue",
+    "name": "enable B2C networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1597241347627,
+    "finishedAt": 1611926255067
+  },
+  {
+    "id": "5e26dcb0e5106644f845de37",
+    "type": "Issue",
+    "name": "seize customized architectures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1579605166579,
+    "finishedAt": 1602498181349
+  },
+  {
+    "id": "5f9feca729566b464dc2a6c2",
+    "type": "Issue",
+    "name": "integrate holistic e-commerce",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1604316327432,
+    "finishedAt": 1604443142747
+  },
+  {
+    "id": "5f9193d609268a0cda56d650",
+    "type": "Issue",
+    "name": "transform revolutionary experiences",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1603376086529,
+    "finishedAt": 1606296118434
+  },
+  {
+    "id": "5f84c46dd0db187f6830bae1",
+    "type": "Issue",
+    "name": "implement transparent methodologies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1602536557454,
+    "finishedAt": 1602775201509
+  },
+  {
+    "id": "5fcdf098bcc66924d7eb28fb",
+    "type": "Issue",
+    "name": "brand revolutionary schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "f5d8cd12-1f02-4b08-a3fd-71e9a3567795",
+      "c5ece3c9-2b66-49bb-b57f-7ff62580c03c",
+      "3ae1db1b-d544-440a-9de3-ea40c8470eb2",
+      "bf3bad89-254b-4107-9369-700657ca9588",
+      "625ab485-dc32-435b-89ff-c81176723403",
+      "62635e57-b595-499a-a4b5-7b0222498833"
+    ],
+    "createdAt": 1607331992570,
+    "finishedAt": 1611762883721
+  },
+  {
+    "id": "5fbfa87b77f8312b6a91bd06",
+    "type": "Issue",
+    "name": "harness robust bandwidth",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "caa28c8e-536a-45c7-be6f-bcafae444d06",
+      "65cec5ae-7cc0-4cb5-af93-a48aa4ba19b2",
+      "335525dd-cfe3-4892-b053-6ca2013e5cb9",
+      "26674955-3a68-4141-8153-bd5468d67f76",
+      "8f5f0fab-3f5c-4564-b669-e86d309db8d4",
+      "ed5b0400-b5ff-463f-98a7-a7653f75d14d",
+      "9ef56102-1a23-4b65-9abd-55d223f38218"
+    ],
+    "createdAt": 1606396026997,
+    "finishedAt": 1606605270366
+  },
+  {
+    "id": "5ec2824531b141439c00f07a",
+    "type": "Issue",
+    "name": "architect intuitive portals",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1589805637034,
+    "finishedAt": 1603291968887
+  },
+  {
+    "id": "5fe3650428ffa113d11314a1",
+    "type": "Issue",
+    "name": "iterate user-centric metrics",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "e2a95517-b66c-4906-bbbd-809f48b398b8",
+      "0c90372d-2f93-4b4c-8d6d-a25163dde31b"
+    ],
+    "createdAt": 1608738052768,
+    "finishedAt": 1612174071349
+  },
+  {
+    "id": "5fa408275805330ed97a12e7",
+    "type": "Issue",
+    "name": "generate cross-media experiences",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "78bdfecf-794f-4982-b5a1-b921a841ca59",
+      "6389ff24-f82b-4455-80cc-f9f5eb2a73ed"
+    ],
+    "createdAt": 1604585511255,
+    "finishedAt": 1607544970427
+  },
+  {
+    "id": "5f75c5726b85f23ba483927a",
+    "type": "Issue",
+    "name": "deliver robust architectures",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1601553777881,
+    "finishedAt": 1601991989651
+  },
+  {
+    "id": "5b51f482053ef0001bd1a4cc",
+    "type": "Issue",
+    "name": "visualize granular web-readiness",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "99c7db75-2682-473f-9aba-32b4b086e544",
+      "a0717bae-3fa3-4ad5-9788-b8297b81946d",
+      "b04d933f-111f-45e4-8551-6cc5bb677e21",
+      "43f95218-e680-4b84-bf42-ac8ef7bc857c",
+      "7e3f2f7f-e738-4729-a907-be345d191890",
+      "c8a273e7-30a8-4523-a6de-f0689b0be0ba",
+      "f43ca4ac-0be5-4910-98f1-cb861d5fd714"
+    ],
+    "createdAt": 1532097666913,
+    "finishedAt": 1603819038675
+  },
+  {
+    "id": "5c95669cbec215001fdf8e9b",
+    "type": "Issue",
+    "name": "optimize next-generation content",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1553295004321,
+    "finishedAt": 1607325380802
+  },
+  {
+    "id": "5fbb85f1cc80447960af4173",
+    "type": "Issue",
+    "name": "harness bricks-and-clicks infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "b9e6f15d-e733-466a-8eb5-152618c21b95",
+      "54e68d9a-a0a1-4b59-8a6d-3c788ff803a5"
+    ],
+    "createdAt": 1606125041459,
+    "finishedAt": 1607692140675
+  },
+  {
+    "id": "5e7b5babd2f1af406a5437d5",
+    "type": "Issue",
+    "name": "matrix cross-platform niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "3a99dc5a-c938-4de7-95bc-81887e7ffeba",
+      "4df895d3-8dcf-4634-a498-5a0615c5c5b8",
+      "0fa292a5-b5fd-4ac8-88b5-450b32d1a934",
+      "c3d3f76d-36c0-4d00-9077-ceb19947cb87"
+    ],
+    "createdAt": 1585142697942,
+    "finishedAt": 1609175720707
+  },
+  {
+    "id": "5e9c9bca5d4660668a83fe12",
+    "type": "Issue",
+    "name": "cultivate synergistic interfaces",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1587321802971,
+    "finishedAt": 1602581577721
+  },
+  {
+    "id": "5f7f41c88331180697b817ae",
+    "type": "Issue",
+    "name": "streamline robust metrics",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1602175432181,
+    "finishedAt": 1602425722408
+  },
+  {
+    "id": "5f83f8ef2802c648b5a910dc",
+    "type": "Issue",
+    "name": "orchestrate dynamic e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1602484463107,
+    "finishedAt": 1602504606760
+  },
+  {
+    "id": "5fdbae30ae328e6ee57b67a6",
+    "type": "Issue",
+    "name": "revolutionize holistic architectures",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 7,
+    "comments": [
+      "db7b8ce0-0f87-4af8-b5dc-d8c71da608ed"
+    ],
+    "createdAt": 1608232496826,
+    "finishedAt": 1608576558977
+  },
+  {
+    "id": "5fbee362e1ff747fb2207f8b",
+    "type": "Issue",
+    "name": "redefine 24/365 supply-chains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1606345567851,
+    "finishedAt": 1607944891897
+  },
+  {
+    "id": "5d8deb704b92d7001d125f43",
+    "type": "Issue",
+    "name": "transform extensible action-items",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1569581936330,
+    "finishedAt": 1599734723216
+  },
+  {
+    "id": "5fb2565be646482cd7360a02",
+    "type": "Issue",
+    "name": "deliver efficient channels",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1605523035505,
+    "finishedAt": 1612454525545
+  },
+  {
+    "id": "5f89ac6837652635b8cbaa34",
+    "type": "Issue",
+    "name": "recontextualize bricks-and-clicks technologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1602858088259,
+    "finishedAt": 1605867025526
+  },
+  {
+    "id": "5fb6cbabcf94693291c7b82f",
+    "type": "Issue",
+    "name": "visualize virtual systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1605815211581,
+    "finishedAt": 1605880449737
+  },
+  {
+    "id": "5e0343b543db1c48a23ba098",
+    "type": "Issue",
+    "name": "evolve plug-and-play initiatives",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1577272245011,
+    "finishedAt": 1608286988031
+  },
+  {
+    "id": "5b586f4f92b423001a7dde8a",
+    "type": "Issue",
+    "name": "deliver leading-edge communities",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1532522319900,
+    "finishedAt": 1603816053809
+  },
+  {
+    "id": "5f71c22317398b1394a9cbb5",
+    "type": "Issue",
+    "name": "disintermediate granular e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "b429f263-6bf8-4263-9f4e-cd7ec4f892be",
+      "81f14d60-f1e3-4420-9564-79ffcf79a86e",
+      "48f0187e-2a71-49e5-8087-3ffd91d9cbc0",
+      "7067c29f-d52d-42ec-998a-4d26510e0ccd",
+      "7238978b-9dac-41f9-b718-a6e86fdf74ad"
+    ],
+    "createdAt": 1601290787640,
+    "finishedAt": 1602009752950
+  },
+  {
+    "id": "60018b46d0149665fe507ca0",
+    "type": "Issue",
+    "name": "expedite killer synergies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 1,
+    "comments": [],
+    "createdAt": 1610713926449,
+    "finishedAt": 1611299187088
+  },
+  {
+    "id": "5c9f404fd18869001fe53d6f",
+    "type": "Issue",
+    "name": "generate cross-media platforms",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1553940559526,
+    "finishedAt": 1607505232763
+  },
+  {
+    "id": "5f2965d640da5e0ed684463b",
+    "type": "Issue",
+    "name": "exploit real-time bandwidth",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "a9effa0a-3be2-4014-bf43-36f39c82fc1b",
+      "76879dc3-d2f1-4269-bb36-f5f595a03739",
+      "7529c771-b99e-420b-ba1c-b8e04364245a",
+      "6e1fd44a-308e-4709-a1fe-61799be7e244",
+      "1cd11f9d-7df5-461c-967e-a92ab086e6fc",
+      "ffbfc6eb-6746-4cbc-a20e-9f160bc3144a",
+      "b1b08d01-d0e6-4893-ac3e-89a75c283612"
+    ],
+    "createdAt": 1596548566091,
+    "finishedAt": 1606842027972
+  },
+  {
+    "id": "5d85262529af1d001c37b182",
+    "type": "Issue",
+    "name": "extend world-class convergence",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1569007141043,
+    "finishedAt": 1603814325750
+  },
+  {
+    "id": "5f3568c680aab4096e80316f",
+    "type": "Issue",
+    "name": "enhance collaborative initiatives",
+    "status": "inProgress",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1597335749959
+  },
+  {
+    "id": "5fa92575f7981b45afc99e96",
+    "type": "Issue",
+    "name": "enable global synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1604920693810,
+    "finishedAt": 1605013057848
+  },
+  {
+    "id": "5f566ddde127f21a03c8298f",
+    "type": "Issue",
+    "name": "e-enable 24/365 interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "7e433622-65a7-4aa3-8375-899d7f6cf0e3",
+      "80b7141e-9016-48c4-9f06-645d864ba051"
+    ],
+    "createdAt": 1599499739926,
+    "finishedAt": 1602829230756
+  },
+  {
+    "id": "5df103b5b4baba5ccd63e065",
+    "type": "Issue",
+    "name": "repurpose revolutionary supply-chains",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "a60ae608-be29-4a24-b7bb-75d13173216b",
+      "e049de94-8fac-4485-9db4-2a3e8942553b",
+      "cf99871f-7fa1-4d6e-a0e4-c4709987805f",
+      "e3051321-ce3e-4e5c-b223-f0a8246c29f4",
+      "f0dd686f-c848-41cf-8f82-92bbde362690",
+      "2dfe1844-8553-47ca-8329-d21044855c77"
+    ],
+    "createdAt": 1576076212118,
+    "finishedAt": 1605799382702
+  },
+  {
+    "id": "5da06d074b92d7001ed27e0d",
+    "type": "Issue",
+    "name": "synthesize 24/365 communities",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1570794759205,
+    "finishedAt": 1603816385481
+  },
+  {
+    "id": "5f6e1d1eedbdf834424737d5",
+    "type": "Issue",
+    "name": "exploit mission-critical markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1601051934348,
+    "finishedAt": 1603284736059
+  },
+  {
+    "id": "5fa85dfe656c750bfd693cf7",
+    "type": "Issue",
+    "name": "unleash impactful e-commerce",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [
+      "05ad246c-5bc4-44fb-b671-a4225248d3aa",
+      "c7f8e68b-c774-4419-afa9-62c7ca60e210",
+      "84a49400-b141-4907-a80a-6d63a88314fa",
+      "48b6d80b-7eae-493f-9e3c-c0b8e7892072",
+      "acbe9a64-253a-49ce-9602-75b563e660cc"
+    ],
+    "createdAt": 1604869630699,
+    "finishedAt": 1604925217324
+  },
+  {
+    "id": "5fabcc383f25c34adadbf9e3",
+    "type": "Issue",
+    "name": "recontextualize front-end portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1605094456318,
+    "finishedAt": 1605886573499
+  },
+  {
+    "id": "600ecddb4427e16b4d016c24",
+    "type": "Issue",
+    "name": "engage bricks-and-clicks experiences",
+    "status": "inProgress",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1611582939048
+  },
+  {
+    "id": "5e8adb3d71bc874df214bc2d",
+    "type": "Issue",
+    "name": "whiteboard value-added action-items",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1586158397259,
+    "finishedAt": 1606666626705
+  },
+  {
+    "id": "5f7742d04adb1b43d2e7cf51",
+    "type": "Issue",
+    "name": "deliver B2B e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1601651408428,
+    "finishedAt": 1605261202159
+  },
+  {
+    "id": "5f7708b522279d6c504a5ce5",
+    "type": "Issue",
+    "name": "leverage web-enabled content",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1601636532975,
+    "finishedAt": 1606841585874
+  },
+  {
+    "id": "5fb255a0b3b40617ae570146",
+    "type": "Issue",
+    "name": "generate synergistic bandwidth",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1605522848638,
+    "finishedAt": 1608026626039
+  },
+  {
+    "id": "5d77eeb0701665001c0e619b",
+    "type": "Issue",
+    "name": "architect e-business mindshare",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "b669076e-8c9d-4eb2-bcc5-8861ce025493",
+      "2b9f12e7-1b8c-40f1-b6f2-6d22c69f0db3"
+    ],
+    "createdAt": 1568140976796,
+    "finishedAt": 1608056609912
+  },
+  {
+    "id": "5d6830ba8e43dc001d473b21",
+    "type": "Issue",
+    "name": "morph e-business channels",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1567109306952,
+    "finishedAt": 1601109350982
+  },
+  {
+    "id": "600b05c5249d0f47d6ab86e5",
+    "type": "Issue",
+    "name": "monetize revolutionary interfaces",
+    "status": "closed",
+    "resolution": "duplicate",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1611335108999,
+    "finishedAt": 1612434650866
+  },
+  {
+    "id": "5f733ea4de5ff0735f90b535",
+    "type": "Issue",
+    "name": "monetize visionary web-readiness",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 8,
+    "comments": [],
+    "createdAt": 1601388196327,
+    "finishedAt": 1601456368421
+  },
+  {
+    "id": "5fad3688f55d2877095494df",
+    "type": "Issue",
+    "name": "scale dynamic niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 10,
+    "comments": [
+      "59fc178c-b6ac-4792-97c1-f96c054a7374",
+      "4f50cde7-60d4-4f44-96a6-368461e076c6",
+      "800985ee-91ac-4cfb-a204-13e3e91ba488",
+      "eb9de79a-f08e-4fb9-8f28-3fe86383e7a6",
+      "12d85e3f-48e1-47ba-9d2e-7ab6ae9a2d85",
+      "deb6574d-f520-4b8b-91a2-a54bcae20376"
+    ],
+    "createdAt": 1605187207926,
+    "finishedAt": 1605187812121
+  },
+  {
+    "id": "5f7ef20b22ddc17903152936",
+    "type": "Issue",
+    "name": "streamline clicks-and-mortar methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1602155018987,
+    "finishedAt": 1602470900408
+  },
+  {
+    "id": "5f64aaafdb49eb62d4cd2bf1",
+    "type": "Issue",
+    "name": "deploy synergistic portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "481e3c71-458b-444d-8441-7478f096be37"
+    ],
+    "createdAt": 1600432814691,
+    "finishedAt": 1600964134151
+  },
+  {
+    "id": "5f89ae9071580f2fc580f1e7",
+    "type": "Issue",
+    "name": "harness cross-media mindshare",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1602858640682,
+    "finishedAt": 1608539082156
+  },
+  {
+    "id": "5f5a1977e01f8c23274ddefa",
+    "type": "Issue",
+    "name": "e-enable vertical ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1599740279864,
+    "finishedAt": 1604916641743
+  },
+  {
+    "id": "5e4d3efbffbed767cce6787a",
+    "type": "Issue",
+    "name": "orchestrate visionary experiences",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "8fe4f7ae-c8d7-4d72-a1ae-d730ef380017"
+    ],
+    "createdAt": 1582120699757,
+    "finishedAt": 1611745571304
+  },
+  {
+    "id": "5fd73bdfdbabf34dc818b09c",
+    "type": "Issue",
+    "name": "productize customized interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1607941087738,
+    "finishedAt": 1608546070243
+  },
+  {
+    "id": "5f3567d78e93b71cc0c1017d",
+    "type": "Issue",
+    "name": "revolutionize collaborative web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1597335511683,
+    "finishedAt": 1602230330344
+  },
+  {
+    "id": "5f918b76e2e7224bbbd0592c",
+    "type": "Issue",
+    "name": "repurpose e-business bandwidth",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1603373942661,
+    "finishedAt": 1606918765277
+  },
+  {
+    "id": "5da6ee408c7003001db65283",
+    "type": "Issue",
+    "name": "benchmark enterprise portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1571221056188,
+    "finishedAt": 1603817729518
+  },
+  {
+    "id": "5e4ecda895a0373be4cb2502",
+    "type": "Issue",
+    "name": "visualize virtual technologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1582222760794,
+    "finishedAt": 1604322758182
+  },
+  {
+    "id": "5f7385f6491d9a18ae48a346",
+    "type": "Issue",
+    "name": "unleash sticky schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "e19c57cd-931a-4dd5-8ff1-bed57686c965"
+    ],
+    "createdAt": 1601406454500,
+    "finishedAt": 1601413873835
+  },
+  {
+    "id": "5fd9e062bd7754592c18ad0a",
+    "type": "Issue",
+    "name": "maximize robust experiences",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "e0c8fed2-6b24-4f81-847f-35d5f516cec7",
+      "72834ceb-bdac-452a-9492-7414257366a5"
+    ],
+    "createdAt": 1608114274022,
+    "finishedAt": 1612173809973
+  },
+  {
+    "id": "5ee7eabfabbd313461789145",
+    "type": "Issue",
+    "name": "brand wireless eyeballs",
+    "status": "inProgress",
+    "comments": [],
+    "createdAt": 1592257215520
+  },
+  {
+    "id": "5f466afade45cf634b5af880",
+    "type": "Issue",
+    "name": "engineer 24/7 web services",
+    "status": "closed",
+    "resolution": "duplicate",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1598450426251,
+    "finishedAt": 1605813829465
+  },
+  {
+    "id": "5c487add2f38ef001f5bb69c",
+    "type": "Issue",
+    "name": "architect vertical networks",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 1,
+    "comments": [],
+    "createdAt": 1548253917151,
+    "finishedAt": 1603980911720
+  },
+  {
+    "id": "5ece756709629e44b77edfec",
+    "type": "Issue",
+    "name": "integrate ubiquitous solutions",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1590588775780,
+    "finishedAt": 1599679514525
+  },
+  {
+    "id": "5c195ef8c1c300001d4ddf3f",
+    "type": "Issue",
+    "name": "maximize front-end synergies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "84ac2181-0811-4ac4-af29-4b13093fee83",
+      "1f7d673f-7ddb-40d0-a65a-8869e98e0a83",
+      "0a842b6f-f99f-4f38-bbef-e007f7b91c02",
+      "6dd5244b-3e04-4b68-aa03-71d892d76eab",
+      "7da184f6-0de3-4095-a43e-5de82bcf7666"
+    ],
+    "createdAt": 1545166584737,
+    "finishedAt": 1608282236872
+  },
+  {
+    "id": "601191a058afc065d0aca4af",
+    "type": "Issue",
+    "name": "enhance seamless technologies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1611764128203,
+    "finishedAt": 1611764430716
+  },
+  {
+    "id": "5e301f4f666f3e734b40f40a",
+    "type": "Issue",
+    "name": "syndicate revolutionary communities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "4df5b562-1b70-45d3-8460-ca3c466a2570",
+      "6536d2a1-dc9a-4f90-b4c3-352465407569",
+      "63e9f1fe-01b7-480a-8b00-631b2d870fd7",
+      "82931a52-1d0a-45c8-ae24-5905f1145fad"
+    ],
+    "createdAt": 1580212045625,
+    "finishedAt": 1605539363031
+  },
+  {
+    "id": "5e8c9c51967bcb3e512ce937",
+    "type": "Issue",
+    "name": "matrix visionary web-readiness",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1586273359808,
+    "finishedAt": 1606413766759
+  },
+  {
+    "id": "5c9569474e522a001f3c72c3",
+    "type": "Issue",
+    "name": "morph magnetic content",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "975230e2-0ee9-4372-99be-92c13f0a55b0",
+      "9e05bda6-4778-4e85-ad95-cb9723e7b670"
+    ],
+    "createdAt": 1553295687086,
+    "finishedAt": 1607325443810
+  },
+  {
+    "id": "5b5f2371312b3f001af640f7",
+    "type": "Issue",
+    "name": "evolve impactful supply-chains",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1532961649881,
+    "finishedAt": 1603819005977
+  },
+  {
+    "id": "5f9189605c4ee817fe1b9638",
+    "type": "Issue",
+    "name": "syndicate back-end technologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "5d8e4437-f22f-45b3-b63c-3ce4bf3e2e3f",
+      "531e7570-38d7-4edf-b64d-b7d379880e45",
+      "788a574a-ae14-419f-b1bd-e87d403a3bb0",
+      "9d257d9a-843f-4240-8481-d8148093637a",
+      "315f7e6e-341e-453e-89c4-259cce4ab524",
+      "814fce47-2dc6-48b5-8563-58bb0b1ddd5b"
+    ],
+    "createdAt": 1603373408205,
+    "finishedAt": 1608546034601
+  },
+  {
+    "id": "5d1a081c501fd0001db7f1c9",
+    "type": "Issue",
+    "name": "engineer revolutionary deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "71a56afb-2de9-4f98-a91a-33a4341bc2f7",
+      "2b696fb1-9763-406f-9a3c-7b10d7e92208"
+    ],
+    "createdAt": 1561987100797,
+    "finishedAt": 1603818034832
+  },
+  {
+    "id": "5faea063b3b40617ae535cfb",
+    "type": "Issue",
+    "name": "redefine end-to-end blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1605279842947,
+    "finishedAt": 1605287025820
+  },
+  {
+    "id": "5fcf73940797ac335178feb7",
+    "type": "Issue",
+    "name": "incentivize compelling ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [],
+    "createdAt": 1607431060599,
+    "finishedAt": 1610740543674
+  },
+  {
+    "id": "5f690549428b095b23acea6a",
+    "type": "Issue",
+    "name": "benchmark 24/365 networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "839f6269-be80-44f3-bd2a-9acbfd7651f6",
+      "a3f54db3-2ca4-4893-9863-14bf67e68afd",
+      "a4349291-76b6-48d3-ab64-3e0da661d79c"
+    ],
+    "createdAt": 1600718153398,
+    "finishedAt": 1606769148492
+  },
+  {
+    "id": "5e70bcc53ec48a5b3d9d26cb",
+    "type": "Issue",
+    "name": "empower wireless initiatives",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 2,
+    "comments": [
+      "e83a8039-0d4c-430d-a9a6-a6e4994cf272",
+      "a9093b47-5109-44d7-ba6f-e17e14aa666b",
+      "ac4cb79e-6425-430d-bacc-c4b2788e0d1f",
+      "41e33b59-6d43-466b-9c6c-712c73ffd600",
+      "aa55faac-0804-42e7-aa19-4c0c376ac4c7"
+    ],
+    "createdAt": 1584446661939,
+    "finishedAt": 1603202823975
+  },
+  {
+    "id": "60211097bbe61e40a80bd94d",
+    "type": "Issue",
+    "name": "brand robust synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1612779671358,
+    "finishedAt": 1612787440735
+  },
+  {
+    "id": "5e91c83a99a4363534d732de",
+    "type": "Issue",
+    "name": "syndicate dot-com applications",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "f965f1bd-9dd1-4889-95aa-c542976abe19",
+      "8260ac02-2924-4fc0-8963-9682f9a4813e",
+      "5fadd844-c878-43ff-9614-e6803a459e96",
+      "b707efae-61e4-47c5-8203-29a32f1dca42",
+      "97a3f35f-9b12-483f-a994-1d28c38cc5da"
+    ],
+    "createdAt": 1586612281904,
+    "finishedAt": 1601385161981
+  },
+  {
+    "id": "5c94c000bec215001fde7397",
+    "type": "Issue",
+    "name": "integrate impactful niches",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1553252352708,
+    "finishedAt": 1607325457387
+  },
+  {
+    "id": "60119ce033e33c3b314bc382",
+    "type": "Issue",
+    "name": "synthesize synergistic content",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "d4e1e7b9-9171-4067-aaa4-9157d59f07ad",
+      "8cc03df2-739d-48a5-8df4-db9d990dbd58"
+    ],
+    "createdAt": 1611767008519,
+    "finishedAt": 1611767301067
+  },
+  {
+    "id": "5f6e05dfafae2e3a6b8cfe2e",
+    "type": "Issue",
+    "name": "grow value-added technologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [
+      "5595f864-883b-43ab-9650-3e3455b452ca",
+      "f3c96270-4413-4c13-ae13-801a9867dd2f",
+      "26c9fed9-8df5-41c5-bf41-5cabc6b0e7a2",
+      "a7d8919d-16ee-4a17-808e-77970e4c234e",
+      "61db9bb6-8564-46d5-b31e-1f301223fd10",
+      "c999ceee-c401-44fd-ba0d-bcabcbc5efd8",
+      "4bacbbe9-8f7a-4d77-957f-6ecd4fc0f2c6"
+    ],
+    "createdAt": 1601045983571,
+    "finishedAt": 1604925233840
+  },
+  {
+    "id": "6020fb8ad2c1e13190cf2b03",
+    "type": "Issue",
+    "name": "revolutionize collaborative eyeballs",
+    "status": "inProgress",
+    "resolvedBy": 5,
+    "comments": [
+      "7d64f9df-b2b0-492a-98a6-5b71eff30fca",
+      "2f7f3e59-01da-43cd-89c7-0941c09f1831",
+      "3011c71b-dd4b-4da2-bdb0-3f9f365015cc"
+    ],
+    "createdAt": 1612774282431
+  },
+  {
+    "id": "5ef1f7ea1977b57baafb28a1",
+    "type": "Issue",
+    "name": "integrate next-generation schemas",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1592915946600,
+    "finishedAt": 1601461877881
+  },
+  {
+    "id": "5fec0f7d561ac93d4a684289",
+    "type": "Issue",
+    "name": "transition real-time e-services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1609305981387,
+    "finishedAt": 1611571606365
+  },
+  {
+    "id": "5f3ce57bdc748406769a88f7",
+    "type": "Issue",
+    "name": "optimize plug-and-play e-business",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1597826427470,
+    "finishedAt": 1604929844900
+  },
+  {
+    "id": "5fa91606ea8a585056eb6dc0",
+    "type": "Issue",
+    "name": "aggregate plug-and-play architectures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "49e1e060-1f09-4c63-9a70-999f70ef22ac",
+      "145a16e0-5cc9-4fce-868d-c9665e68af5b",
+      "6bc9d677-3980-4cf2-85bb-ab3d67ae332c"
+    ],
+    "createdAt": 1604916742891,
+    "finishedAt": 1608714035645
+  },
+  {
+    "id": "5fa56e87dd98995aef1a2fb9",
+    "type": "Issue",
+    "name": "exploit global e-services",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1604677254829,
+    "finishedAt": 1607591682954
+  },
+  {
+    "id": "5f7175c5540e180fa720c6ce",
+    "type": "Issue",
+    "name": "seize robust experiences",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "a81edddd-776a-4b88-a674-8a11b4083ca1"
+    ],
+    "createdAt": 1601271236786,
+    "finishedAt": 1601541748112
+  },
+  {
+    "id": "5eaac41dfa727e613099c727",
+    "type": "Issue",
+    "name": "evolve extensible infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1588249629674,
+    "finishedAt": 1601401110968
+  },
+  {
+    "id": "5c956406bec215001fdf8df8",
+    "type": "Issue",
+    "name": "scale revolutionary ROI",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1553294342674,
+    "finishedAt": 1607325423957
+  },
+  {
+    "id": "5cab3cc605981b001e64178f",
+    "type": "Issue",
+    "name": "syndicate user-centric initiatives",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1554726086877,
+    "finishedAt": 1603818410390
+  },
+  {
+    "id": "5bb72c8fe7b427001c38c71e",
+    "type": "Issue",
+    "name": "engineer end-to-end solutions",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1538731149827,
+    "finishedAt": 1606666293863
+  },
+  {
+    "id": "5fb7e93faf29c5550b08bcd1",
+    "type": "Issue",
+    "name": "whiteboard dot-com metrics",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "886d06d2-08ed-4843-887d-4989cb2a07c6",
+      "8fa2692f-45ee-4e45-a71e-a8b5d41d3a27",
+      "8e0b25eb-aadf-447b-9936-ca4fed42bfec"
+    ],
+    "createdAt": 1605888319463,
+    "finishedAt": 1607637750627
+  },
+  {
+    "id": "5f15bc69f801922c63e5d6ab",
+    "type": "Issue",
+    "name": "repurpose one-to-one markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "a25d3328-4509-4323-8bf4-c1306b412076",
+      "3b980dcc-55cb-427b-958e-af26704f8bb5",
+      "3b1b4af1-e482-42dc-a824-d27e1e2f0a75",
+      "0eb97d5c-1aac-4f6e-a20b-e11572ecec0d",
+      "c130118e-9222-49c7-a895-0358f1dcd659",
+      "89c01aae-1378-4c20-ad0f-89b6500d72d4"
+    ],
+    "createdAt": 1595260009483,
+    "finishedAt": 1604055962262
+  },
+  {
+    "id": "5f2d65acc5aeac1589c50f1e",
+    "type": "Issue",
+    "name": "incubate wireless interfaces",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1596810668004,
+    "finishedAt": 1606391183329
+  },
+  {
+    "id": "5fca5cffea78a85265f6bf91",
+    "type": "Issue",
+    "name": "matrix B2B systems",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "7b8d0460-dad1-4ddf-9192-33cb55259192",
+      "e3bc254b-4eb2-4953-ba8a-10ad4210d204",
+      "2852a9a9-8304-4097-bc0d-f8f05328f28a"
+    ],
+    "createdAt": 1607097599116,
+    "finishedAt": 1607097621292
+  },
+  {
+    "id": "5e1cadf3c2320b5a18c671fb",
+    "type": "Issue",
+    "name": "syndicate back-end ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [
+      "716c9637-3edb-439b-bf95-6d672444d74c",
+      "fd99f273-7a69-43ee-a939-f230f192c762",
+      "c3f6dce2-fc23-4c52-b5e8-27cdc372914d"
+    ],
+    "createdAt": 1578937843400,
+    "finishedAt": 1608557808260
+  },
+  {
+    "id": "5f63ce620242d03f5588792d",
+    "type": "Issue",
+    "name": "harness scalable experiences",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1600376418303,
+    "finishedAt": 1601850547208
+  },
+  {
+    "id": "5fe9e95dfe46e62be8270597",
+    "type": "Issue",
+    "name": "expedite 24/365 architectures",
+    "status": "closed",
+    "resolution": "duplicate",
+    "resolvedBy": 7,
+    "comments": [
+      "9e4fc017-2fc6-408b-9aaf-7d18af2b6773",
+      "f607cf19-facf-41cd-9e07-4ea22d066071",
+      "4d121d1f-24e9-461a-b856-76edd9e75c4d",
+      "994a931c-bc78-44cd-bb98-99d312013211",
+      "e2b43288-3401-4366-b4b5-37e3c3fc490d"
+    ],
+    "createdAt": 1609165149466,
+    "finishedAt": 1610475123468
+  },
+  {
+    "id": "5f1b4d04067342297dcbdc75",
+    "type": "Issue",
+    "name": "engage B2B models",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1595624707886,
+    "finishedAt": 1611763236111
+  },
+  {
+    "id": "5fb64b333c7d557df256ef12",
+    "type": "Issue",
+    "name": "maximize dot-com applications",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "07fa45ee-b2ae-4fd5-8bcd-6dce9c756228",
+      "4831167c-a36a-41f3-9f94-dfa5956b429c",
+      "4781bfa4-f851-4bb5-b484-019b60c9ca8a",
+      "5a90d7a6-ddc4-45ad-a27d-c5ddac46aea8",
+      "448aa3c4-e7de-4d05-895d-7dd1468404d7",
+      "22d3e57e-f8c5-4f7b-af35-15516da74e79",
+      "1bc72057-93a8-48d4-b235-599e9ace215c"
+    ],
+    "createdAt": 1605782322890,
+    "finishedAt": 1611926176239
+  },
+  {
+    "id": "5fbb99038a97240f0784bbed",
+    "type": "Issue",
+    "name": "disintermediate transparent functionalities",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "3ed9b237-db92-4f22-8a7b-de30d5fa4c07",
+      "28125a68-685a-4611-95b6-f3a73d639888"
+    ],
+    "createdAt": 1606129920409,
+    "finishedAt": 1606132720562
+  },
+  {
+    "id": "5fff00f70d4abc2206dbde68",
+    "type": "Issue",
+    "name": "seize impactful web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1610547446933,
+    "finishedAt": 1610618880320
+  },
+  {
+    "id": "5b0c1bfdcd0ad9001a8bdeee",
+    "type": "Issue",
+    "name": "e-enable virtual e-markets",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "e0b0dac9-e0a4-4997-be71-208727b13d09",
+      "8a0f1ec4-2551-4d9b-bc20-993f4df3e660",
+      "76a96d61-1a19-46c2-a7fb-8ba47f30050f",
+      "ff49d044-6b0b-43e6-939d-05c556fc13b1",
+      "9c17f3df-44bf-483e-b736-dd51b566dc1e"
+    ],
+    "createdAt": 1527520253049,
+    "finishedAt": 1603816010958
+  },
+  {
+    "id": "5e8b4198a77dde10f386d377",
+    "type": "Issue",
+    "name": "engage web-enabled supply-chains",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1586184600874,
+    "finishedAt": 1601461904405
+  },
+  {
+    "id": "5fe05ca8d224b638d9b2af48",
+    "type": "Issue",
+    "name": "monetize cross-platform eyeballs",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1608539304635,
+    "finishedAt": 1610352701485
+  },
+  {
+    "id": "5f9688b4543f8e33d5bbbc78",
+    "type": "Issue",
+    "name": "syndicate mission-critical models",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1603700914284,
+    "finishedAt": 1610366068610
+  },
+  {
+    "id": "5e59396dd2f0636c6db1bec5",
+    "type": "Issue",
+    "name": "enable end-to-end infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1582905709390,
+    "finishedAt": 1603817400384
+  },
+  {
+    "id": "5e302d26666f3e734b41428a",
+    "type": "Issue",
+    "name": "implement enterprise infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "6b1c76e9-6c74-4a14-9241-627a18e3acd5",
+      "f59d19c0-7f62-4896-9fab-8862fcf1e031",
+      "45e4b0d9-a053-4d34-9dd2-ba2cf89c0ee9",
+      "94826686-19bc-493a-adf0-1665fe88a0bf",
+      "095e40e8-7b0a-44f1-9a5d-babf4e6bcc22",
+      "8d558fdf-32c4-41d4-be49-f022548cb110"
+    ],
+    "createdAt": 1580215590607,
+    "finishedAt": 1601461955353
+  },
+  {
+    "id": "5fa5aae512a5497ce84566b0",
+    "type": "Issue",
+    "name": "exploit holistic models",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1604692709116,
+    "finishedAt": 1606925366816
+  },
+  {
+    "id": "5ecbc8a7a66f384508aa62d9",
+    "type": "Issue",
+    "name": "monetize 24/365 metrics",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 2,
+    "comments": [
+      "c4a6e97b-577a-49fb-b99a-b2a9b5609229",
+      "c7e985f0-e156-4a8f-a8ae-e7a21fdaea45",
+      "01e39118-47d9-4116-a2ee-75988f08337c",
+      "c4e194e6-c5fd-4540-a510-409ca876321c",
+      "6a6eeb3a-91c9-44f2-ae65-114f1bf405a2",
+      "a5749d04-af2e-46d0-ab45-9f216f810cf2",
+      "eea836eb-b321-4232-8b45-6e9893ceed7d"
+    ],
+    "createdAt": 1590413479553,
+    "finishedAt": 1606674989299
+  },
+  {
+    "id": "5fc7ba1d17c3fe126cbf0526",
+    "type": "Issue",
+    "name": "reintermediate efficient content",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1606924825797,
+    "finishedAt": 1607095267147
+  },
+  {
+    "id": "5e1edbe2a46e77151288db1a",
+    "type": "Issue",
+    "name": "incubate robust partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [
+      "f7ead4d2-7745-4b1c-9124-6aacbc2d77e4",
+      "dd44aa0d-c5f5-43bc-9151-5b72b368b812",
+      "8c5ae7ed-6c5f-4104-809e-ac147493cdf2",
+      "4abca19c-4f71-47bc-98b6-f56b662d8282",
+      "b6d1d6de-850e-41db-8a7d-23f6270f64cf",
+      "926f52ab-1580-4ed3-8af5-5e452caf3f02"
+    ],
+    "createdAt": 1579080672852,
+    "finishedAt": 1607523143720
+  },
+  {
+    "id": "5d948415701665001d030cc0",
+    "type": "Issue",
+    "name": "utilize 24/7 convergence",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1570014229646,
+    "finishedAt": 1608056397673
+  },
+  {
+    "id": "5c62eabae48d29001f14305a",
+    "type": "Issue",
+    "name": "facilitate dot-com blockchains",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "e90b9d27-479a-4793-895a-c61649fc4698",
+      "cfffcb7e-0385-41e1-9682-bde2f5f6ea5d"
+    ],
+    "createdAt": 1549986490808,
+    "finishedAt": 1603691952301
+  },
+  {
+    "id": "5ecd09edd63e5d3b7a08ed20",
+    "type": "Issue",
+    "name": "orchestrate transparent initiatives",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [
+      "2ece9028-73d8-4bea-b9bc-a7f9a57e0c39",
+      "804a3cbd-1287-4e7b-9533-7806af0d43b1"
+    ],
+    "createdAt": 1590495724974,
+    "finishedAt": 1601400909220
+  },
+  {
+    "id": "5e620e302668a500bc2be269",
+    "type": "Issue",
+    "name": "target one-to-one models",
+    "status": "inProgress",
+    "resolvedBy": 3,
+    "comments": [
+      "508c6fcb-1fc2-46a1-aa03-551dd22e9178",
+      "68173cc4-5d4a-49a1-b263-1ce9456c6d38",
+      "cd0a70ec-883d-4b15-bdfa-26b902bbdc06",
+      "d0fd1aa6-541f-437f-a0df-f2e097b8499b",
+      "a224f743-6e38-4929-88d5-18a99f91abf8"
+    ],
+    "createdAt": 1583484464190
+  },
+  {
+    "id": "5faa8cfa4484126d46cf57e1",
+    "type": "Issue",
+    "name": "visualize enterprise applications",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1605012730401,
+    "finishedAt": 1606225572262
+  },
+  {
+    "id": "5d727e2f701665001dc9c35d",
+    "type": "Issue",
+    "name": "mesh granular applications",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1567784495866,
+    "finishedAt": 1603816205509
+  },
+  {
+    "id": "5f70ec8317398b1394a8c326",
+    "type": "Issue",
+    "name": "drive next-generation relationships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "8c6e4313-ca25-4159-ad0b-39dd843e3959",
+      "365f023f-2538-4672-af53-1dc16add51f8",
+      "9271117c-65d5-4805-a395-3088bcf62f0c",
+      "82a99b54-be7c-4291-acb3-caad0a584408",
+      "eec49f7d-3226-4208-92fc-d6860ccf4931",
+      "61f77aaa-4e92-46f2-aae2-a74fc6a31e1b"
+    ],
+    "createdAt": 1601236099391,
+    "finishedAt": 1604933705838
+  },
+  {
+    "id": "5ffc0966c79be63a4c9eb873",
+    "type": "Issue",
+    "name": "monetize one-to-one relationships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1610352997992,
+    "finishedAt": 1610964457460
+  },
+  {
+    "id": "5c9567064e522a001f3c7264",
+    "type": "Issue",
+    "name": "utilize e-business methodologies",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "c638112d-f6e9-4e7d-9d30-09aed8421b48",
+      "352ecdc4-4139-408c-9761-206374cd7869",
+      "60bfdd2a-c259-4cfa-8c77-bd148ae61688",
+      "2d0c7627-42a7-4986-91c9-d39c50676c19",
+      "21eae613-270d-4937-aa1f-e7cad0bd41bc"
+    ],
+    "createdAt": 1553295110451,
+    "finishedAt": 1607325408358
+  },
+  {
+    "id": "5fe05c9323676e0eb090cd08",
+    "type": "Issue",
+    "name": "enhance rich partnerships",
+    "status": "closed",
+    "resolution": "duplicate",
+    "resolvedBy": 5,
+    "comments": [
+      "96ff10ad-b2dc-45b7-9e69-8f75424ccb09",
+      "d1e06d68-a49c-4a2e-a2d5-6480810f5cf1"
+    ],
+    "createdAt": 1608539283395,
+    "finishedAt": 1608545544220
+  },
+  {
+    "id": "5f732afb13dc4312cbf248b2",
+    "type": "Issue",
+    "name": "facilitate customized bandwidth",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "9413447c-f241-4ef9-8a55-581309082b99",
+      "48e4e4c2-9ec1-4858-b597-fb2f83649acf",
+      "2add643c-7aa5-4522-8a3d-47bb49dd8245",
+      "00fc42b9-af4f-4dc5-876d-bb4ac027d2fa"
+    ],
+    "createdAt": 1601383162863,
+    "finishedAt": 1601411978037
+  },
+  {
+    "id": "5faea370ffd1d937759e2ea3",
+    "type": "Issue",
+    "name": "optimize cross-media niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [
+      "338dc620-595b-4aed-8488-13df74be9964",
+      "34990606-9b1f-4b6c-bb9c-e70846477ff4",
+      "6879c4d1-13d7-4af9-afc7-b7a3090ddfcf",
+      "c48740f8-2471-40a5-a607-0f633fc9d14f",
+      "951e54ed-7887-4a71-b44f-8166b74e9a91"
+    ],
+    "createdAt": 1605280624499,
+    "finishedAt": 1607336429339
+  },
+  {
+    "id": "5ed4aca25508d952eb7064ca",
+    "type": "Issue",
+    "name": "enhance back-end infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [
+      "00fa4872-15bb-493f-9a85-904e06467fdd",
+      "216cd726-3cad-4cec-a5dd-31956fbde9e3",
+      "8cce416d-1ce2-4e3f-8b93-e833bb7aece4",
+      "cbd15fa6-3ac0-4fcb-89c9-790d1d63550d",
+      "510e883b-a50a-456f-b445-eeae332da5c9",
+      "e2dd5101-f97f-4eec-aa84-f026ca1b6c3b"
+    ],
+    "createdAt": 1590996130548,
+    "finishedAt": 1602170192313
+  },
+  {
+    "id": "5f92ee1b7f4b9e3a0f088db1",
+    "type": "Issue",
+    "name": "syndicate synergistic e-services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1603464730974,
+    "finishedAt": 1607330238930
+  },
+  {
+    "id": "5faa8e2d8738783fe7bbf40c",
+    "type": "Issue",
+    "name": "repurpose B2C platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1605013037043,
+    "finishedAt": 1610704861902
+  },
+  {
+    "id": "601026277480f938c25a81fa",
+    "type": "Issue",
+    "name": "envisioneer open-source e-services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "1d478203-37cf-48bc-9e92-037f4f07acc4",
+      "0d8ae8c0-023c-4f10-9341-3ecb70c4ada5",
+      "007b0154-c0d3-472c-a42a-f2026c0ee237",
+      "2b35c6ff-1999-4640-aaf7-2ac8d217f8e9",
+      "318f494b-292f-4d16-a989-3106b16cb7cc",
+      "6a183c66-2f37-494e-8add-7dffa4b5056a",
+      "9cbf67a3-1b91-47a2-a953-a799d34044ee"
+    ],
+    "createdAt": 1611671077612,
+    "finishedAt": 1611915886802
+  },
+  {
+    "id": "5d7238bd701665001dc9014c",
+    "type": "Issue",
+    "name": "evolve robust portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1567766717851,
+    "finishedAt": 1612173438748
+  },
+  {
+    "id": "5fac52a39aa2e04ec310fc13",
+    "type": "Issue",
+    "name": "optimize user-centric relationships",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [
+      "454e750d-25df-43ed-9c27-dd3cbb112a01",
+      "d326bf67-c481-49bb-bbb0-bf73daa38bd6",
+      "8eae48be-9e29-4ee5-b668-cbeac163f5c3",
+      "75f612e0-5f96-4d3b-99bc-666bc6770e68",
+      "a6c5bed0-11cb-438f-8fa4-cbd36c1722d8"
+    ],
+    "createdAt": 1605128867054,
+    "finishedAt": 1605530448484
+  },
+  {
+    "id": "5f5b315f8e7d403b90a7b66a",
+    "type": "Issue",
+    "name": "aggregate seamless infomediaries",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1599811935521,
+    "finishedAt": 1607522133921
+  },
+  {
+    "id": "5ec53dd1c1bd1076d7817787",
+    "type": "Issue",
+    "name": "whiteboard transparent vortals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1589984721342,
+    "finishedAt": 1601384500059
+  },
+  {
+    "id": "5fb7c24e48762855d59469f7",
+    "type": "Issue",
+    "name": "expedite scalable initiatives",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1605878350187,
+    "finishedAt": 1609188740150
+  },
+  {
+    "id": "5ef4578b64b14a478ec5993e",
+    "type": "Issue",
+    "name": "exploit value-added ROI",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1593071497480,
+    "finishedAt": 1607331132189
+  },
+  {
+    "id": "60055c2927caf465bf3ac826",
+    "type": "Issue",
+    "name": "facilitate granular functionalities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1610964009010,
+    "finishedAt": 1611569153415
+  },
+  {
+    "id": "5e8b5e1506d3116e73830c38",
+    "type": "Issue",
+    "name": "productize world-class functionalities",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1586191893906,
+    "finishedAt": 1601390515690
+  },
+  {
+    "id": "5fe5aaa1e1619253f0b52c9b",
+    "type": "Issue",
+    "name": "incentivize cross-media convergence",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1608886945023,
+    "finishedAt": 1610707468726
+  },
+  {
+    "id": "5f918ae8d438386f579dedb8",
+    "type": "Issue",
+    "name": "embrace bleeding-edge networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1603373800583,
+    "finishedAt": 1606420741477
+  },
+  {
+    "id": "5f33ef3dc9e1dc422541cbdf",
+    "type": "Issue",
+    "name": "evolve B2C e-commerce",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "6cfaaafd-337b-4d88-947b-f3260315f532",
+      "3a2a5bde-7715-4d85-93fa-55a6071d39e7"
+    ],
+    "createdAt": 1597239101603,
+    "finishedAt": 1602533323790
+  },
+  {
+    "id": "5f60e73338d0aa6215467db9",
+    "type": "Issue",
+    "name": "recontextualize sticky e-services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1600186163930,
+    "finishedAt": 1601991854171
+  },
+  {
+    "id": "5f4ccde8188a1a105a01b5ea",
+    "type": "Issue",
+    "name": "mesh 24/7 e-markets",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "85385d24-0ff3-4e90-aca9-e4ad932a5f63"
+    ],
+    "createdAt": 1598868968790,
+    "finishedAt": 1610560169693
+  },
+  {
+    "id": "5f6fbaff737bae27fcf1fa3c",
+    "type": "Issue",
+    "name": "mesh compelling interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "4c9bf812-e7e4-4878-b9a9-c718d544c654",
+      "68fbd4ed-27b0-44ce-a527-61c66d06d60e",
+      "4f10dcb2-b5d7-4e73-b8ca-ee0fb9353421",
+      "5362aac7-c12c-4e81-b7cf-8ce43827d67e"
+    ],
+    "createdAt": 1601157887097,
+    "finishedAt": 1604933623726
+  },
+  {
+    "id": "5fe5b73addc5607e475df162",
+    "type": "Issue",
+    "name": "productize frictionless metrics",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 8,
+    "comments": [
+      "25c5d1de-4a42-4aec-a438-d6a37c57385b",
+      "e1928044-3703-4fdb-942a-6740be3266e0"
+    ],
+    "createdAt": 1608890170640,
+    "finishedAt": 1612355309440
+  },
+  {
+    "id": "5fa564a1656c750bfd66c4b6",
+    "type": "Issue",
+    "name": "maximize bricks-and-clicks technologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "9f73a48d-d21c-4702-bba2-5eee9c6de48e",
+      "98c7df49-c0fe-4623-8865-7048678e970b",
+      "4a55d467-0b5c-4476-982c-c462362787d9",
+      "39b530b1-f363-4682-88da-3d91c37baf9d"
+    ],
+    "createdAt": 1604674720879,
+    "finishedAt": 1607095225288
+  },
+  {
+    "id": "5f8d9c834a128c20adcb5d74",
+    "type": "Issue",
+    "name": "target holistic paradigms",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "1f428e61-a0ff-4794-bb48-8772986f62c7"
+    ],
+    "createdAt": 1603116163028,
+    "finishedAt": 1604928751966
+  },
+  {
+    "id": "5f9c13d8cfb02f536a1c808b",
+    "type": "Issue",
+    "name": "embrace enterprise infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "60ec3bf5-6d00-416b-94f9-ff4b3f66b87b"
+    ],
+    "createdAt": 1604064216489,
+    "finishedAt": 1605693121319
+  },
+  {
+    "id": "5f560c82a445d1230f19179d",
+    "type": "Issue",
+    "name": "enhance clicks-and-mortar partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "4fccfb0f-5f60-47c4-b0b2-efb76795a342",
+      "7e212980-f897-4e97-8b21-f9881b616df1",
+      "40b7be53-f4af-46cb-b5e9-e7c0ac8d67c9",
+      "8c82e523-617b-4179-a07e-d335f82d7a16",
+      "9e9d2dc0-cfa8-4157-a4d8-66edb1e0603e"
+    ],
+    "createdAt": 1599474818185,
+    "finishedAt": 1601573744424
+  },
+  {
+    "id": "602501e727bd9524f0936850",
+    "type": "Issue",
+    "name": "enable proactive e-tailers",
+    "status": "inProgress",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1613038055245
+  },
+  {
+    "id": "5dd6ab31a2b79ee69d7dd055",
+    "type": "Issue",
+    "name": "integrate e-business blockchains",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "99ff9dfa-5a22-4878-82d3-554243d2a2a9",
+      "3498ee34-b4d7-4002-8711-9b3db985de0d",
+      "951f1897-ddab-4eca-9e2a-4dcf4d2b8408",
+      "d9ca9063-f290-455f-956e-d01fc5fc4a88",
+      "829d734c-cae7-43cb-884c-4a325866321f",
+      "341a91bd-3721-4c9b-b51b-12fd5f5fdded",
+      "7049e4cf-fc05-4f8f-87f2-7c297f58288b"
+    ],
+    "createdAt": 1574349617339,
+    "finishedAt": 1607599766704
+  },
+  {
+    "id": "5f7ed07aa60f09075266faa8",
+    "type": "Issue",
+    "name": "reinvent dot-com deliverables",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1602146426165,
+    "finishedAt": 1602171218474
+  },
+  {
+    "id": "5fab7d5ce6dfce0b670a4b9d",
+    "type": "Issue",
+    "name": "incubate next-generation paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1605074268493,
+    "finishedAt": 1605166149353
+  },
+  {
+    "id": "5d1a0771529110001e58c5a7",
+    "type": "Issue",
+    "name": "implement global e-business",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1561986929744,
+    "finishedAt": 1603818063279
+  },
+  {
+    "id": "6016acbd1fd8de0c5f40b6ee",
+    "type": "Issue",
+    "name": "facilitate compelling solutions",
+    "status": "inProgress",
+    "resolvedBy": 7,
+    "comments": [
+      "b68525c2-857b-4d18-a10d-a23fc9d70ec6"
+    ],
+    "createdAt": 1612098749617
+  },
+  {
+    "id": "5b166618ef6f9f001c33e328",
+    "type": "Issue",
+    "name": "embrace dot-com e-services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1528194584389,
+    "finishedAt": 1603819058960
+  },
+  {
+    "id": "5f74663dde5ff0735f9252ea",
+    "type": "Issue",
+    "name": "evolve real-time infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1601463869471,
+    "finishedAt": 1603975683645
+  },
+  {
+    "id": "5faef5f0bd7e941e213ff85b",
+    "type": "Issue",
+    "name": "optimize collaborative systems",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1605301744130,
+    "finishedAt": 1606826288916
+  },
+  {
+    "id": "5f7af51dd7675254113a7141",
+    "type": "Issue",
+    "name": "deliver front-end supply-chains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1601893661392,
+    "finishedAt": 1602490771480
+  },
+  {
+    "id": "5c9e2b644eedbc001f0748e2",
+    "type": "Issue",
+    "name": "expedite innovative mindshare",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1553869668712,
+    "finishedAt": 1607330520005
+  },
+  {
+    "id": "5dc56f71701665001cc47ae3",
+    "type": "Issue",
+    "name": "implement e-business blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [],
+    "createdAt": 1573220207582,
+    "finishedAt": 1606404616486
+  },
+  {
+    "id": "5f43a8a41e2a2e177348014e",
+    "type": "Issue",
+    "name": "exploit real-time paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "62f313b5-b4a5-412f-b96e-a6c3fa254119",
+      "643f227a-dee5-48c4-8e9d-518e4777e30d",
+      "7cf2fe13-1b4c-4647-8e51-ea961da77047",
+      "aa2394fd-0c66-4ed5-8c40-1ad5cb12aa60",
+      "12be8ddc-ec88-4f83-a49f-62349f705fe1"
+    ],
+    "createdAt": 1598269604118,
+    "finishedAt": 1605176362372
+  },
+  {
+    "id": "5fa5610e10b2053fa31fc261",
+    "type": "Issue",
+    "name": "incentivize revolutionary portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "22cc0278-eb95-4d74-864a-6c2346d77c8d",
+      "5d18120a-d4f5-4a35-b6e8-9a787565d00b",
+      "072788ba-417f-4ae2-a6c7-155910897a86"
+    ],
+    "createdAt": 1604673805994,
+    "finishedAt": 1605287139127
+  },
+  {
+    "id": "5f71e24a5d830116f770e02d",
+    "type": "Issue",
+    "name": "reintermediate holistic synergies",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "d1daf5d7-4906-40c4-bb8f-57b5000b6a35",
+      "b509999c-6852-4150-b16b-98041337458f",
+      "570b56b7-11f3-46e0-99d3-4b6f1fe11e5c",
+      "c1a3b46f-7704-4e2e-9df9-6fe39dcf2c0a",
+      "0c2b0731-0955-4f37-b522-f438ec554759",
+      "456a53e4-4382-42ec-be45-f8529c5dd123"
+    ],
+    "createdAt": 1601299018323,
+    "finishedAt": 1608120774591
+  },
+  {
+    "id": "5c6a7c27a58ce80020cab3c1",
+    "type": "Issue",
+    "name": "monetize seamless web services",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "c149fe62-4271-4834-bda1-378b3867dd31",
+      "98c496f3-f727-4e5a-a901-ffb16101bc86",
+      "371b0352-5127-4491-b3b7-b4b10f718c3b"
+    ],
+    "createdAt": 1550482471516,
+    "finishedAt": 1603691934491
+  },
+  {
+    "id": "5f901df81921f749a1f8cc99",
+    "type": "Issue",
+    "name": "integrate frictionless vortals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 9,
+    "comments": [
+      "0c3ca1c2-6444-438b-8999-ff88f0d1ab82"
+    ],
+    "createdAt": 1603280376250,
+    "finishedAt": 1607331369046
+  },
+  {
+    "id": "5bace73978a25a001ca5cbc6",
+    "type": "Issue",
+    "name": "implement synergistic relationships",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1538058041179,
+    "finishedAt": 1610352845195
+  },
+  {
+    "id": "6010990eb2e2d86fc3ead76b",
+    "type": "Issue",
+    "name": "syndicate holistic e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "47e048dd-6e51-40d1-bc58-b94b48d93baf",
+      "64a8aee5-e04a-49c3-b39e-e180dbc8264d",
+      "0b8b2055-1894-4a89-807e-b1aa9f75a74f",
+      "a9e326c1-bd52-45a6-946b-fb69bfe6f8e7",
+      "cb284464-7148-4f3e-99bd-f34e8648284a"
+    ],
+    "createdAt": 1611700493930,
+    "finishedAt": 1611829137792
+  },
+  {
+    "id": "5f281d9d05eb4c3f200cf7a7",
+    "type": "Issue",
+    "name": "seize value-added web-readiness",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1596464541607,
+    "finishedAt": 1600250918389
+  },
+  {
+    "id": "5f0c4c535527ef0dabf2cb08",
+    "type": "Issue",
+    "name": "optimize sticky partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1594641491634,
+    "finishedAt": 1603102583886
+  },
+  {
+    "id": "5df3f842140e634a8e94715c",
+    "type": "Issue",
+    "name": "incentivize intuitive infomediaries",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1576269889516,
+    "finishedAt": 1601935318695
+  },
+  {
+    "id": "5fd9fdb6727262758e9db66f",
+    "type": "Issue",
+    "name": "expedite global e-business",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1608121782559,
+    "finishedAt": 1611785067133
+  },
+  {
+    "id": "5fa8e0bc86a237690891f676",
+    "type": "Issue",
+    "name": "facilitate one-to-one e-markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1604903100831,
+    "finishedAt": 1605487817257
+  },
+  {
+    "id": "5f6523b7cbf9f73c48c5cfb9",
+    "type": "Issue",
+    "name": "aggregate customized platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "74715ae7-5515-410c-80ea-ded3925f85e1",
+      "bd062caa-738c-4de2-a760-1b83c870f64b",
+      "319a54ce-ea27-4f15-a0da-b796b41b4b76"
+    ],
+    "createdAt": 1600463799203,
+    "finishedAt": 1602498217897
+  },
+  {
+    "id": "59d6449bb8de180020e78eff",
+    "type": "Issue",
+    "name": "enhance real-time partnerships",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1507214491004,
+    "finishedAt": 1607291540481
+  },
+  {
+    "id": "5faac3902c1c107513845577",
+    "type": "Issue",
+    "name": "empower bleeding-edge blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1605026704495,
+    "finishedAt": 1605184522216
+  },
+  {
+    "id": "5fa1d8911b8bdb4a8e49a8fc",
+    "type": "Issue",
+    "name": "integrate viral solutions",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [
+      "6c047e3f-1d34-4815-a21b-10219e7f9b78",
+      "3a2f650b-e4f2-46e7-b733-9c328c4077bb",
+      "3180e429-f612-4c4a-8e40-3e63be875002",
+      "0991c51d-343c-4a54-9f45-b3c99c47ec42",
+      "0b734a46-098a-4330-860a-742c92b80f22",
+      "5e344781-0b17-4b7c-b30c-3fa7da2e9266",
+      "7d64fd68-eb30-4661-aa49-73dd6094a038"
+    ],
+    "createdAt": 1604442257434,
+    "finishedAt": 1604933869023
+  },
+  {
+    "id": "5d7a280e122154001d657056",
+    "type": "Issue",
+    "name": "facilitate granular methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1568286734431,
+    "finishedAt": 1602518162808
+  },
+  {
+    "id": "5fa1122aa366102097e3c8a3",
+    "type": "Issue",
+    "name": "evolve sexy portals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1604391466077,
+    "finishedAt": 1604916356852
+  },
+  {
+    "id": "6017fadc3658cb7e98ed3d70",
+    "type": "Issue",
+    "name": "deliver transparent e-markets",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 10,
+    "comments": [],
+    "createdAt": 1612184284649,
+    "finishedAt": 1612206716164
+  },
+  {
+    "id": "5e8b62e806d3116e73831915",
+    "type": "Issue",
+    "name": "deploy impactful action-items",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1586193128654,
+    "finishedAt": 1607939039802
+  },
+  {
+    "id": "5fe5adac8ddcde17bafa780b",
+    "type": "Issue",
+    "name": "utilize holistic applications",
+    "status": "inProgress",
+    "resolvedBy": 9,
+    "comments": [
+      "09ae4eaa-2a68-4503-be38-77e01c0ab04b",
+      "a2ab8690-9559-4b25-b889-738130b591bc",
+      "7e180edd-cdf0-4e16-ac2e-a7c29d0b4a6f",
+      "214e543a-b713-45e1-a223-c6e5ecbd980d",
+      "ef53d9a3-a15d-4ea4-9759-f68216dcbc05"
+    ],
+    "createdAt": 1608887723764
+  },
+  {
+    "id": "5f70a725737bae27fcf27fe5",
+    "type": "Issue",
+    "name": "deliver robust functionalities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1601218341238,
+    "finishedAt": 1601285615420
+  },
+  {
+    "id": "5ed4ac92d76da177f8053f28",
+    "type": "Issue",
+    "name": "maximize ubiquitous technologies",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "d4109871-a754-490d-b515-45fb5c2b9ca1",
+      "b15a5c2f-42b8-4aae-837a-921f849e052a",
+      "b53748e0-f302-44ae-9b9f-4f0a33a7417b",
+      "0470809d-74e9-4b4b-b658-10143126fcb8",
+      "0b0c334f-feab-4f00-9ae8-2dda4c5e7f4d",
+      "c9ae8a70-3290-4f7a-b7a3-72d5176076d6",
+      "e284bc88-50ea-4360-93e8-8a8507c790ed"
+    ],
+    "createdAt": 1590996114463,
+    "finishedAt": 1604063955698
+  },
+  {
+    "id": "5f119ad04c27bd778c2cbaeb",
+    "type": "Issue",
+    "name": "engineer killer networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1594989264734,
+    "finishedAt": 1605607038599
+  },
+  {
+    "id": "5f6048a1ddc9d406de451e96",
+    "type": "Issue",
+    "name": "seize clicks-and-mortar systems",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1600145569835,
+    "finishedAt": 1600766119249
+  },
+  {
+    "id": "5e07dd4f69ae5a01bf6565e3",
+    "type": "Issue",
+    "name": "recontextualize killer users",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1577573711502,
+    "finishedAt": 1611926243258
+  },
+  {
+    "id": "5d53e753701665001ca170c1",
+    "type": "Issue",
+    "name": "reintermediate enterprise e-services",
+    "status": "inProgress",
+    "resolvedBy": 8,
+    "comments": [],
+    "createdAt": 1565779795810
+  },
+  {
+    "id": "5f89aada3b52e2725334d74d",
+    "type": "Issue",
+    "name": "redefine transparent applications",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1602857690293,
+    "finishedAt": 1605174841630
+  },
+  {
+    "id": "5f5245ee913e7072d64b72a1",
+    "type": "Issue",
+    "name": "reinvent one-to-one mindshare",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "a807a2a5-9ccf-40be-a187-b29e3adf77e6",
+      "a787239c-4542-4571-bc6f-228d9f975914",
+      "064a196d-3ad6-40d9-a84e-a8d4388c72f1",
+      "b4c4c5fb-f96c-4537-b2bf-fec94f9f459c",
+      "226d9c5f-6768-4738-98fa-393b49ec31ce",
+      "e13131ce-eaba-4573-8d45-de015573ecfb",
+      "535e748d-5030-43be-9395-81817097bf1e"
+    ],
+    "createdAt": 1599227373778,
+    "finishedAt": 1607617669118
+  },
+  {
+    "id": "5f86bff4d236270dfd32872a",
+    "type": "Issue",
+    "name": "deploy revolutionary functionalities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1602666484760,
+    "finishedAt": 1602671560847
+  },
+  {
+    "id": "5c63e3ade240fd0021947b59",
+    "type": "Issue",
+    "name": "visualize strategic e-commerce",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [
+      "e6b73f97-6f7d-46c5-9dcd-c2eda681b4a7"
+    ],
+    "createdAt": 1550050221425,
+    "finishedAt": 1606469902348
+  },
+  {
+    "id": "5f5b856de542f4229cfd264e",
+    "type": "Issue",
+    "name": "visualize global initiatives",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1599833451927,
+    "finishedAt": 1602230301760
+  },
+  {
+    "id": "5faaded7a5652f22e41e6b24",
+    "type": "Issue",
+    "name": "expedite 24/365 paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1605033687222,
+    "finishedAt": 1606369219512
+  },
+  {
+    "id": "5f4ce7c8a4a3337930e341ec",
+    "type": "Issue",
+    "name": "mesh cross-media methodologies",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1598875592128,
+    "finishedAt": 1598914647917
+  },
+  {
+    "id": "5fca5b85eb06f01879e8e2c0",
+    "type": "Issue",
+    "name": "strategize value-added e-tailers",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "f2aa1c39-fce7-4b69-a87a-6a0c04d5562c",
+      "72d2f691-4c6e-46b8-9b71-261ffa4d1216",
+      "8667c884-1996-4d67-ad94-42417031f099",
+      "96c47741-334b-4308-8c8d-0c02147a237c"
+    ],
+    "createdAt": 1607097221454,
+    "finishedAt": 1611335132100
+  },
+  {
+    "id": "5d81161c8c7003001ec72c54",
+    "type": "Issue",
+    "name": "incentivize sexy e-tailers",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1568740892582,
+    "finishedAt": 1607512939171
+  },
+  {
+    "id": "600ec288fedc6567e403c92d",
+    "type": "Issue",
+    "name": "envisioneer value-added partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "0c3ba5c1-f5d3-4e28-8dd6-11b3349a49d1",
+      "1b6e49d9-bd68-4228-9153-de3a9136040b",
+      "0df60918-9285-461b-81f9-13e9b196db12",
+      "44b2835a-a5cd-46b6-80ff-d77d9cceb328",
+      "f56e1124-95ea-4445-9252-f94fcd33efe9",
+      "eca7f4c0-23d0-49b8-b729-8804159bb970",
+      "88e76371-1f74-4d96-b441-687a6636891d"
+    ],
+    "createdAt": 1611580038194,
+    "finishedAt": 1612877261618
+  },
+  {
+    "id": "5f861173e49f582289b22954",
+    "type": "Issue",
+    "name": "extend integrated schemas",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1602621811567,
+    "finishedAt": 1603918550030
+  },
+  {
+    "id": "5fc563fcaee1df2e154d6235",
+    "type": "Issue",
+    "name": "streamline bleeding-edge metrics",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1606771706412,
+    "finishedAt": 1612173790594
+  },
+  {
+    "id": "5f96a47a870bc848e63a03d2",
+    "type": "Issue",
+    "name": "unleash 24/7 partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [
+      "c76ec1f4-cd66-400b-840f-dac2b9b17b9b",
+      "9fdad4ac-9165-4639-8ecd-4b4f1d7908f4",
+      "6d1946af-c4bc-46ac-ba74-3c7a0a05fe06",
+      "de188d79-ed95-4424-9349-bdcdc8e69a85",
+      "aef63792-717a-4d27-a7b1-5ee34b7216b8",
+      "ac5e52bf-af6a-4e1d-ad9b-7c2b205a6839"
+    ],
+    "createdAt": 1603708026487,
+    "finishedAt": 1604914637226
+  },
+  {
+    "id": "5f9c1a45cfb02f536a1c91ba",
+    "type": "Issue",
+    "name": "deploy bricks-and-clicks e-business",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1604065861452,
+    "finishedAt": 1606292140747
+  },
+  {
+    "id": "5f02e66b1ef0bc0eb67dffbe",
+    "type": "Issue",
+    "name": "transition distributed niches",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1594025579650,
+    "finishedAt": 1601387672393
+  },
+  {
+    "id": "5fc90b2a87827e39d5285ad7",
+    "type": "Issue",
+    "name": "productize plug-and-play e-services",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1607011114933,
+    "finishedAt": 1607596786924
+  },
+  {
+    "id": "5fd24283a4899d144c669950",
+    "type": "Issue",
+    "name": "target B2B interfaces",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1607615107291,
+    "finishedAt": 1607615128162
+  },
+  {
+    "id": "5fb1c30d38dcad4a393e6fe2",
+    "type": "Issue",
+    "name": "repurpose intuitive markets",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "8cc4d05d-0eea-4a57-a56d-05ee4422e1f8",
+      "a627293d-7492-43a9-aeeb-201baba29e45",
+      "0da26176-867c-4135-a468-aebc3fefcb39",
+      "47f49509-37b5-4396-bedd-4f31be0f4d85"
+    ],
+    "createdAt": 1605485324882,
+    "finishedAt": 1606125841332
+  },
+  {
+    "id": "5f92eada543f8e33d5b8f2c9",
+    "type": "Issue",
+    "name": "e-enable user-centric supply-chains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 11,
+    "comments": [
+      "47ce40b2-5334-444b-a138-631f8ea5fbcd",
+      "9e7459c7-25fb-46e7-83e9-027373604391",
+      "6b10c678-0ed6-424f-a517-258da2be453f",
+      "46f6a74d-8004-432a-ab7e-08f281ee0307"
+    ],
+    "createdAt": 1603463898542,
+    "finishedAt": 1604312195231
+  },
+  {
+    "id": "5f8613b976e98f1b05a10065",
+    "type": "Issue",
+    "name": "syndicate best-of-breed paradigms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "8ae1d29a-4438-4824-b4c5-2462c648cba1",
+      "9c2b1926-3f88-438e-9f87-29e12cc938c6"
+    ],
+    "createdAt": 1602622393420,
+    "finishedAt": 1610619087343
+  },
+  {
+    "id": "5ee8d1b97da1df6f03bc310a",
+    "type": "Issue",
+    "name": "orchestrate value-added technologies",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1592316345867,
+    "finishedAt": 1602681957458
+  },
+  {
+    "id": "5f7dd8f8a60f0907526602ad",
+    "type": "Issue",
+    "name": "iterate cutting-edge partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1602083064341,
+    "finishedAt": 1602571324265
+  },
+  {
+    "id": "5e05bddc02be486ee8fef803",
+    "type": "Issue",
+    "name": "whiteboard revolutionary users",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "ad1ff8eb-eb1b-45b3-972f-2ffe50fa0c01",
+      "73ff1c30-8b50-470c-a186-3a24d93c2992",
+      "d56a64b6-8d5d-457e-84ba-a1a4e1b965ff",
+      "8d760dc3-d355-449b-a95f-3d495334862d",
+      "7d29f61d-46a4-49a2-b2e5-e259310cd24a",
+      "f81f0079-4e2c-4a0d-b272-4f0aa7f51b43"
+    ],
+    "createdAt": 1577434587996,
+    "finishedAt": 1610539478590
+  },
+  {
+    "id": "5f871ff30055a17988eec177",
+    "type": "Issue",
+    "name": "facilitate world-class deliverables",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1602691059093,
+    "finishedAt": 1608042503367
+  },
+  {
+    "id": "5f85a86caa6e065581a7adb9",
+    "type": "Issue",
+    "name": "embrace global action-items",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [
+      "bb60c6b8-87c5-48cb-a137-0965603d42f0"
+    ],
+    "createdAt": 1602594922045,
+    "finishedAt": 1611041336709
+  },
+  {
+    "id": "5fbbf376a5bf291414a5e7b3",
+    "type": "Issue",
+    "name": "embrace compelling platforms",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1606153078328,
+    "finishedAt": 1606204950082
+  },
+  {
+    "id": "6011598ceb4cef1319c891bb",
+    "type": "Issue",
+    "name": "mesh wireless niches",
+    "status": "inProgress",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1611749770299
+  },
+  {
+    "id": "5e4a7a5fb6008a005a0afefc",
+    "type": "Issue",
+    "name": "reinvent killer functionalities",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "4573ef7c-f87f-4beb-af6d-ef6cf5f93b4f",
+      "b484f60e-d9c9-4e84-ac9b-7eaeff935e4a",
+      "0daa312a-e50b-4c7d-b413-80e96f050afb"
+    ],
+    "createdAt": 1581939295875,
+    "finishedAt": 1611590848778
+  },
+  {
+    "id": "5fe35469602393765b4cd513",
+    "type": "Issue",
+    "name": "disintermediate sexy web services",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1608733801241,
+    "finishedAt": 1608802128967
+  },
+  {
+    "id": "5fabcac4d05530665ba37ec3",
+    "type": "Issue",
+    "name": "implement best-of-breed supply-chains",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1605094084568,
+    "finishedAt": 1605782480987
+  },
+  {
+    "id": "5f7d63fdc29b4f2991208e8d",
+    "type": "Issue",
+    "name": "seize B2B action-items",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [
+      "9e667424-ba21-45e3-a6f7-7fe9e5c01bae",
+      "e944f78b-28b5-49d0-b1de-cdb3386ab328",
+      "ad4d2d30-5391-431c-b30c-e01388f5e8b7",
+      "d57655a2-ab0b-45f0-9d18-6051f501bb19"
+    ],
+    "createdAt": 1602053117703,
+    "finishedAt": 1603720672400
+  },
+  {
+    "id": "5f7ee21bec26c04854f4dfa8",
+    "type": "Issue",
+    "name": "deploy strategic partnerships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1602150939491,
+    "finishedAt": 1607340135569
+  },
+  {
+    "id": "5fff1900548eeb34bfa4ccef",
+    "type": "Issue",
+    "name": "utilize B2B action-items",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1610553600122,
+    "finishedAt": 1610615876710
+  },
+  {
+    "id": "5fc12b70476cb751dac0edf0",
+    "type": "Issue",
+    "name": "orchestrate magnetic ROI",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 3,
+    "comments": [],
+    "createdAt": 1606495088398,
+    "finishedAt": 1607297197646
+  },
+  {
+    "id": "5f97259da18eec577cf0af80",
+    "type": "Issue",
+    "name": "target leading-edge models",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [
+      "fd8376ae-eb55-4c20-9bca-2d4fb8576bc3"
+    ],
+    "createdAt": 1603741085023,
+    "finishedAt": 1606555788118
+  },
+  {
+    "id": "5f85bb0c57d34e66619e31b7",
+    "type": "Issue",
+    "name": "grow revolutionary e-markets",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [],
+    "createdAt": 1602599692956,
+    "finishedAt": 1603811745566
+  },
+  {
+    "id": "5ef597ec345f41133bfad024",
+    "type": "Issue",
+    "name": "implement clicks-and-mortar networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [
+      "babf49fc-00c7-430e-9fa6-4213adc0c5dd",
+      "98b161d7-f080-4988-a197-d9d9c0eddfc8",
+      "39387424-59db-4fdd-85ad-5db596b87ec6",
+      "fd15918f-7328-4cea-8740-e116936cdd0d"
+    ],
+    "createdAt": 1593153514616,
+    "finishedAt": 1611926231806
+  },
+  {
+    "id": "5f44e6b908084d2b137f60fc",
+    "type": "Issue",
+    "name": "engineer one-to-one action-items",
+    "status": "inProgress",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1598351031868
+  },
+  {
+    "id": "5f524de3ae26756f6dbab9b6",
+    "type": "Issue",
+    "name": "optimize proactive relationships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [],
+    "createdAt": 1599229411465,
+    "finishedAt": 1599240537444
+  },
+  {
+    "id": "5f33858b8a23954aa6f54634",
+    "type": "Issue",
+    "name": "optimize back-end initiatives",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1597212041027,
+    "finishedAt": 1599551942927
+  },
+  {
+    "id": "5f69f7d97cf0d93ddc18459e",
+    "type": "Issue",
+    "name": "productize best-of-breed infrastructures",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "93fe48df-97ca-4e06-8f93-689d20f1195b",
+      "21712666-71c6-41b8-9e1d-e1f718bf8642",
+      "34bddd0f-13fc-476a-a2f0-fff12c6bf03c",
+      "d8ee0a87-560d-47a1-86bf-02c331d6ba5f"
+    ],
+    "createdAt": 1600780249561,
+    "finishedAt": 1601372631900
+  },
+  {
+    "id": "5f8ffe2585f3af1c465814b6",
+    "type": "Issue",
+    "name": "syndicate turn-key interfaces",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "8bfa1bfd-65cb-4920-a30e-f8b99901fa3c",
+      "29119842-346e-45e4-afb8-28187f63b45a",
+      "8d44a234-a661-4834-8c10-ee051ef3b1d4",
+      "6f8ebc06-5143-4ef9-909d-08f26fa04ca6",
+      "5c35ba90-49a1-418f-90f2-6d5ba4b5c6b8",
+      "fce86029-d5d5-42ca-af45-1517162f0475"
+    ],
+    "createdAt": 1603272228869,
+    "finishedAt": 1607880438772
+  },
+  {
+    "id": "5f119bf2ef887476c34f8e01",
+    "type": "Issue",
+    "name": "grow granular relationships",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 4,
+    "comments": [],
+    "createdAt": 1594989554582,
+    "finishedAt": 1600258040316
+  },
+  {
+    "id": "5f55f621d2dca210ef5b30f7",
+    "type": "Issue",
+    "name": "synthesize plug-and-play blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 5,
+    "comments": [],
+    "createdAt": 1599469089333,
+    "finishedAt": 1601285113065
+  },
+  {
+    "id": "5fe9e726b717ca187e4b4140",
+    "type": "Issue",
+    "name": "redefine viral communities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [
+      "26405aac-c226-4034-b396-74d71b9217ca",
+      "8cb0b23a-6671-4fe4-883c-182f3d762440",
+      "9a1fa5f0-990d-404d-991b-0230c7d76f7a",
+      "1a6e34cc-9bad-4092-b91a-79eb04bb3586",
+      "e06ef7c3-453b-40f5-86ae-cfdc02a5dd21",
+      "fd2e08f6-cba3-49cf-8a37-6dea7dd0da6a",
+      "c37e9e31-41db-4ec6-a23c-8ad53dd6dd9a"
+    ],
+    "createdAt": 1609164582078,
+    "finishedAt": 1613028535474
+  },
+  {
+    "id": "5fe5fb255c06633c9df94c22",
+    "type": "Issue",
+    "name": "facilitate world-class infrastructures",
+    "status": "inProgress",
+    "resolvedBy": 11,
+    "comments": [
+      "a6cae719-fe56-4b08-ad9d-7cae29c0340b",
+      "48bd14ad-f36d-4bfd-bdaf-f8d8810a020d"
+    ],
+    "createdAt": 1608907557265
+  },
+  {
+    "id": "5fbb74a5ee7da345493db372",
+    "type": "Issue",
+    "name": "scale killer networks",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 7,
+    "comments": [
+      "a70bbf13-0011-46fa-a1a4-8e321b143b69",
+      "0a2abac0-0c09-4185-896c-51f279332148",
+      "8d32630e-cb5d-41da-8b0d-f8bbd03564bf",
+      "6f662c3a-ade8-4257-aa86-6e5b4066d826",
+      "7fa6fc85-9c60-4345-abbd-eda958da8cf1"
+    ],
+    "createdAt": 1606120613347,
+    "finishedAt": 1606493667389
+  },
+  {
+    "id": "5f7740064adb1b43d2e7c981",
+    "type": "Issue",
+    "name": "incubate compelling blockchains",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [
+      "a85d64b8-c376-4cc7-917f-1d53d48f5a0a"
+    ],
+    "createdAt": 1601650693906,
+    "finishedAt": 1607592074292
+  },
+  {
+    "id": "5fd8ed5d15f9440a94b7a405",
+    "type": "Issue",
+    "name": "generate intuitive e-services",
+    "status": "closed",
+    "resolution": "fixed",
+    "comments": [],
+    "createdAt": 1608052060430,
+    "finishedAt": 1609166556400
+  },
+  {
+    "id": "5f2419ea02e9c8301dbd1744",
+    "type": "Issue",
+    "name": "envisioneer viral architectures",
+    "status": "closed",
+    "resolution": "duplicate",
+    "comments": [],
+    "createdAt": 1596201450489,
+    "finishedAt": 1607331051437
+  },
+  {
+    "id": "5f89ae497b537c5c121c923f",
+    "type": "Issue",
+    "name": "maximize front-end communities",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 2,
+    "comments": [],
+    "createdAt": 1602858569018,
+    "finishedAt": 1603706632785
+  },
+  {
+    "id": "5f88b915a6dfa025fe13e62b",
+    "type": "Issue",
+    "name": "redefine rich infrastructures",
+    "status": "closed",
+    "resolution": "cancelled",
+    "resolvedBy": 11,
+    "comments": [],
+    "createdAt": 1602795797233,
+    "finishedAt": 1602846037619
+  },
+  {
+    "id": "60118e3aea61694676f51563",
+    "type": "Issue",
+    "name": "architect collaborative markets",
+    "status": "closed",
+    "resolution": "cancelled",
+    "comments": [
+      "1e799197-4441-44c1-8c0b-50b9c99b6381",
+      "66a3db7c-8259-4a03-9747-1115bacb0c68",
+      "49139113-8faa-4960-921b-fab6263c3530",
+      "b7d7223f-9a84-4aac-a52d-cbf26c892de5",
+      "3f52e8d9-bd56-4f63-99a8-950ad4557275",
+      "d9db3584-af69-4e35-9aac-de312a37da80"
+    ],
+    "createdAt": 1611763258637,
+    "finishedAt": 1611763691775
+  },
+  {
+    "id": "5f918a83f2bfd742fe7ce8a2",
+    "type": "Issue",
+    "name": "embrace clicks-and-mortar action-items",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 6,
+    "comments": [
+      "b4efeeb2-49cf-4901-b470-feaca4e3f6a4",
+      "b17fdee1-4798-4109-b611-74c2d392d27b",
+      "acaff015-0b59-4836-8157-9efaac10644c",
+      "33d1ca5d-e03a-42ee-94ef-c076247f4f47",
+      "c85dc79d-3464-4488-97c3-d85bbdc70222"
+    ],
+    "createdAt": 1603373699232,
+    "finishedAt": 1606893000356
+  },
+  {
+    "id": "5f9c144ccfb02f536a1c816b",
+    "type": "Issue",
+    "name": "enhance 24/7 vortals",
+    "status": "closed",
+    "resolution": "fixed",
+    "resolvedBy": 12,
+    "comments": [],
+    "createdAt": 1604064331804,
+    "finishedAt": 1604934929516
+  }
+]
