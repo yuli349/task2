@@ -79,7 +79,7 @@ export type ActivityData = Template & {
 };
 
 export type ActivitySlide = {
-    alias: 'activity.json',
+    alias: 'activity',
     data: ActivityData
 };
 
