@@ -20,6 +20,7 @@ export class Store {
     projects: Project[] = [];
 
     commitsBySprint: { [key: number]: Commit[] } = {};
+    commentsBySprint: { [key: number]: Comment[] } = {};
 
     constructor(entities: Entity[]) {
         // Проходим один раз по всем записям, раскладывая их по типам
@@ -76,5 +77,23 @@ export class Store {
         }
 
         return this.commitsBySprint[sprint.id];
+    }
+
+    getSprintComments(sprint: Sprint): Comment[] {
+        if (this.commentsBySprint[sprint.id] === undefined) {
+            this.commentsBySprint[sprint.id] = this.comments.filter((comment) => (
+                comment.createdAt >= sprint.startAt && comment.createdAt <= sprint.finishAt));
+        }
+
+        return this.commentsBySprint[sprint.id];
+    }
+
+    getDayNameByDayNumber(sprint: Sprint): Comment[] {
+        if (this.commentsBySprint[sprint.id] === undefined) {
+            this.commentsBySprint[sprint.id] = this.comments.filter((comment) => (
+                comment.createdAt >= sprint.startAt && comment.createdAt <= sprint.finishAt));
+        }
+
+        return this.commentsBySprint[sprint.id];
     }
 }
