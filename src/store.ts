@@ -21,6 +21,7 @@ export class Store {
 
     commitsBySprint: { [key: number]: Commit[] } = {};
     commentsBySprint: { [key: number]: Comment[] } = {};
+    summariesByCommit: { [key: string]: Summary[] } = {};
 
     constructor(entities: Entity[]) {
         // Проходим один раз по всем записям, раскладывая их по типам
@@ -88,12 +89,12 @@ export class Store {
         return this.commentsBySprint[sprint.id];
     }
 
-    getDayNameByDayNumber(sprint: Sprint): Comment[] {
-        if (this.commentsBySprint[sprint.id] === undefined) {
-            this.commentsBySprint[sprint.id] = this.comments.filter((comment) => (
-                comment.createdAt >= sprint.startAt && comment.createdAt <= sprint.finishAt));
+    getCommitSummaries(commit: Commit): Summary[] {
+        let ret: any[];
+        ret = [];
+        if (this.summariesByCommit[commit.id] === undefined) {
+            ret = this.summaries.filter((summary) => commit.summaries.indexOf(summary.id) !== -1);
         }
-
-        return this.commentsBySprint[sprint.id];
+        return ret;
     }
 }
