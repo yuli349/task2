@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node ./build/index.js",
-    "build": "tsc && type build/amd.js > ./build/index.js",
+    "build": "tsc",
     "test": "jest"
   },
   "author": "",
