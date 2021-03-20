@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && type build\\amd.js >> build\\index.js",
     "test": "jest"
   },
   "author": "",
