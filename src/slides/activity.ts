@@ -20,7 +20,7 @@ interface DaysOfWeek {
 }
 
 // Нужно сгруппировать коммиты (для всех пользователей) в текущем спринте по дате и времени.
-export function prepareActivitySlide(store: Store, sprint: Sprint): ActivitySlide | null {
+export function prepareActivitySlide(store: Store, sprint: Sprint): ActivitySlide {
     const commits = store.getSprintCommits(sprint);
 
     const result : DaysOfWeek = {

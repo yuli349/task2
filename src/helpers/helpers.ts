@@ -90,13 +90,10 @@ export function getCommitSizeInterval(size: number): number {
     switch (true) {
         case size > 0 && size < 101:
             return 3;
-            break;
         case size >= 101 && size < 501:
             return 2;
-            break;
         case size >= 501 && size < 1001:
             return 1;
-            break;
         default:
             return 0;
     }

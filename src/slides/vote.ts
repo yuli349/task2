@@ -11,7 +11,7 @@ const SLIDE_TITLE = 'Самый 🔎 внимательный разработч
 const SLIDE_EMOJI = '🔎';
 
 // Нужно найти все лайки к комментариям, полученные разработчиками за спринт, и просуммировать их количество.
-export function prepareVoteSlide(store: Store, sprint: Sprint): VoteSlide | null {
+export function prepareVoteSlide(store: Store, sprint: Sprint): VoteSlide {
     const comments = store.getSprintComments(sprint);
     const userLikeCommentsCount = Object.entries(comments.reduce(commentReducer, {}));
     userLikeCommentsCount.sort((a, b) => b[1] - a[1]);

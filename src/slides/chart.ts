@@ -11,7 +11,7 @@ const SLIDE_TITLE = 'Коммиты';
 
 // В верхней части слайда отображается диаграмма, которая показывает количество коммитов в каждом спринте.
 // В нижней части находится список пользователей с наибольшим числом коммитов в текущем спринте.
-export function prepareChartSlide(store: Store, sprint: Sprint): ChartSlide | null {
+export function prepareChartSlide(store: Store, sprint: Sprint): ChartSlide {
     const commits = store.getSprintCommits(sprint);
 
     const userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));

@@ -16,7 +16,7 @@ const EXS_SPRINT_ID = 976;
 //
 // Размер коммита — это сумма количества добавленных и удаленных строк.
 // Например, если добавлено 5 строк и удалено 5 строк, то размер коммита будет равен 10.
-export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide | null {
+export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide {
     const commits = store.getSprintCommits(sprint);
     const exsCommits = store.getSprintCommits(store.getSprint(EXS_SPRINT_ID)!);
     const totalText = `${numberOfCommits(commits.length)}`;

@@ -12,7 +12,7 @@ const SLIDE_TITLE = 'Больше всего коммитов';
 const SLIDE_EMOJI = '👑';
 
 // Нужно найти все коммиты из заданного спринта, сгруппировать их по пользователям.
-export function prepareLeadersSlide(store: Store, sprint: Sprint): LeadersSlide | null {
+export function prepareLeadersSlide(store: Store, sprint: Sprint): LeadersSlide {
     const commits = store.getSprintCommits(sprint);
 
     const userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));
