@@ -388,6 +388,10 @@ function define(name, args, cb) {
 
         modules[name] = moduleExports;
     } else {
-        cb(function() {}, window);
+        var arguments = args.map(function(arg) {
+            if (arg === "require") return function() {};
+            return window;
+        });
+        cb.apply(null, arguments);
     }
 }
