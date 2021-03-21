@@ -16,7 +16,7 @@ export class Store {
     users: { [key: number]: User } = {};
     comments: Comment[] = [];
     issues: Issue[] = [];
-    summaries: Summary[] = [];
+    summaries: { [key: number]: Summary } = {};
     projects: Project[] = [];
 
     commitsBySprint: { [key: number]: Commit[] } = {};
@@ -48,7 +48,7 @@ export class Store {
                     break;
 
                 case 'Summary':
-                    this.summaries.push(entity);
+                    this.summaries[entity.id] = entity;
                     break;
 
                 case 'Project':
@@ -90,11 +90,13 @@ export class Store {
     }
 
     getCommitSummaries(commit: Commit): Summary[] {
-        let ret: any[];
-        ret = [];
-        if (this.summariesByCommit[commit.id] === undefined) {
-            ret = this.summaries.filter((summary) => commit.summaries.indexOf(summary.id) !== -1);
-        }
-        return ret;
+        const results: Summary[] = [];
+
+        commit.summaries.forEach((summaryOrId) => {
+            const summary = typeof summaryOrId === 'number' ? this.summaries[summaryOrId] : summaryOrId;
+            if (summary) results.push(summary);
+        });
+
+        return results;
     }
 }

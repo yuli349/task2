@@ -8,7 +8,6 @@ import { numberOfCommits, getCommitSizeCategories } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'diagram';
 const SLIDE_TITLE = 'Размер коммитов';
-const EXS_SPRINT_ID = 976;
 
 // Вам нужно найти все коммиты в текущем спринте и сгруппировать из по размеру (см. макет).
 // После этого сделайте всё то же самое для предыдущего спринта и посчитайте разницу между ними
@@ -18,7 +17,8 @@ const EXS_SPRINT_ID = 976;
 // Например, если добавлено 5 строк и удалено 5 строк, то размер коммита будет равен 10.
 export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide {
     const commits = store.getSprintCommits(sprint);
-    const exsCommits = store.getSprintCommits(store.getSprint(EXS_SPRINT_ID)!);
+    const exsSprint = store.getSprint(sprint.id - 1)!;
+    const exsCommits = store.getSprintCommits(exsSprint);
     const totalText = `${numberOfCommits(commits.length)}`;
     const differenceText = `${commits.length - exsCommits.length} с прошлого спринта`;
     const sizeCommitsCategories = getCommitSizeCategories(store, commits);

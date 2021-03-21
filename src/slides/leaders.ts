@@ -5,7 +5,7 @@
 import { LeadersSlide } from '../typings/output';
 import { Sprint } from '../typings/input';
 import { Store } from '../store';
-import { commitReducer, userMapper, userFilter } from '../helpers/helpers';
+import { commitReducer, userCommitsMapper, userFilter } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'leaders';
 const SLIDE_TITLE = 'Больше всего коммитов';
@@ -18,7 +18,7 @@ export function prepareLeadersSlide(store: Store, sprint: Sprint): LeadersSlide 
     const userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));
     userCommitsCount.sort((a, b) => b[1] - a[1]);
 
-    const users = userCommitsCount.map(userMapper.bind(null, store)).filter(userFilter);
+    const users = userCommitsCount.map(userCommitsMapper.bind(null, store)).filter(userFilter);
 
     return {
         alias: SLIDE_ALIAS,

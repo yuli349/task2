@@ -4,7 +4,7 @@
 import { ChartSlide } from '../typings/output';
 import { Sprint } from '../typings/input';
 import { Store } from '../store';
-import { commitReducer, userMapper, userFilter } from '../helpers/helpers';
+import { commitReducer, userCommitsMapper, userFilter } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'chart';
 const SLIDE_TITLE = 'Коммиты';
@@ -24,7 +24,7 @@ export function prepareChartSlide(store: Store, sprint: Sprint): ChartSlide {
         active: sprintItem.id === sprint.id || undefined,
     }));
 
-    const users = userCommitsCount.map(userMapper.bind(null, store)).filter(userFilter);
+    const users = userCommitsCount.map(userCommitsMapper.bind(null, store)).filter(userFilter);
 
     return {
         alias: SLIDE_ALIAS,

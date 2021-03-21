@@ -3,7 +3,7 @@
 import { ActivitySlide } from '../typings/output';
 import { Sprint } from '../typings/input';
 import { Store } from '../store';
-import { getDayNameByDayNumber } from '../helpers/helpers';
+import { getDayOfWeek } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'activity';
 const SLIDE_TITLE = 'Коммиты';
@@ -16,7 +16,6 @@ interface DaysOfWeek {
     thu: number[];
     fri: number[];
     sat: number[];
-    [key: string]: number[];
 }
 
 // Нужно сгруппировать коммиты (для всех пользователей) в текущем спринте по дате и времени.
@@ -35,9 +34,9 @@ export function prepareActivitySlide(store: Store, sprint: Sprint): ActivitySlid
     Object.entries(commits).reduce((acc, [,commit]) => {
         const date = new Date(commit.timestamp);
 
-        const dayWeekCommit = getDayNameByDayNumber(date.getDay());
+        const dayOfWeekCommit = getDayOfWeek(date.getDay());
         const hourCommit = date.getHours();
-        acc[dayWeekCommit][hourCommit]++;
+        acc[dayOfWeekCommit][hourCommit]++;
         return acc;
     }, result);
     return {

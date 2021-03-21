@@ -1,6 +1,8 @@
 var modules;
 function define(name, args, cb) {
     if (!modules) modules = {};
+
+    // NodeJS
     if (typeof window === "undefined") {
         var moduleExports = {};
         var actualArgs = args.map(function(arg) {
@@ -12,11 +14,15 @@ function define(name, args, cb) {
         cb.apply(null, actualArgs);
 
         modules[name] = moduleExports;
-    } else {
-        var arguments = args.map(function(arg) {
-            if (arg === "require") return function() {};
-            return window;
-        });
-        cb.apply(null, arguments);
+
+        // Main module
+        if (name === "index") {
+            module.exports = moduleExports;
+        }
+    }
+
+    // Browser
+    else {
+        // Not implemented...
     }
 }

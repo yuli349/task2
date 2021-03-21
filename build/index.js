@@ -18,7 +18,7 @@ define("store", ["require", "exports"], function (require, exports) {
             this.users = {};
             this.comments = [];
             this.issues = [];
-            this.summaries = [];
+            this.summaries = {};
             this.projects = [];
             this.commitsBySprint = {};
             this.commentsBySprint = {};
@@ -41,7 +41,7 @@ define("store", ["require", "exports"], function (require, exports) {
                         _this.issues.push(entity);
                         break;
                     case 'Summary':
-                        _this.summaries.push(entity);
+                        _this.summaries[entity.id] = entity;
                         break;
                     case 'Project':
                         _this.projects.push(entity);
@@ -70,12 +70,14 @@ define("store", ["require", "exports"], function (require, exports) {
             return this.commentsBySprint[sprint.id];
         };
         Store.prototype.getCommitSummaries = function (commit) {
-            var ret;
-            ret = [];
-            if (this.summariesByCommit[commit.id] === undefined) {
-                ret = this.summaries.filter(function (summary) { return commit.summaries.indexOf(summary.id) !== -1; });
-            }
-            return ret;
+            var _this = this;
+            var results = [];
+            commit.summaries.forEach(function (summaryOrId) {
+                var summary = typeof summaryOrId === 'number' ? _this.summaries[summaryOrId] : summaryOrId;
+                if (summary)
+                    results.push(summary);
+            });
+            return results;
         };
         return Store;
     }());
@@ -84,16 +86,13 @@ define("store", ["require", "exports"], function (require, exports) {
 define("helpers/helpers", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.getCommitSizeCategories = exports.getCommitSizeInterval = exports.getCommitSize = exports.getDayNameByDayNumber = exports.userFilter = exports.userVoteMapper = exports.userMapper = exports.commentReducer = exports.commitReducer = exports.numberOfCommits = exports.declOfNum = void 0;
+    exports.getCommitSizeCategories = exports.getCommitSizeInterval = exports.getCommitSize = exports.getDayOfWeek = exports.userFilter = exports.userVoteMapper = exports.userCommitsMapper = exports.commentReducer = exports.commitReducer = exports.numberOfCommits = exports.declOfNum = void 0;
     function declOfNum(number, words) {
         return words[(number % 100 > 4 && number % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(number % 10 < 5) ? number % 10 : 5]];
     }
     exports.declOfNum = declOfNum;
     function numberOfCommits(number) {
-        if (number < 0) {
-            return "-" + -number + " " + declOfNum(-number, ['коммит', 'коммита', 'коммитов']);
-        }
-        return number + " " + declOfNum(number, ['коммит', 'коммита', 'коммитов']);
+        return number + " " + declOfNum(Math.abs(number), ['коммит', 'коммита', 'коммитов']);
     }
     exports.numberOfCommits = numberOfCommits;
     function commitReducer(acc, commit) {
@@ -114,7 +113,7 @@ define("helpers/helpers", ["require", "exports"], function (require, exports) {
         return acc;
     }
     exports.commentReducer = commentReducer;
-    function userMapper(store, record) {
+    function userCommitsMapper(store, record) {
         var userId = record[0], commitsCount = record[1];
         var user = store.getUser(Number(userId));
         if (!user)
@@ -126,7 +125,7 @@ define("helpers/helpers", ["require", "exports"], function (require, exports) {
             valueText: String(commitsCount),
         };
     }
-    exports.userMapper = userMapper;
+    exports.userCommitsMapper = userCommitsMapper;
     function userVoteMapper(store, record) {
         var userId = record[0], commentsCount = record[1];
         var user = store.getUser(Number(userId));
@@ -144,11 +143,11 @@ define("helpers/helpers", ["require", "exports"], function (require, exports) {
         return Boolean(user);
     }
     exports.userFilter = userFilter;
-    function getDayNameByDayNumber(dayNumber) {
+    function getDayOfWeek(dayNumber) {
         var days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
         return days[dayNumber];
     }
-    exports.getDayNameByDayNumber = getDayNameByDayNumber;
+    exports.getDayOfWeek = getDayOfWeek;
     function getCommitSize(store, commit) {
         var summariesByCommit = store.getCommitSummaries(commit);
         var size = 0;
@@ -196,7 +195,7 @@ define("slides/leaders", ["require", "exports", "helpers/helpers"], function (re
         var commits = store.getSprintCommits(sprint);
         var userCommitsCount = Object.entries(commits.reduce(helpers_1.commitReducer, {}));
         userCommitsCount.sort(function (a, b) { return b[1] - a[1]; });
-        var users = userCommitsCount.map(helpers_1.userMapper.bind(null, store)).filter(helpers_1.userFilter);
+        var users = userCommitsCount.map(helpers_1.userCommitsMapper.bind(null, store)).filter(helpers_1.userFilter);
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -252,7 +251,7 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
                 active: sprintItem.id === sprint.id || undefined,
             });
         });
-        var users = userCommitsCount.map(helpers_3.userMapper.bind(null, store)).filter(helpers_3.userFilter);
+        var users = userCommitsCount.map(helpers_3.userCommitsMapper.bind(null, store)).filter(helpers_3.userFilter);
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -271,10 +270,10 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     exports.prepareDiagramSlide = void 0;
     var SLIDE_ALIAS = 'diagram';
     var SLIDE_TITLE = 'Размер коммитов';
-    var EXS_SPRINT_ID = 976;
     function prepareDiagramSlide(store, sprint) {
         var commits = store.getSprintCommits(sprint);
-        var exsCommits = store.getSprintCommits(store.getSprint(EXS_SPRINT_ID));
+        var exsSprint = store.getSprint(sprint.id - 1);
+        var exsCommits = store.getSprintCommits(exsSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
         var differenceText = commits.length - exsCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
         var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
@@ -334,9 +333,9 @@ define("slides/activity", ["require", "exports", "helpers/helpers"], function (r
         Object.entries(commits).reduce(function (acc, _a) {
             var commit = _a[1];
             var date = new Date(commit.timestamp);
-            var dayWeekCommit = helpers_5.getDayNameByDayNumber(date.getDay());
+            var dayOfWeekCommit = helpers_5.getDayOfWeek(date.getDay());
             var hourCommit = date.getHours();
-            acc[dayWeekCommit][hourCommit]++;
+            acc[dayOfWeekCommit][hourCommit]++;
             return acc;
         }, result);
         return {
@@ -376,6 +375,8 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
 var modules;
 function define(name, args, cb) {
     if (!modules) modules = {};
+
+    // NodeJS
     if (typeof window === "undefined") {
         var moduleExports = {};
         var actualArgs = args.map(function(arg) {
@@ -387,11 +388,15 @@ function define(name, args, cb) {
         cb.apply(null, actualArgs);
 
         modules[name] = moduleExports;
-    } else {
-        var arguments = args.map(function(arg) {
-            if (arg === "require") return function() {};
-            return window;
-        });
-        cb.apply(null, arguments);
+
+        // Main module
+        if (name === "index") {
+            module.exports = moduleExports;
+        }
+    }
+
+    // Browser
+    else {
+        // Not implemented...
     }
 }

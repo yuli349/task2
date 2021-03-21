@@ -2,6 +2,8 @@ import { Commit, Comment } from '../typings/input';
 import { Store } from '../store';
 import { User } from '../typings/output';
 
+export type DayOfWeek = 'sun' | 'mon' | 'tue' | 'wed' | 'thu' | 'fri' | 'sat';
+
 interface CommitReducerAcc { [userIdKey: string]: number }
 
 export function declOfNum(number: number, words: [string, string, string]) {
@@ -9,10 +11,7 @@ export function declOfNum(number: number, words: [string, string, string]) {
 }
 
 export function numberOfCommits(number: number) {
-    if (number < 0) {
-        return `-${-number} ${declOfNum(-number, ['коммит', 'коммита', 'коммитов'])}`;
-    }
-    return `${number} ${declOfNum(number, ['коммит', 'коммита', 'коммитов'])}`;
+    return `${number} ${declOfNum(Math.abs(number), ['коммит', 'коммита', 'коммитов'])}`;
 }
 
 export function commitReducer(acc: CommitReducerAcc, commit: Commit): CommitReducerAcc {
@@ -39,7 +38,7 @@ export function commentReducer(acc: CommitReducerAcc, comment: Comment): CommitR
     return acc;
 }
 
-export function userMapper(store: Store, record: [string, number]): User | null {
+export function userCommitsMapper(store: Store, record: [string, number]): User | null {
     const [userId, commitsCount] = record;
     const user = store.getUser(Number(userId));
 
@@ -71,8 +70,8 @@ export function userFilter(user: User | null): user is User {
     return Boolean(user);
 }
 
-export function getDayNameByDayNumber(dayNumber: number): string {
-    const days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+export function getDayOfWeek(dayNumber: number): DayOfWeek {
+    const days: Array<DayOfWeek> = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
     return days[dayNumber];
 }
 
