@@ -63,8 +63,8 @@ export class Store {
         });
     }
 
-    getSprint(sprintId: SprintId): Sprint {
-        return this.sprints[sprintId] || this.sprints[958];
+    getSprint(sprintId: SprintId): Sprint | null {
+        return this.sprints[sprintId] || null;
     }
 
     getUser(userId: UserId): User | null {
@@ -72,6 +72,7 @@ export class Store {
     }
 
     getSprintCommits(sprint: Sprint): Commit[] {
+        if (sprint === null) return [];
         if (this.commitsBySprint[sprint.id] === undefined) {
             this.commitsBySprint[sprint.id] = this.commits.filter((commit) => (
                 commit.timestamp >= sprint.startAt && commit.timestamp <= sprint.finishAt));
