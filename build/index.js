@@ -148,6 +148,14 @@ define("helpers/helpers", ["require", "exports"], function (require, exports) {
     function getUsers(store, sprint) {
         var commits = store.getSprintCommits(sprint);
         var userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));
+        if (userCommitsCount.length === 0) {
+            return [{
+                    id: 0,
+                    name: '',
+                    avatar: '',
+                    valueText: '',
+                }];
+        }
         userCommitsCount.sort(function (a, b) { return b[1] - a[1]; });
         return userCommitsCount.map(userCommitsMapper.bind(null, store)).filter(userFilter);
     }
@@ -221,10 +229,19 @@ define("slides/vote", ["require", "exports", "helpers/helpers"], function (requi
     var SLIDE_TITLE = 'Самый 🔎 внимательный разработчик';
     var SLIDE_EMOJI = '🔎';
     function prepareVoteSlide(store, sprint) {
+        var users;
         var comments = store.getSprintComments(sprint);
         var userLikeCommentsCount = Object.entries(comments.reduce(helpers_2.commentReducer, {}));
         userLikeCommentsCount.sort(function (a, b) { return b[1] - a[1]; });
-        var users = userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter);
+        users = userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter);
+        if (userLikeCommentsCount.length === 0) {
+            users = [{
+                    id: 0,
+                    name: '',
+                    avatar: '',
+                    valueText: '',
+                }];
+        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -365,63 +382,8 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
-        if (!sprint) {
-            return [
-                {
-                    alias: 'leaders',
-                    data: {
-                        emoji: '',
-                        subtitle: '',
-                        title: '',
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'vote',
-                    data: {
-                        emoji: '',
-                        subtitle: '',
-                        title: '',
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'chart',
-                    data: {
-                        subtitle: '',
-                        title: '',
-                        users: [],
-                        values: [],
-                    },
-                },
-                {
-                    alias: 'diagram',
-                    data: {
-                        title: '',
-                        subtitle: '',
-                        totalText: '',
-                        differenceText: '',
-                        categories: [],
-                    },
-                },
-                {
-                    alias: 'activity',
-                    data: {
-                        title: '',
-                        subtitle: '',
-                        data: {
-                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        },
-                    },
-                },
-            ];
-        }
+        if (!sprint)
+            return [];
         return [
             leaders_1.prepareLeadersSlide(store, sprint),
             vote_1.prepareVoteSlide(store, sprint),
