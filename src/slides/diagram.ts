@@ -16,38 +16,65 @@ const SLIDE_TITLE = 'Размер коммитов';
 // Размер коммита — это сумма количества добавленных и удаленных строк.
 // Например, если добавлено 5 строк и удалено 5 строк, то размер коммита будет равен 10.
 export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide {
+    let differenceText = '0 с прошлого спринта';
+
+    let categories = [
+        {
+            title: '> 1001 строки',
+            valueText: '0 коммитов',
+            differenceText: '0 коммитов',
+        },
+        {
+            title: '501 — 1000 строк',
+            valueText: '0 коммитов',
+            differenceText: '0 коммитов',
+        },
+        {
+            title: '101 — 500 строк',
+            valueText: '0 коммитов',
+            differenceText: '0 коммитов',
+        },
+        {
+            title: '1 — 100 строк',
+            valueText: '0 коммитов',
+            differenceText: '0 коммитов',
+        },
+    ];
     const commits = store.getSprintCommits(sprint);
     const { sprintIds } = store;
     sprintIds.sort();
     const prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1] ?? sprint.id;
-    const exsSprint = store.getSprint(prevSprintId)!;
-    const exsCommits = store.getSprintCommits(exsSprint);
+    const prevSprint = store.getSprint(prevSprintId)!;
+    const prevCommits = store.getSprintCommits(prevSprint);
     const totalText = `${numberOfCommits(commits.length)}`;
-    const differenceText = `${commits.length - exsCommits.length} с прошлого спринта`;
-    const sizeCommitsCategories = getCommitSizeCategories(store, commits);
-    const sizeExsCommitsCategories = getCommitSizeCategories(store, exsCommits);
-    const categories = [
-        {
-            title: '> 1001 строки',
-            valueText: `${numberOfCommits(sizeCommitsCategories[0])}`,
-            differenceText: `${numberOfCommits(sizeCommitsCategories[0] - sizeExsCommitsCategories[0])}`,
-        },
-        {
-            title: '501 — 1000 строк',
-            valueText: `${numberOfCommits(sizeCommitsCategories[1])}`,
-            differenceText: `${numberOfCommits(sizeCommitsCategories[1] - sizeExsCommitsCategories[1])}`,
-        },
-        {
-            title: '101 — 500 строк',
-            valueText: `${numberOfCommits(sizeCommitsCategories[2])}`,
-            differenceText: `${numberOfCommits(sizeCommitsCategories[2] - sizeExsCommitsCategories[2])}`,
-        },
-        {
-            title: '1 — 100 строк',
-            valueText: `${numberOfCommits(sizeCommitsCategories[3])}`,
-            differenceText: `${numberOfCommits(sizeCommitsCategories[3] - sizeExsCommitsCategories[3])}`,
-        },
-    ];
+    if (commits && prevCommits) {
+        differenceText = `${commits.length - prevCommits.length} с прошлого спринта`;
+
+        const sizeCommitsCategories = getCommitSizeCategories(store, commits);
+        const sizePrevCommitsCategories = getCommitSizeCategories(store, prevCommits);
+        categories = [
+            {
+                title: '> 1001 строки',
+                valueText: `${numberOfCommits(sizeCommitsCategories[0])}`,
+                differenceText: `${numberOfCommits(sizeCommitsCategories[0] - sizePrevCommitsCategories[0])}`,
+            },
+            {
+                title: '501 — 1000 строк',
+                valueText: `${numberOfCommits(sizeCommitsCategories[1])}`,
+                differenceText: `${numberOfCommits(sizeCommitsCategories[1] - sizePrevCommitsCategories[1])}`,
+            },
+            {
+                title: '101 — 500 строк',
+                valueText: `${numberOfCommits(sizeCommitsCategories[2])}`,
+                differenceText: `${numberOfCommits(sizeCommitsCategories[2] - sizePrevCommitsCategories[2])}`,
+            },
+            {
+                title: '1 — 100 строк',
+                valueText: `${numberOfCommits(sizeCommitsCategories[3])}`,
+                differenceText: `${numberOfCommits(sizeCommitsCategories[3] - sizePrevCommitsCategories[3])}`,
+            },
+        ];
+    }
     return {
         alias: SLIDE_ALIAS,
         data: {

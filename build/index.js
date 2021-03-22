@@ -273,38 +273,63 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Размер коммитов';
     function prepareDiagramSlide(store, sprint) {
         var _a;
+        var differenceText = '0 с прошлого спринта';
+        var categories = [
+            {
+                title: '> 1001 строки',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+            {
+                title: '501 — 1000 строк',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+            {
+                title: '101 — 500 строк',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+            {
+                title: '1 — 100 строк',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+        ];
         var commits = store.getSprintCommits(sprint);
         var sprintIds = store.sprintIds;
         sprintIds.sort();
         var prevSprintId = (_a = sprintIds[sprintIds.indexOf(sprint.id) - 1]) !== null && _a !== void 0 ? _a : sprint.id;
-        var exsSprint = store.getSprint(prevSprintId);
-        var exsCommits = store.getSprintCommits(exsSprint);
+        var prevSprint = store.getSprint(prevSprintId);
+        var prevCommits = store.getSprintCommits(prevSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
-        var differenceText = commits.length - exsCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
-        var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
-        var sizeExsCommitsCategories = helpers_4.getCommitSizeCategories(store, exsCommits);
-        var categories = [
-            {
-                title: '> 1001 строки',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0] - sizeExsCommitsCategories[0]),
-            },
-            {
-                title: '501 — 1000 строк',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1] - sizeExsCommitsCategories[1]),
-            },
-            {
-                title: '101 — 500 строк',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2] - sizeExsCommitsCategories[2]),
-            },
-            {
-                title: '1 — 100 строк',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3] - sizeExsCommitsCategories[3]),
-            },
-        ];
+        if (commits && prevCommits) {
+            differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
+            var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
+            var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
+            categories = [
+                {
+                    title: '> 1001 строки',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0] - sizePrevCommitsCategories[0]),
+                },
+                {
+                    title: '501 — 1000 строк',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1] - sizePrevCommitsCategories[1]),
+                },
+                {
+                    title: '101 — 500 строк',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2] - sizePrevCommitsCategories[2]),
+                },
+                {
+                    title: '1 — 100 строк',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3] - sizePrevCommitsCategories[3]),
+                },
+            ];
+        }
         return {
             alias: SLIDE_ALIAS,
             data: {
