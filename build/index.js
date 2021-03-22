@@ -272,10 +272,11 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_ALIAS = 'diagram';
     var SLIDE_TITLE = 'Размер коммитов';
     function prepareDiagramSlide(store, sprint) {
+        var _a;
         var commits = store.getSprintCommits(sprint);
         var sprintIds = store.sprintIds;
         sprintIds.sort();
-        var prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1];
+        var prevSprintId = (_a = sprintIds[sprintIds.indexOf(sprint.id) - 1]) !== null && _a !== void 0 ? _a : sprint.id;
         var exsSprint = store.getSprint(prevSprintId);
         var exsCommits = store.getSprintCommits(exsSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);

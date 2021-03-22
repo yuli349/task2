@@ -19,7 +19,7 @@ export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide 
     const commits = store.getSprintCommits(sprint);
     const { sprintIds } = store;
     sprintIds.sort();
-    const prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1];
+    const prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1] ?? sprint.id;
     const exsSprint = store.getSprint(prevSprintId)!;
     const exsCommits = store.getSprintCommits(exsSprint);
     const totalText = `${numberOfCommits(commits.length)}`;
