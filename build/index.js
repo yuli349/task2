@@ -273,29 +273,6 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Размер коммитов';
     function prepareDiagramSlide(store, sprint) {
         var _a;
-        var differenceText = '0 с прошлого спринта';
-        var categories = [
-            {
-                title: '> 1001 строки',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
-            },
-            {
-                title: '501 — 1000 строк',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
-            },
-            {
-                title: '101 — 500 строк',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
-            },
-            {
-                title: '1 — 100 строк',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
-            },
-        ];
         var commits = store.getSprintCommits(sprint);
         var sprintIds = store.sprintIds;
         sprintIds.sort();
@@ -303,33 +280,31 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         var prevSprint = store.getSprint(prevSprintId);
         var prevCommits = store.getSprintCommits(prevSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
-        if (commits && prevCommits) {
-            differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
-            var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
-            var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
-            categories = [
-                {
-                    title: '> 1001 строки',
-                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0]),
-                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0] - sizePrevCommitsCategories[0]),
-                },
-                {
-                    title: '501 — 1000 строк',
-                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1]),
-                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1] - sizePrevCommitsCategories[1]),
-                },
-                {
-                    title: '101 — 500 строк',
-                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2]),
-                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2] - sizePrevCommitsCategories[2]),
-                },
-                {
-                    title: '1 — 100 строк',
-                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3]),
-                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3] - sizePrevCommitsCategories[3]),
-                },
-            ];
-        }
+        var differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
+        var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
+        var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
+        var categories = [
+            {
+                title: '> 1001 строки',
+                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0]),
+                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0] - sizePrevCommitsCategories[0]),
+            },
+            {
+                title: '501 — 1000 строк',
+                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1]),
+                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1] - sizePrevCommitsCategories[1]),
+            },
+            {
+                title: '101 — 500 строк',
+                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2]),
+                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2] - sizePrevCommitsCategories[2]),
+            },
+            {
+                title: '1 — 100 строк',
+                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3]),
+                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3] - sizePrevCommitsCategories[3]),
+            },
+        ];
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -390,8 +365,63 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
-        if (!sprint)
-            return [];
+        if (!sprint) {
+            return [
+                {
+                    alias: 'leaders',
+                    data: {
+                        emoji: '',
+                        subtitle: '',
+                        title: '',
+                        users: [],
+                    },
+                },
+                {
+                    alias: 'vote',
+                    data: {
+                        emoji: '',
+                        subtitle: '',
+                        title: '',
+                        users: [],
+                    },
+                },
+                {
+                    alias: 'chart',
+                    data: {
+                        subtitle: '',
+                        title: '',
+                        users: [],
+                        values: [],
+                    },
+                },
+                {
+                    alias: 'diagram',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        totalText: '',
+                        differenceText: '',
+                        categories: [],
+                    },
+                },
+                {
+                    alias: 'activity',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        data: {
+                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        },
+                    },
+                },
+            ];
+        }
         return [
             leaders_1.prepareLeadersSlide(store, sprint),
             vote_1.prepareVoteSlide(store, sprint),
