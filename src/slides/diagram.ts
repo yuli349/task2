@@ -20,7 +20,7 @@ export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide 
     const exsSprint = store.getSprint(sprint.id - 1)!;
     const exsCommits = store.getSprintCommits(exsSprint);
     const totalText = `${numberOfCommits(commits.length)}`;
-    const differenceText = `${commits.length - exsCommits.length} с прошлого спринта`;
+    const differenceText = `${commits.length !== 0 ? commits.length - exsCommits.length : 0} с прошлого спринта`;
     const sizeCommitsCategories = getCommitSizeCategories(store, commits);
     const sizeExsCommitsCategories = getCommitSizeCategories(store, exsCommits);
     const categories = [
