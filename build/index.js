@@ -14,6 +14,7 @@ define("store", ["require", "exports"], function (require, exports) {
         function Store(entities) {
             var _this = this;
             this.sprints = {};
+            this.sprintIds = [];
             this.commits = [];
             this.users = {};
             this.comments = [];
@@ -27,6 +28,7 @@ define("store", ["require", "exports"], function (require, exports) {
                 switch (entity.type) {
                     case 'Sprint':
                         _this.sprints[entity.id] = entity;
+                        _this.sprintIds.push(entity.id);
                         break;
                     case 'Commit':
                         _this.commits.push(entity);
@@ -271,8 +273,9 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Размер коммитов';
     function prepareDiagramSlide(store, sprint) {
         var commits = store.getSprintCommits(sprint);
-        var sprintIds = Object.keys(store.sprints).sort();
-        var prevSprintId = parseInt(sprintIds[sprintIds.indexOf(sprint.id.toString()) - 1], 10);
+        var sprintIds = store.sprintIds;
+        sprintIds.sort();
+        var prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1];
         var exsSprint = store.getSprint(prevSprintId);
         var exsCommits = store.getSprintCommits(exsSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
