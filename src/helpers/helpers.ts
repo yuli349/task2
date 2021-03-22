@@ -1,4 +1,4 @@
-import { Commit, Comment } from '../typings/input';
+import { Commit, Comment, Sprint } from '../typings/input';
 import { Store } from '../store';
 import { User } from '../typings/output';
 
@@ -68,6 +68,15 @@ export function userVoteMapper(store: Store, record: [string, number]): User | n
 
 export function userFilter(user: User | null): user is User {
     return Boolean(user);
+}
+
+export function getUsers(store: Store, sprint: Sprint) {
+    const commits = store.getSprintCommits(sprint);
+
+    const userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));
+    userCommitsCount.sort((a, b) => b[1] - a[1]);
+
+    return userCommitsCount.map(userCommitsMapper.bind(null, store)).filter(userFilter);
 }
 
 export function getDayOfWeek(dayNumber: number): DayOfWeek {
