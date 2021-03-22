@@ -12,6 +12,7 @@ import {
 
 export class Store {
     sprints: { [key: number]: Sprint } = {};
+    sprintIds: number[] = [];
     commits: Commit[] = [];
     users: { [key: number]: User } = {};
     comments: Comment[] = [];
@@ -29,6 +30,7 @@ export class Store {
             switch (entity.type) {
                 case 'Sprint':
                     this.sprints[entity.id] = entity;
+                    this.sprintIds.push(entity.id);
                     break;
 
                 case 'Commit':

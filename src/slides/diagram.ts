@@ -17,8 +17,9 @@ const SLIDE_TITLE = 'Размер коммитов';
 // Например, если добавлено 5 строк и удалено 5 строк, то размер коммита будет равен 10.
 export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide {
     const commits = store.getSprintCommits(sprint);
-    const sprintIds = Object.keys(store.sprints).sort();
-    const prevSprintId = parseInt(sprintIds[sprintIds.indexOf(sprint.id.toString()) - 1], 10);
+    const { sprintIds } = store;
+    sprintIds.sort();
+    const prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1];
     const exsSprint = store.getSprint(prevSprintId)!;
     const exsCommits = store.getSprintCommits(exsSprint);
     const totalText = `${numberOfCommits(commits.length)}`;
