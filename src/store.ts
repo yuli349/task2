@@ -74,7 +74,7 @@ export class Store {
     getSprintCommits(sprint: Sprint): Commit[] {
         if (this.commitsBySprint[sprint.id] === undefined) {
             this.commitsBySprint[sprint.id] = this.commits.filter((commit) => (
-                commit.timestamp >= sprint.startAt && commit.timestamp <= sprint.finishAt));
+                commit.timestamp >= sprint.startAt && commit.timestamp < sprint.finishAt));
         }
 
         return this.commitsBySprint[sprint.id];
@@ -83,7 +83,7 @@ export class Store {
     getSprintComments(sprint: Sprint): Comment[] {
         if (this.commentsBySprint[sprint.id] === undefined) {
             this.commentsBySprint[sprint.id] = this.comments.filter((comment) => (
-                comment.createdAt >= sprint.startAt && comment.createdAt <= sprint.finishAt));
+                comment.createdAt >= sprint.startAt && comment.createdAt < sprint.finishAt));
         }
 
         return this.commentsBySprint[sprint.id];

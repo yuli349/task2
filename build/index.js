@@ -59,13 +59,13 @@ define("store", ["require", "exports"], function (require, exports) {
         };
         Store.prototype.getSprintCommits = function (sprint) {
             if (this.commitsBySprint[sprint.id] === undefined) {
-                this.commitsBySprint[sprint.id] = this.commits.filter(function (commit) { return (commit.timestamp >= sprint.startAt && commit.timestamp <= sprint.finishAt); });
+                this.commitsBySprint[sprint.id] = this.commits.filter(function (commit) { return (commit.timestamp >= sprint.startAt && commit.timestamp < sprint.finishAt); });
             }
             return this.commitsBySprint[sprint.id];
         };
         Store.prototype.getSprintComments = function (sprint) {
             if (this.commentsBySprint[sprint.id] === undefined) {
-                this.commentsBySprint[sprint.id] = this.comments.filter(function (comment) { return (comment.createdAt >= sprint.startAt && comment.createdAt <= sprint.finishAt); });
+                this.commentsBySprint[sprint.id] = this.comments.filter(function (comment) { return (comment.createdAt >= sprint.startAt && comment.createdAt < sprint.finishAt); });
             }
             return this.commentsBySprint[sprint.id];
         };
@@ -86,7 +86,7 @@ define("store", ["require", "exports"], function (require, exports) {
 define("helpers/helpers", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.getCommitSizeCategories = exports.getCommitSizeInterval = exports.getCommitSize = exports.getDayOfWeek = exports.userFilter = exports.userVoteMapper = exports.userCommitsMapper = exports.commentReducer = exports.commitReducer = exports.numberOfCommits = exports.declOfNum = void 0;
+    exports.getCommitSizeCategories = exports.getCommitSizeInterval = exports.getCommitSize = exports.getDayOfWeek = exports.getUsers = exports.userFilter = exports.userVoteMapper = exports.userCommitsMapper = exports.commentReducer = exports.commitReducer = exports.numberOfCommits = exports.declOfNum = void 0;
     function declOfNum(number, words) {
         return words[(number % 100 > 4 && number % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(number % 10 < 5) ? number % 10 : 5]];
     }
@@ -143,6 +143,13 @@ define("helpers/helpers", ["require", "exports"], function (require, exports) {
         return Boolean(user);
     }
     exports.userFilter = userFilter;
+    function getUsers(store, sprint) {
+        var commits = store.getSprintCommits(sprint);
+        var userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));
+        userCommitsCount.sort(function (a, b) { return b[1] - a[1]; });
+        return userCommitsCount.map(userCommitsMapper.bind(null, store)).filter(userFilter);
+    }
+    exports.getUsers = getUsers;
     function getDayOfWeek(dayNumber) {
         var days = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
         return days[dayNumber];
@@ -192,17 +199,13 @@ define("slides/leaders", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Больше всего коммитов';
     var SLIDE_EMOJI = '👑';
     function prepareLeadersSlide(store, sprint) {
-        var commits = store.getSprintCommits(sprint);
-        var userCommitsCount = Object.entries(commits.reduce(helpers_1.commitReducer, {}));
-        userCommitsCount.sort(function (a, b) { return b[1] - a[1]; });
-        var users = userCommitsCount.map(helpers_1.userCommitsMapper.bind(null, store)).filter(helpers_1.userFilter);
         return {
             alias: SLIDE_ALIAS,
             data: {
                 title: SLIDE_TITLE,
                 subtitle: sprint.name,
                 emoji: SLIDE_EMOJI,
-                users: users,
+                users: helpers_1.getUsers(store, sprint),
             },
         };
     }
@@ -239,9 +242,6 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
     var SLIDE_ALIAS = 'chart';
     var SLIDE_TITLE = 'Коммиты';
     function prepareChartSlide(store, sprint) {
-        var commits = store.getSprintCommits(sprint);
-        var userCommitsCount = Object.entries(commits.reduce(helpers_3.commitReducer, {}));
-        userCommitsCount.sort(function (a, b) { return b[1] - a[1]; });
         var values = Object.entries(store.sprints).map(function (_a) {
             var sprintItem = _a[1];
             return ({
@@ -251,14 +251,13 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
                 active: sprintItem.id === sprint.id || undefined,
             });
         });
-        var users = userCommitsCount.map(helpers_3.userCommitsMapper.bind(null, store)).filter(helpers_3.userFilter);
         return {
             alias: SLIDE_ALIAS,
             data: {
                 title: SLIDE_TITLE,
                 subtitle: sprint.name,
                 values: values,
-                users: users,
+                users: helpers_3.getUsers(store, sprint),
             },
         };
     }
@@ -272,7 +271,9 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Размер коммитов';
     function prepareDiagramSlide(store, sprint) {
         var commits = store.getSprintCommits(sprint);
-        var exsSprint = store.getSprint(sprint.id - 1);
+        var sprintIds = Object.keys(store.sprints).sort();
+        var prevSprintId = parseInt(sprintIds[sprintIds.indexOf(sprint.id.toString()) - 1], 10);
+        var exsSprint = store.getSprint(prevSprintId);
         var exsCommits = store.getSprintCommits(exsSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
         var differenceText = commits.length - exsCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
