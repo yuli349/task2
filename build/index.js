@@ -388,7 +388,7 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
     function prepareData(entities, options) {
         if (!Array.isArray(entities))
             return [];
-        if (!options || !options.sprintId)
+        if (!options)
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
