@@ -20,7 +20,7 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                 alias: 'leaders',
                 data: {
                     title: sprint.name,
-                    subtitle: '',
+                    subtitle: sprint.name,
                     emoji: '',
                     users: [],
                 },
@@ -29,7 +29,7 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                 alias: 'vote',
                 data: {
                     title: sprint.name,
-                    subtitle: '',
+                    subtitle: sprint.name,
                     emoji: '',
                     users: [],
                 },
@@ -38,7 +38,7 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                 alias: 'chart',
                 data: {
                     title: sprint.name,
-                    subtitle: '',
+                    subtitle: sprint.name,
                     values: [],
                     users: [],
                 },
@@ -47,7 +47,7 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                 alias: 'diagram',
                 data: {
                     title: sprint.name,
-                    subtitle: '',
+                    subtitle: sprint.name,
                     totalText: '',
                     differenceText: '',
                     categories: [
@@ -78,7 +78,7 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                 alias: 'activity',
                 data: {
                     title: sprint.name,
-                    subtitle: '',
+                    subtitle: sprint.name,
                     data: {
                         sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                         mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
