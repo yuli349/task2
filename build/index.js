@@ -90,7 +90,7 @@ define("store", ["require", "exports"], function (require, exports) {
 define("helpers/helpers", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.getCommitSizeCategories = exports.getCommitSizeInterval = exports.getCommitSize = exports.getDayOfWeek = exports.getUsers = exports.userFilter = exports.userVoteMapper = exports.userCommitsMapper = exports.commentReducer = exports.commitReducer = exports.numberOfCommits = exports.declOfNum = void 0;
+    exports.getCommitSizeCategories = exports.getCommitSizeInterval = exports.getCommitSize = exports.getDayOfWeek = exports.getUsers = exports.userFilter = exports.userVoteMapper = exports.userCommitsMapper = exports.commentReducer = exports.commitReducer = exports.numberDifferentText = exports.numberOfCommits = exports.declOfNum = void 0;
     function declOfNum(number, words) {
         return words[(number % 100 > 4 && number % 100 < 20) ? 2 : [2, 0, 1, 1, 1, 2][(number % 10 < 5) ? number % 10 : 5]];
     }
@@ -99,6 +99,16 @@ define("helpers/helpers", ["require", "exports"], function (require, exports) {
         return number + " " + declOfNum(Math.abs(number), ['коммит', 'коммита', 'коммитов']);
     }
     exports.numberOfCommits = numberOfCommits;
+    function numberDifferentText(number) {
+        if (number < 0) {
+            return "-" + -number;
+        }
+        if (number === 0) {
+            return number;
+        }
+        return "+" + number;
+    }
+    exports.numberDifferentText = numberDifferentText;
     function commitReducer(acc, commit) {
         var userId = typeof commit.author === 'number' ? commit.author : commit.author.id;
         if (!acc[userId]) {
@@ -275,7 +285,7 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Размер коммитов';
     function prepareDiagramSlide(store, sprint) {
         var _a;
-        var differenceText = '0 с прошлого спринта';
+        var differenceText;
         var categories = [
             {
                 title: '> 1001 строки',
@@ -305,20 +315,18 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         var prevSprint = store.getSprint(prevSprintId);
         var prevCommits = store.getSprintCommits(prevSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
+        differenceText = helpers_4.numberDifferentText(commits.length - prevCommits.length) + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
         var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
         var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
         if (prevSprintId === sprintIds[0]) {
-            differenceText = commits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
+            differenceText = helpers_4.numberDifferentText(commits.length) + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
             sizePrevCommitsCategories = [0, 0, 0, 0];
         }
-        if (commits.length && prevCommits.length) {
-            differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
-            for (var i = 0; i < categories.length; ++i) {
-                Object.assign(categories[i], {
-                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i]),
-                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i]),
-                });
-            }
+        for (var i = 0; i < categories.length; ++i) {
+            Object.assign(categories[i], {
+                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i]),
+                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i]),
+            });
         }
         return {
             alias: SLIDE_ALIAS,

@@ -14,6 +14,15 @@ export function numberOfCommits(number: number) {
     return `${number} ${declOfNum(Math.abs(number), ['коммит', 'коммита', 'коммитов'])}`;
 }
 
+export function numberDifferentText(number: number) {
+    if (number < 0) {
+        return `-${-number}`;
+    } if (number === 0) {
+        return number;
+    }
+    return `+${number}`;
+}
+
 export function commitReducer(acc: CommitReducerAcc, commit: Commit): CommitReducerAcc {
     const userId = typeof commit.author === 'number' ? commit.author : commit.author.id;
 
