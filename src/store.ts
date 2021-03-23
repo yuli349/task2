@@ -65,8 +65,8 @@ export class Store {
         });
     }
 
-    getSprint(sprintId: SprintId): Sprint | null {
-        return this.sprints[sprintId] || null;
+    getSprint(sprintId: SprintId): Sprint {
+        return this.sprints[sprintId];
     }
 
     getUser(userId: UserId): User | null {

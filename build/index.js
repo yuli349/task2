@@ -54,7 +54,7 @@ define("store", ["require", "exports"], function (require, exports) {
             });
         }
         Store.prototype.getSprint = function (sprintId) {
-            return this.sprints[sprintId] || null;
+            return this.sprints[sprintId];
         };
         Store.prototype.getUser = function (userId) {
             return this.users[userId] || null;
@@ -392,12 +392,13 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
-        if (!sprint) {
+        var commits = store.getSprintCommits(sprint);
+        if (!commits.length) {
             return [
                 {
                     alias: 'leaders',
                     data: {
-                        title: '',
+                        title: sprint.name,
                         subtitle: '',
                         emoji: '',
                         users: [],
@@ -406,7 +407,7 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
                 {
                     alias: 'vote',
                     data: {
-                        title: '',
+                        title: sprint.name,
                         subtitle: '',
                         emoji: '',
                         users: [],
@@ -415,29 +416,39 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
                 {
                     alias: 'chart',
                     data: {
-                        title: '',
+                        title: sprint.name,
                         subtitle: '',
-                        values: [
-                            {
-                                title: '',
-                                value: 0,
-                            },
-                        ],
+                        values: [],
                         users: [],
                     },
                 },
                 {
                     alias: 'diagram',
                     data: {
-                        title: '',
+                        title: sprint.name,
                         subtitle: '',
                         totalText: '',
                         differenceText: '',
                         categories: [
                             {
-                                title: '',
-                                valueText: '',
-                                differenceText: '',
+                                title: '> 1001 строки',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
+                            },
+                            {
+                                title: '501 — 1000 строк',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
+                            },
+                            {
+                                title: '101 — 500 строк',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
+                            },
+                            {
+                                title: '1 — 100 строк',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
                             },
                         ],
                     },
@@ -445,16 +456,16 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
                 {
                     alias: 'activity',
                     data: {
-                        title: '',
+                        title: sprint.name,
                         subtitle: '',
                         data: {
-                            sun: [],
-                            mon: [],
-                            tue: [],
-                            wed: [],
-                            thu: [],
-                            fri: [],
-                            sat: [],
+                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                         },
                     },
                 },
