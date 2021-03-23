@@ -388,7 +388,7 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
     function prepareData(entities, options) {
         if (!Array.isArray(entities))
             return [];
-        if (!options)
+        if (!options || !options.sprintId)
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
@@ -397,28 +397,28 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
                 {
                     alias: 'leaders',
                     data: {
-                        emoji: '',
-                        subtitle: '',
                         title: '',
+                        subtitle: '',
+                        emoji: '',
                         users: [],
                     },
                 },
                 {
                     alias: 'vote',
                     data: {
-                        emoji: '',
-                        subtitle: '',
                         title: '',
+                        subtitle: '',
+                        emoji: '',
                         users: [],
                     },
                 },
                 {
                     alias: 'chart',
                     data: {
-                        subtitle: '',
                         title: '',
-                        users: [],
+                        subtitle: '',
                         values: [],
+                        users: [],
                     },
                 },
                 {
@@ -437,13 +437,13 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
                         title: '',
                         subtitle: '',
                         data: {
-                            sun: [],
-                            mon: [],
-                            tue: [],
-                            wed: [],
-                            thu: [],
-                            fri: [],
-                            sat: [],
+                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                         },
                     },
                 },

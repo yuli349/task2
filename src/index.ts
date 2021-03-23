@@ -9,7 +9,7 @@ import { prepareActivitySlide } from './slides/activity';
 
 export function prepareData(entities: Entity[], options: { sprintId: number }): Slide[] {
     if (!Array.isArray(entities)) return [];
-    if (!options) return [];
+    if (!options || !options.sprintId) return [];
 
     const store = new Store(entities);
     const sprint = store.getSprint(options.sprintId);
@@ -18,28 +18,28 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
             {
                 alias: 'leaders',
                 data: {
-                    emoji: '',
-                    subtitle: '',
                     title: '',
+                    subtitle: '',
+                    emoji: '',
                     users: [],
                 },
             },
             {
                 alias: 'vote',
                 data: {
-                    emoji: '',
-                    subtitle: '',
                     title: '',
+                    subtitle: '',
+                    emoji: '',
                     users: [],
                 },
             },
             {
                 alias: 'chart',
                 data: {
-                    subtitle: '',
                     title: '',
-                    users: [],
+                    subtitle: '',
                     values: [],
+                    users: [],
                 },
             },
             {
@@ -58,13 +58,13 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                     title: '',
                     subtitle: '',
                     data: {
-                        sun: [],
-                        mon: [],
-                        tue: [],
-                        wed: [],
-                        thu: [],
-                        fri: [],
-                        sat: [],
+                        sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                     },
                 },
             },
