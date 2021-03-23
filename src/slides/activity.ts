@@ -6,7 +6,7 @@ import { Store } from '../store';
 import { getDayOfWeek } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'activity';
-const SLIDE_TITLE = 'Коммиты';
+let SLIDE_TITLE = 'Коммиты';
 
 interface DaysOfWeek {
     sun: number[];
@@ -39,6 +39,9 @@ export function prepareActivitySlide(store: Store, sprint: Sprint): ActivitySlid
         acc[dayOfWeekCommit][hourCommit]++;
         return acc;
     }, result);
+    if (!commits.length) {
+        SLIDE_TITLE = sprint.name;
+    }
     return {
         alias: SLIDE_ALIAS,
         data: {

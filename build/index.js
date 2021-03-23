@@ -213,6 +213,11 @@ define("slides/leaders", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Больше всего коммитов';
     var SLIDE_EMOJI = '👑';
     function prepareLeadersSlide(store, sprint) {
+        var commits = store.getSprintCommits(sprint);
+        if (!commits.length) {
+            SLIDE_EMOJI = '';
+            SLIDE_TITLE = sprint.name;
+        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -239,6 +244,10 @@ define("slides/vote", ["require", "exports", "helpers/helpers"], function (requi
         var commits = store.getSprintCommits(sprint);
         var users = commits.length
             ? userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter) : [];
+        if (!commits.length) {
+            SLIDE_EMOJI = '';
+            SLIDE_TITLE = sprint.name;
+        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -268,6 +277,9 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
                 active: sprintItem.id === sprint.id || undefined,
             });
         }) : [];
+        if (!commits.length) {
+            SLIDE_TITLE = sprint.name;
+        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -325,6 +337,11 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
             differenceText = helpers_4.numberDifferentText(commits.length) + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
             sizePrevCommitsCategories = [0, 0, 0, 0];
         }
+        if (!commits.length) {
+            differenceText = '';
+            totalText = '';
+            SLIDE_TITLE = sprint.name;
+        }
         for (var i = 0; i < categories.length; ++i) {
             var diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
             Object.assign(categories[i], {
@@ -370,6 +387,9 @@ define("slides/activity", ["require", "exports", "helpers/helpers"], function (r
             acc[dayOfWeekCommit][hourCommit]++;
             return acc;
         }, result);
+        if (!commits.length) {
+            SLIDE_TITLE = sprint.name;
+        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -392,85 +412,8 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
-        var commits = store.getSprintCommits(sprint);
-        if (!commits.length) {
-            return [
-                {
-                    alias: 'leaders',
-                    data: {
-                        title: sprint.name,
-                        subtitle: sprint.name,
-                        emoji: '',
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'vote',
-                    data: {
-                        title: sprint.name,
-                        subtitle: sprint.name,
-                        emoji: '',
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'chart',
-                    data: {
-                        title: sprint.name,
-                        subtitle: sprint.name,
-                        values: [],
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'diagram',
-                    data: {
-                        title: sprint.name,
-                        subtitle: sprint.name,
-                        totalText: '',
-                        differenceText: '',
-                        categories: [
-                            {
-                                title: '> 1001 строки',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                            {
-                                title: '501 — 1000 строк',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                            {
-                                title: '101 — 500 строк',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                            {
-                                title: '1 — 100 строк',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                        ],
-                    },
-                },
-                {
-                    alias: 'activity',
-                    data: {
-                        title: sprint.name,
-                        subtitle: sprint.name,
-                        data: {
-                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        },
-                    },
-                },
-            ];
-        }
+        if (!sprint)
+            return [];
         return [
             leaders_1.prepareLeadersSlide(store, sprint),
             vote_1.prepareVoteSlide(store, sprint),

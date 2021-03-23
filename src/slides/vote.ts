@@ -7,8 +7,8 @@ import { Store } from '../store';
 import { commentReducer, userVoteMapper, userFilter } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'vote';
-const SLIDE_TITLE = 'Самый 🔎 внимательный разработчик';
-const SLIDE_EMOJI = '🔎';
+let SLIDE_TITLE = 'Самый 🔎 внимательный разработчик';
+let SLIDE_EMOJI = '🔎';
 
 // Нужно найти все лайки к комментариям, полученные разработчиками за спринт, и просуммировать их количество.
 export function prepareVoteSlide(store: Store, sprint: Sprint): VoteSlide {
@@ -19,7 +19,10 @@ export function prepareVoteSlide(store: Store, sprint: Sprint): VoteSlide {
     const commits = store.getSprintCommits(sprint);
     const users = commits.length
         ? userLikeCommentsCount.map(userVoteMapper.bind(null, store)).filter(userFilter) : [];
-
+    if (!commits.length) {
+        SLIDE_EMOJI = '';
+        SLIDE_TITLE = sprint.name;
+    }
     return {
         alias: SLIDE_ALIAS,
         data: {

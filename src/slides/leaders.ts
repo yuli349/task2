@@ -8,11 +8,16 @@ import { Store } from '../store';
 import { getUsers } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'leaders';
-const SLIDE_TITLE = 'Больше всего коммитов';
-const SLIDE_EMOJI = '👑';
+let SLIDE_TITLE = 'Больше всего коммитов';
+let SLIDE_EMOJI = '👑';
 
 // Нужно найти все коммиты из заданного спринта, сгруппировать их по пользователям.
 export function prepareLeadersSlide(store: Store, sprint: Sprint): LeadersSlide {
+    const commits = store.getSprintCommits(sprint);
+    if (!commits.length) {
+        SLIDE_EMOJI = '';
+        SLIDE_TITLE = sprint.name;
+    }
     return {
         alias: SLIDE_ALIAS,
         data: {
