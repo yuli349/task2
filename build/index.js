@@ -60,6 +60,8 @@ define("store", ["require", "exports"], function (require, exports) {
             return this.users[userId] || null;
         };
         Store.prototype.getSprintCommits = function (sprint) {
+            if (!sprint)
+                return [];
             if (this.commitsBySprint[sprint.id] === undefined) {
                 this.commitsBySprint[sprint.id] = this.commits.filter(function (commit) { return (commit.timestamp >= sprint.startAt && commit.timestamp < sprint.finishAt); });
             }
@@ -277,42 +279,44 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         var categories = [
             {
                 title: '> 1001 строки',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
+                valueText: '',
+                differenceText: '',
             },
             {
                 title: '501 — 1000 строк',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
+                valueText: '',
+                differenceText: '',
             },
             {
                 title: '101 — 500 строк',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
+                valueText: '',
+                differenceText: '',
             },
             {
                 title: '1 — 100 строк',
-                valueText: '0 коммитов',
-                differenceText: '0 коммитов',
+                valueText: '',
+                differenceText: '',
             },
         ];
         var commits = store.getSprintCommits(sprint);
         var sprintIds = store.sprintIds;
-        sprintIds.sort();
+        sprintIds.sort(function (a, b) { return a - b; });
         var prevSprintId = (_a = sprintIds[sprintIds.indexOf(sprint.id) - 1]) !== null && _a !== void 0 ? _a : sprint.id;
         var prevSprint = store.getSprint(prevSprintId);
         var prevCommits = store.getSprintCommits(prevSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
-        if (commits && prevCommits) {
-            differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
-            var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
-            var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
-            for (var i = 0; i < categories.length; ++i) {
-                Object.assign(categories[i], {
-                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i]),
-                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i]),
-                });
-            }
+        differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
+        var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
+        var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
+        if (prevSprintId === sprintIds[0]) {
+            differenceText = commits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
+            sizePrevCommitsCategories = [0, 0, 0, 0];
+        }
+        for (var i = 0; i < categories.length; ++i) {
+            Object.assign(categories[i], {
+                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i]),
+                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i]),
+            });
         }
         return {
             alias: SLIDE_ALIAS,
