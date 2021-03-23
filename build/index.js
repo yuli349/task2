@@ -392,8 +392,63 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
-        if (!sprint)
-            return [];
+        if (!sprint) {
+            return [
+                {
+                    alias: 'leaders',
+                    data: {
+                        emoji: '',
+                        subtitle: '',
+                        title: '',
+                        users: [],
+                    },
+                },
+                {
+                    alias: 'vote',
+                    data: {
+                        emoji: '',
+                        subtitle: '',
+                        title: '',
+                        users: [],
+                    },
+                },
+                {
+                    alias: 'chart',
+                    data: {
+                        subtitle: '',
+                        title: '',
+                        users: [],
+                        values: [],
+                    },
+                },
+                {
+                    alias: 'diagram',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        totalText: '',
+                        differenceText: '',
+                        categories: [],
+                    },
+                },
+                {
+                    alias: 'activity',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        data: {
+                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        },
+                    },
+                },
+            ];
+        }
         return [
             leaders_1.prepareLeadersSlide(store, sprint),
             vote_1.prepareVoteSlide(store, sprint),

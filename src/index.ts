@@ -13,7 +13,63 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
 
     const store = new Store(entities);
     const sprint = store.getSprint(options.sprintId);
-    if (!sprint) return [];
+    if (!sprint) {
+        return [
+            {
+                alias: 'leaders',
+                data: {
+                    emoji: '',
+                    subtitle: '',
+                    title: '',
+                    users: [],
+                },
+            },
+            {
+                alias: 'vote',
+                data: {
+                    emoji: '',
+                    subtitle: '',
+                    title: '',
+                    users: [],
+                },
+            },
+            {
+                alias: 'chart',
+                data: {
+                    subtitle: '',
+                    title: '',
+                    users: [],
+                    values: [],
+                },
+            },
+            {
+                alias: 'diagram',
+                data: {
+                    title: '',
+                    subtitle: '',
+                    totalText: '',
+                    differenceText: '',
+                    categories: [],
+                },
+            },
+            {
+                alias: 'activity',
+                data: {
+                    title: '',
+                    subtitle: '',
+                    data: {
+                        sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    },
+                },
+            },
+        ];
+    }
 
     return [
         prepareLeadersSlide(store, sprint),
