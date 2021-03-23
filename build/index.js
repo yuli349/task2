@@ -258,7 +258,8 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
     var SLIDE_ALIAS = 'chart';
     var SLIDE_TITLE = 'Коммиты';
     function prepareChartSlide(store, sprint) {
-        var values = Object.entries(store.sprints).map(function (_a) {
+        var commits = store.getSprintCommits(sprint);
+        var values = commits.length ? Object.entries(store.sprints).map(function (_a) {
             var sprintItem = _a[1];
             return ({
                 title: sprintItem.id.toString(),
@@ -266,7 +267,7 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
                 value: store.getSprintCommits(sprintItem).length,
                 active: sprintItem.id === sprint.id || undefined,
             });
-        });
+        }) : [];
         return {
             alias: SLIDE_ALIAS,
             data: {
