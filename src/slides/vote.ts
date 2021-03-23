@@ -16,7 +16,9 @@ export function prepareVoteSlide(store: Store, sprint: Sprint): VoteSlide {
     const userLikeCommentsCount = Object.entries(comments.reduce(commentReducer, {}));
     userLikeCommentsCount.sort((a, b) => b[1] - a[1]);
 
-    const users = userLikeCommentsCount.map(userVoteMapper.bind(null, store)).filter(userFilter);
+    const commits = store.getSprintCommits(sprint);
+    const users = commits.length
+        ? userLikeCommentsCount.map(userVoteMapper.bind(null, store)).filter(userFilter) : [];
 
     return {
         alias: SLIDE_ALIAS,
