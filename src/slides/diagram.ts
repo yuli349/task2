@@ -47,7 +47,7 @@ export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide 
     const prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1] ?? sprint.id;
     const prevSprint = store.getSprint(prevSprintId)!;
     const prevCommits = store.getSprintCommits(prevSprint);
-    let totalText = `${numberOfCommits(commits.length)}`;
+    let totalText = `${commits.length ? numberOfCommits(commits.length) : '0 коммитов'}`;
     differenceText = `${numberDifferentText(commits.length - prevCommits.length)} с прошлого спринта`;
     const sizeCommitsCategories = getCommitSizeCategories(store, commits);
     let sizePrevCommitsCategories = getCommitSizeCategories(store, prevCommits);
@@ -55,7 +55,7 @@ export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide 
         differenceText = `${numberDifferentText(commits.length)} с прошлого спринта`;
         sizePrevCommitsCategories = [0, 0, 0, 0];
     }
-    if (!commits.length) {
+    if (!commits.length && !prevCommits.length) {
         differenceText = '';
         totalText = '';
         SLIDE_TITLE = sprint.name;

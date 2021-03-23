@@ -329,7 +329,7 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         var prevSprintId = (_a = sprintIds[sprintIds.indexOf(sprint.id) - 1]) !== null && _a !== void 0 ? _a : sprint.id;
         var prevSprint = store.getSprint(prevSprintId);
         var prevCommits = store.getSprintCommits(prevSprint);
-        var totalText = "" + helpers_4.numberOfCommits(commits.length);
+        var totalText = "" + (commits.length ? helpers_4.numberOfCommits(commits.length) : '0 коммитов');
         differenceText = helpers_4.numberDifferentText(commits.length - prevCommits.length) + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
         var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
         var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
@@ -337,7 +337,7 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
             differenceText = helpers_4.numberDifferentText(commits.length) + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
             sizePrevCommitsCategories = [0, 0, 0, 0];
         }
-        if (!commits.length) {
+        if (!commits.length && !prevCommits.length) {
             differenceText = '';
             totalText = '';
             SLIDE_TITLE = sprint.name;
