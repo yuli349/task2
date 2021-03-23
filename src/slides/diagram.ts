@@ -4,7 +4,9 @@
 import { DiagramSlide } from '../typings/output';
 import { Sprint } from '../typings/input';
 import { Store } from '../store';
-import { numberOfCommits, getCommitSizeCategories, numberDifferentText } from '../helpers/helpers';
+import {
+    numberOfCommits, getCommitSizeCategories, numberDifferentText, declOfNum,
+} from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'diagram';
 const SLIDE_TITLE = 'Размер коммитов';
@@ -54,9 +56,12 @@ export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide 
         sizePrevCommitsCategories = [0, 0, 0, 0];
     }
     for (let i = 0; i < categories.length; ++i) {
+        const diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
         Object.assign(categories[i], {
             valueText: `${numberOfCommits(sizeCommitsCategories[i])}`,
-            differenceText: `${numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i])}`,
+            differenceText:
+                `${numberDifferentText(diffCount)} ${declOfNum(Math.abs(diffCount),
+                    ['коммит', 'коммита', 'коммитов'])}`,
         });
     }
     return {

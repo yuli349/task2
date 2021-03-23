@@ -323,9 +323,10 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
             sizePrevCommitsCategories = [0, 0, 0, 0];
         }
         for (var i = 0; i < categories.length; ++i) {
+            var diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
             Object.assign(categories[i], {
                 valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i]),
+                differenceText: helpers_4.numberDifferentText(diffCount) + " " + helpers_4.declOfNum(Math.abs(diffCount), ['коммит', 'коммита', 'коммитов']),
             });
         }
         return {
