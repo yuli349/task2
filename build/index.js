@@ -279,23 +279,23 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         var categories = [
             {
                 title: '> 1001 строки',
-                valueText: '',
-                differenceText: '',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
             },
             {
                 title: '501 — 1000 строк',
-                valueText: '',
-                differenceText: '',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
             },
             {
                 title: '101 — 500 строк',
-                valueText: '',
-                differenceText: '',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
             },
             {
                 title: '1 — 100 строк',
-                valueText: '',
-                differenceText: '',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
             },
         ];
         var commits = store.getSprintCommits(sprint);
@@ -305,18 +305,20 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         var prevSprint = store.getSprint(prevSprintId);
         var prevCommits = store.getSprintCommits(prevSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
-        differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
         var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
         var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
         if (prevSprintId === sprintIds[0]) {
             differenceText = commits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
             sizePrevCommitsCategories = [0, 0, 0, 0];
         }
-        for (var i = 0; i < categories.length; ++i) {
-            Object.assign(categories[i], {
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i]),
-            });
+        if (commits.length && prevCommits.length) {
+            differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
+            for (var i = 0; i < categories.length; ++i) {
+                Object.assign(categories[i], {
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[i] - sizePrevCommitsCategories[i]),
+                });
+            }
         }
         return {
             alias: SLIDE_ALIAS,
