@@ -38,7 +38,12 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                 data: {
                     title: '',
                     subtitle: '',
-                    values: [],
+                    values: [
+                        {
+                            title: '',
+                            value: 0,
+                        },
+                    ],
                     users: [],
                 },
             },
@@ -51,24 +56,9 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                     differenceText: '',
                     categories: [
                         {
-                            title: '> 1001 строки',
-                            valueText: '0 коммитов',
-                            differenceText: '0 коммитов',
-                        },
-                        {
-                            title: '501 — 1000 строк',
-                            valueText: '0 коммитов',
-                            differenceText: '0 коммитов',
-                        },
-                        {
-                            title: '101 — 500 строк',
-                            valueText: '0 коммитов',
-                            differenceText: '0 коммитов',
-                        },
-                        {
-                            title: '1 — 100 строк',
-                            valueText: '0 коммитов',
-                            differenceText: '0 коммитов',
+                            title: '',
+                            valueText: '',
+                            differenceText: '',
                         },
                     ],
                 },
@@ -79,13 +69,13 @@ export function prepareData(entities: Entity[], options: { sprintId: number }): 
                     title: '',
                     subtitle: '',
                     data: {
-                        sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        sun: [],
+                        mon: [],
+                        tue: [],
+                        wed: [],
+                        thu: [],
+                        fri: [],
+                        sat: [],
                     },
                 },
             },
