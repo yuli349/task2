@@ -148,14 +148,6 @@ define("helpers/helpers", ["require", "exports"], function (require, exports) {
     function getUsers(store, sprint) {
         var commits = store.getSprintCommits(sprint);
         var userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));
-        if (userCommitsCount.length === 0) {
-            return [{
-                    id: 0,
-                    name: '',
-                    avatar: '',
-                    valueText: '',
-                }];
-        }
         userCommitsCount.sort(function (a, b) { return b[1] - a[1]; });
         return userCommitsCount.map(userCommitsMapper.bind(null, store)).filter(userFilter);
     }
@@ -229,19 +221,10 @@ define("slides/vote", ["require", "exports", "helpers/helpers"], function (requi
     var SLIDE_TITLE = 'Самый 🔎 внимательный разработчик';
     var SLIDE_EMOJI = '🔎';
     function prepareVoteSlide(store, sprint) {
-        var users;
         var comments = store.getSprintComments(sprint);
         var userLikeCommentsCount = Object.entries(comments.reduce(helpers_2.commentReducer, {}));
         userLikeCommentsCount.sort(function (a, b) { return b[1] - a[1]; });
-        users = userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter);
-        if (userLikeCommentsCount.length === 0) {
-            users = [{
-                    id: 0,
-                    name: '',
-                    avatar: '',
-                    valueText: '',
-                }];
-        }
+        var users = userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter);
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -290,6 +273,29 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Размер коммитов';
     function prepareDiagramSlide(store, sprint) {
         var _a;
+        var diagramDifferenceText = '0 с прошлого спринта';
+        var diagramCategories = [
+            {
+                title: '> 1001 строки',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+            {
+                title: '501 — 1000 строк',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+            {
+                title: '101 — 500 строк',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+            {
+                title: '1 — 100 строк',
+                valueText: '0 коммитов',
+                differenceText: '0 коммитов',
+            },
+        ];
         var commits = store.getSprintCommits(sprint);
         var sprintIds = store.sprintIds;
         sprintIds.sort();
@@ -297,39 +303,41 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         var prevSprint = store.getSprint(prevSprintId);
         var prevCommits = store.getSprintCommits(prevSprint);
         var totalText = "" + helpers_4.numberOfCommits(commits.length);
-        var differenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
-        var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
-        var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
-        var categories = [
-            {
-                title: '> 1001 строки',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0] - sizePrevCommitsCategories[0]),
-            },
-            {
-                title: '501 — 1000 строк',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1] - sizePrevCommitsCategories[1]),
-            },
-            {
-                title: '101 — 500 строк',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2] - sizePrevCommitsCategories[2]),
-            },
-            {
-                title: '1 — 100 строк',
-                valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3]),
-                differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3] - sizePrevCommitsCategories[3]),
-            },
-        ];
+        if (commits && prevCommits) {
+            diagramDifferenceText = commits.length - prevCommits.length + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
+            var sizeCommitsCategories = helpers_4.getCommitSizeCategories(store, commits);
+            var sizePrevCommitsCategories = helpers_4.getCommitSizeCategories(store, prevCommits);
+            diagramCategories = [
+                {
+                    title: '> 1001 строки',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[0] - sizePrevCommitsCategories[0]),
+                },
+                {
+                    title: '501 — 1000 строк',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[1] - sizePrevCommitsCategories[1]),
+                },
+                {
+                    title: '101 — 500 строк',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[2] - sizePrevCommitsCategories[2]),
+                },
+                {
+                    title: '1 — 100 строк',
+                    valueText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3]),
+                    differenceText: "" + helpers_4.numberOfCommits(sizeCommitsCategories[3] - sizePrevCommitsCategories[3]),
+                },
+            ];
+        }
         return {
             alias: SLIDE_ALIAS,
             data: {
                 title: SLIDE_TITLE,
                 subtitle: sprint.name,
                 totalText: totalText,
-                differenceText: differenceText,
-                categories: categories,
+                differenceText: diagramDifferenceText,
+                categories: diagramCategories,
             },
         };
     }

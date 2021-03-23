@@ -74,14 +74,6 @@ export function getUsers(store: Store, sprint: Sprint) {
     const commits = store.getSprintCommits(sprint);
 
     const userCommitsCount = Object.entries(commits.reduce(commitReducer, {}));
-    if (userCommitsCount.length === 0) {
-        return [{
-            id: 0,
-            name: '',
-            avatar: '',
-            valueText: '',
-        }];
-    }
     userCommitsCount.sort((a, b) => b[1] - a[1]);
 
     return userCommitsCount.map(userCommitsMapper.bind(null, store)).filter(userFilter);

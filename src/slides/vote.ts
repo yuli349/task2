@@ -12,21 +12,11 @@ const SLIDE_EMOJI = '🔎';
 
 // Нужно найти все лайки к комментариям, полученные разработчиками за спринт, и просуммировать их количество.
 export function prepareVoteSlide(store: Store, sprint: Sprint): VoteSlide {
-    let users;
     const comments = store.getSprintComments(sprint);
     const userLikeCommentsCount = Object.entries(comments.reduce(commentReducer, {}));
     userLikeCommentsCount.sort((a, b) => b[1] - a[1]);
 
-    users = userLikeCommentsCount.map(userVoteMapper.bind(null, store)).filter(userFilter);
-
-    if (userLikeCommentsCount.length === 0) {
-        users = [{
-            id: 0,
-            name: '',
-            avatar: '',
-            valueText: '',
-        }];
-    }
+    const users = userLikeCommentsCount.map(userVoteMapper.bind(null, store)).filter(userFilter);
 
     return {
         alias: SLIDE_ALIAS,
