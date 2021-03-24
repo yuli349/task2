@@ -17,7 +17,7 @@ export function prepareChartSlide(store: Store, sprint: Sprint): ChartSlide {
         title: sprintItem.id.toString(),
         hint: sprintItem.name,
         value: store.getSprintCommits(sprintItem).length,
-        active: sprintItem.id === sprint.id || undefined,
+        active: commits.length && sprintItem.id === sprint.id ? sprintItem.id === sprint.id || undefined : undefined,
     }));
     if (!commits.length) {
         SLIDE_TITLE = sprint.name;

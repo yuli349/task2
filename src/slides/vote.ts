@@ -17,7 +17,8 @@ export function prepareVoteSlide(store: Store, sprint: Sprint): VoteSlide {
     userLikeCommentsCount.sort((a, b) => b[1] - a[1]);
 
     const commits = store.getSprintCommits(sprint);
-    const users = userLikeCommentsCount.map(userVoteMapper.bind(null, store)).filter(userFilter);
+    const users = commits.length
+        ? userLikeCommentsCount.map(userVoteMapper.bind(null, store)).filter(userFilter) : [];
     if (!commits.length) {
         SLIDE_EMOJI = '';
         SLIDE_TITLE = sprint.name;

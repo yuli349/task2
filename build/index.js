@@ -60,6 +60,8 @@ define("store", ["require", "exports"], function (require, exports) {
             return this.users[userId] || null;
         };
         Store.prototype.getSprintCommits = function (sprint) {
+            if (!sprint)
+                return [];
             if (this.commitsBySprint[sprint.id] === undefined) {
                 this.commitsBySprint[sprint.id] = this.commits.filter(function (commit) { return (commit.timestamp >= sprint.startAt && commit.timestamp < sprint.finishAt); });
             }
@@ -240,7 +242,8 @@ define("slides/vote", ["require", "exports", "helpers/helpers"], function (requi
         var userLikeCommentsCount = Object.entries(comments.reduce(helpers_2.commentReducer, {}));
         userLikeCommentsCount.sort(function (a, b) { return b[1] - a[1]; });
         var commits = store.getSprintCommits(sprint);
-        var users = userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter);
+        var users = commits.length
+            ? userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter) : [];
         if (!commits.length) {
             SLIDE_EMOJI = '';
             SLIDE_TITLE = sprint.name;
@@ -271,7 +274,7 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
                 title: sprintItem.id.toString(),
                 hint: sprintItem.name,
                 value: store.getSprintCommits(sprintItem).length,
-                active: sprintItem.id === sprint.id || undefined,
+                active: commits.length && sprintItem.id === sprint.id ? sprintItem.id === sprint.id || undefined : undefined,
             });
         });
         if (!commits.length) {

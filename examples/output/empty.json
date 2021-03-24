@@ -14,80 +14,7 @@
       "emoji": "",
       "subtitle": "Красный",
       "title": "Красный",
-      "users": [
-        {
-          "avatar": "1.jpg",
-          "id": 1,
-          "name": "Евгений Дементьев",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "2.jpg",
-          "id": 2,
-          "name": "Александр Шлейко",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "3.jpg",
-          "id": 3,
-          "name": "Дарья Ковалева",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "4.jpg",
-          "id": 4,
-          "name": "Вадим Пацев",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "5.jpg",
-          "id": 5,
-          "name": "Александр Николаичев",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "6.jpg",
-          "id": 6,
-          "name": "Андрей Мокроусов",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "7.jpg",
-          "id": 7,
-          "name": "Дмитрий Андриянов",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "8.jpg",
-          "id": 8,
-          "name": "Александр Иванков",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "9.jpg",
-          "id": 9,
-          "name": "Сергей Бережной",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "10.jpg",
-          "id": 10,
-          "name": "Яна Берникова",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "11.jpg",
-          "id": 11,
-          "name": "Юрий Фролов",
-          "valueText": "0 голосов"
-        },
-        {
-          "avatar": "12.jpg",
-          "id": 12,
-          "name": "Алексей Ярошевич",
-          "valueText": "0 голосов"
-        }
-      ]
+      "users": []
     }
   },
   {
@@ -278,7 +205,6 @@
           "value": 0
         },
         {
-          "active": true,
           "hint": "Красный",
           "title": "994",
           "value": 0
