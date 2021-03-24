@@ -268,7 +268,7 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
     var SLIDE_TITLE = 'Коммиты';
     function prepareChartSlide(store, sprint) {
         var commits = store.getSprintCommits(sprint);
-        var values = commits.length ? Object.entries(store.sprints).map(function (_a) {
+        var values = Object.entries(store.sprints).map(function (_a) {
             var sprintItem = _a[1];
             return ({
                 title: sprintItem.id.toString(),
@@ -276,7 +276,7 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
                 value: store.getSprintCommits(sprintItem).length,
                 active: sprintItem.id === sprint.id || undefined,
             });
-        }) : [];
+        });
         if (!commits.length) {
             SLIDE_TITLE = sprint.name;
         }
@@ -412,84 +412,8 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
-        if (!sprint) {
-            return [
-                {
-                    alias: 'leaders',
-                    data: {
-                        title: '',
-                        subtitle: '',
-                        emoji: '',
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'vote',
-                    data: {
-                        title: '',
-                        subtitle: '',
-                        emoji: '',
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'chart',
-                    data: {
-                        title: '',
-                        subtitle: '',
-                        values: [],
-                        users: [],
-                    },
-                },
-                {
-                    alias: 'diagram',
-                    data: {
-                        title: '',
-                        subtitle: '',
-                        totalText: '',
-                        differenceText: '',
-                        categories: [
-                            {
-                                title: '> 1001 строки',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                            {
-                                title: '501 — 1000 строк',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                            {
-                                title: '101 — 500 строк',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                            {
-                                title: '1 — 100 строк',
-                                valueText: '0 коммитов',
-                                differenceText: '0 коммитов',
-                            },
-                        ],
-                    },
-                },
-                {
-                    alias: 'activity',
-                    data: {
-                        title: '',
-                        subtitle: '',
-                        data: {
-                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-                        },
-                    },
-                },
-            ];
-        }
+        if (!sprint)
+            return [];
         return [
             leaders_1.prepareLeadersSlide(store, sprint),
             vote_1.prepareVoteSlide(store, sprint),
