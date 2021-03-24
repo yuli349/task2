@@ -213,11 +213,6 @@ define("slides/leaders", ["require", "exports", "helpers/helpers"], function (re
     var SLIDE_TITLE = 'Больше всего коммитов';
     var SLIDE_EMOJI = '👑';
     function prepareLeadersSlide(store, sprint) {
-        var commits = store.getSprintCommits(sprint);
-        if (!commits.length) {
-            SLIDE_EMOJI = '';
-            SLIDE_TITLE = sprint.name;
-        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -244,10 +239,6 @@ define("slides/vote", ["require", "exports", "helpers/helpers"], function (requi
         var commits = store.getSprintCommits(sprint);
         var users = commits.length
             ? userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter) : [];
-        if (!commits.length) {
-            SLIDE_EMOJI = '';
-            SLIDE_TITLE = sprint.name;
-        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -267,19 +258,15 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
     var SLIDE_ALIAS = 'chart';
     var SLIDE_TITLE = 'Коммиты';
     function prepareChartSlide(store, sprint) {
-        var commits = store.getSprintCommits(sprint);
         var values = Object.entries(store.sprints).map(function (_a) {
             var sprintItem = _a[1];
             return ({
                 title: sprintItem.id.toString(),
                 hint: sprintItem.name,
                 value: store.getSprintCommits(sprintItem).length,
-                active: commits.length && sprintItem.id === sprint.id ? sprintItem.id === sprint.id || undefined : undefined,
+                active: sprintItem.id === sprint.id || undefined,
             });
         });
-        if (!commits.length) {
-            SLIDE_TITLE = sprint.name;
-        }
         return {
             alias: SLIDE_ALIAS,
             data: {
@@ -340,7 +327,6 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
         if (!commits.length && !prevCommits.length) {
             differenceText = '';
             totalText = '';
-            SLIDE_TITLE = sprint.name;
         }
         for (var i = 0; i < categories.length; ++i) {
             var diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
@@ -387,9 +373,6 @@ define("slides/activity", ["require", "exports", "helpers/helpers"], function (r
             acc[dayOfWeekCommit][hourCommit]++;
             return acc;
         }, result);
-        if (!commits.length) {
-            SLIDE_TITLE = sprint.name;
-        }
         return {
             alias: SLIDE_ALIAS,
             data: {

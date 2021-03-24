@@ -9,7 +9,7 @@ import {
 } from '../helpers/helpers';
 
 const SLIDE_ALIAS = 'diagram';
-let SLIDE_TITLE = 'Размер коммитов';
+const SLIDE_TITLE = 'Размер коммитов';
 
 // Вам нужно найти все коммиты в текущем спринте и сгруппировать из по размеру (см. макет).
 // После этого сделайте всё то же самое для предыдущего спринта и посчитайте разницу между ними
@@ -58,7 +58,6 @@ export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide 
     if (!commits.length && !prevCommits.length) {
         differenceText = '';
         totalText = '';
-        SLIDE_TITLE = sprint.name;
     }
     for (let i = 0; i < categories.length; ++i) {
         const diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
