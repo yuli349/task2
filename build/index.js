@@ -412,8 +412,84 @@ define("index", ["require", "exports", "store", "slides/leaders", "slides/vote",
             return [];
         var store = new store_1.Store(entities);
         var sprint = store.getSprint(options.sprintId);
-        if (!sprint)
-            return [];
+        if (!sprint) {
+            return [
+                {
+                    alias: 'leaders',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        emoji: '',
+                        users: [],
+                    },
+                },
+                {
+                    alias: 'vote',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        emoji: '',
+                        users: [],
+                    },
+                },
+                {
+                    alias: 'chart',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        values: [],
+                        users: [],
+                    },
+                },
+                {
+                    alias: 'diagram',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        totalText: '',
+                        differenceText: '',
+                        categories: [
+                            {
+                                title: '> 1001 строки',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
+                            },
+                            {
+                                title: '501 — 1000 строк',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
+                            },
+                            {
+                                title: '101 — 500 строк',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
+                            },
+                            {
+                                title: '1 — 100 строк',
+                                valueText: '0 коммитов',
+                                differenceText: '0 коммитов',
+                            },
+                        ],
+                    },
+                },
+                {
+                    alias: 'activity',
+                    data: {
+                        title: '',
+                        subtitle: '',
+                        data: {
+                            sun: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            mon: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            tue: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            wed: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            thu: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            fri: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                            sat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                        },
+                    },
+                },
+            ];
+        }
         return [
             leaders_1.prepareLeadersSlide(store, sprint),
             vote_1.prepareVoteSlide(store, sprint),
