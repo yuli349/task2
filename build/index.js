@@ -263,7 +263,7 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
                 title: sprintItem.id.toString(),
                 hint: sprintItem.name,
                 value: store.getSprintCommits(sprintItem).length,
-                active: commits.length ? sprintItem.id === sprint.id || undefined : undefined,
+                active: sprintItem.id === sprint.id || undefined,
             });
         });
         return {
