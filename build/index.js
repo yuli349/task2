@@ -323,10 +323,6 @@ define("slides/diagram", ["require", "exports", "helpers/helpers"], function (re
             differenceText = helpers_4.numberDifferentText(commits.length) + " \u0441 \u043F\u0440\u043E\u0448\u043B\u043E\u0433\u043E \u0441\u043F\u0440\u0438\u043D\u0442\u0430";
             sizePrevCommitsCategories = [0, 0, 0, 0];
         }
-        if (!commits.length && !prevCommits.length) {
-            differenceText = '';
-            totalText = '';
-        }
         for (var i = 0; i < categories.length; ++i) {
             var diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
             Object.assign(categories[i], {

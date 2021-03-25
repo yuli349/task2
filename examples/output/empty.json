@@ -320,10 +320,10 @@
           "valueText": "0 коммитов"
         }
       ],
-      "differenceText": "",
+      "differenceText": "0 с прошлого спринта",
       "subtitle": "Красный",
       "title": "Размер коммитов",
-      "totalText": ""
+      "totalText": "0 коммитов"
     }
   },
   {

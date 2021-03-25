@@ -47,17 +47,13 @@ export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide 
     const prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1] ?? sprint.id;
     const prevSprint = store.getSprint(prevSprintId)!;
     const prevCommits = store.getSprintCommits(prevSprint);
-    let totalText = `${commits.length ? numberOfCommits(commits.length) : '0 коммитов'}`;
+    const totalText = `${commits.length ? numberOfCommits(commits.length) : '0 коммитов'}`;
     differenceText = `${numberDifferentText(commits.length - prevCommits.length)} с прошлого спринта`;
     const sizeCommitsCategories = getCommitSizeCategories(store, commits);
     let sizePrevCommitsCategories = getCommitSizeCategories(store, prevCommits);
     if (prevSprintId === sprintIds[0]) {
         differenceText = `${numberDifferentText(commits.length)} с прошлого спринта`;
         sizePrevCommitsCategories = [0, 0, 0, 0];
-    }
-    if (!commits.length && !prevCommits.length) {
-        differenceText = '';
-        totalText = '';
     }
     for (let i = 0; i < categories.length; ++i) {
         const diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
