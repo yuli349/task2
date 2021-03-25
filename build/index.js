@@ -256,13 +256,14 @@ define("slides/chart", ["require", "exports", "helpers/helpers"], function (requ
     var SLIDE_ALIAS = 'chart';
     var SLIDE_TITLE = 'Коммиты';
     function prepareChartSlide(store, sprint) {
+        var commits = store.getSprintCommits(sprint);
         var values = Object.entries(store.sprints).map(function (_a) {
             var sprintItem = _a[1];
             return ({
                 title: sprintItem.id.toString(),
                 hint: sprintItem.name,
                 value: store.getSprintCommits(sprintItem).length,
-                active: sprintItem.id === sprint.id || undefined,
+                active: commits.length ? sprintItem.id === sprint.id || undefined : undefined,
             });
         });
         return {
