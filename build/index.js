@@ -236,9 +236,7 @@ define("slides/vote", ["require", "exports", "helpers/helpers"], function (requi
         var comments = store.getSprintComments(sprint);
         var userLikeCommentsCount = Object.entries(comments.reduce(helpers_2.commentReducer, {}));
         userLikeCommentsCount.sort(function (a, b) { return b[1] - a[1]; });
-        var commits = store.getSprintCommits(sprint);
-        var users = commits.length
-            ? userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter) : [];
+        var users = userLikeCommentsCount.map(helpers_2.userVoteMapper.bind(null, store)).filter(helpers_2.userFilter);
         return {
             alias: SLIDE_ALIAS,
             data: {
