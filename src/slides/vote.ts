@@ -4,7 +4,8 @@
 import { VoteSlide } from '../typings/output';
 import { Sprint } from '../typings/input';
 import { Store } from '../store';
-import { commentReducer, userVoteMapper, userFilter } from '../helpers/helpers';
+import { commentReducer } from '../helpers/commits';
+import { userFilter, userVoteMapper } from '../helpers/users';
 
 const SLIDE_ALIAS = 'vote';
 const SLIDE_TITLE = 'Самый 🔎 внимательный разработчик';

@@ -5,7 +5,7 @@
 import { LeadersSlide } from '../typings/output';
 import { Sprint } from '../typings/input';
 import { Store } from '../store';
-import { getUsers } from '../helpers/helpers';
+import { getUsers } from '../helpers/users';
 
 const SLIDE_ALIAS = 'leaders';
 const SLIDE_TITLE = 'Больше всего коммитов';

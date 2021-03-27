@@ -102,4 +102,14 @@ export class Store {
 
         return results;
     }
+
+    getSortedSprintIds() {
+        this.sprintIds.sort((a, b) => a - b);
+        return this.sprintIds;
+    }
+
+    getPreviousSprintId(sprint: Sprint) {
+        const sortedSprintIds = this.getSortedSprintIds();
+        return sortedSprintIds[sortedSprintIds.indexOf(sprint.id) - 1] ?? sprint.id;
+    }
 }

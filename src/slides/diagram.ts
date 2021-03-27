@@ -4,9 +4,10 @@
 import { DiagramSlide } from '../typings/output';
 import { Sprint } from '../typings/input';
 import { Store } from '../store';
+import { declOfNum } from '../helpers/common';
 import {
-    numberOfCommits, getCommitSizeCategories, numberDifferentText, declOfNum,
-} from '../helpers/helpers';
+    numberOfCommits, numberDifferentText, initializeCategories, getCommitSizeCategories,
+} from '../helpers/diagram';
 
 const SLIDE_ALIAS = 'diagram';
 const SLIDE_TITLE = 'Размер коммитов';
@@ -18,43 +19,28 @@ const SLIDE_TITLE = 'Размер коммитов';
 // Размер коммита — это сумма количества добавленных и удаленных строк.
 // Например, если добавлено 5 строк и удалено 5 строк, то размер коммита будет равен 10.
 export function prepareDiagramSlide(store: Store, sprint: Sprint): DiagramSlide {
-    let differenceText;
-    const categories = [
-        {
-            title: '> 1001 строки',
-            valueText: '0 коммитов',
-            differenceText: '0 коммитов',
-        },
-        {
-            title: '501 — 1000 строк',
-            valueText: '0 коммитов',
-            differenceText: '0 коммитов',
-        },
-        {
-            title: '101 — 500 строк',
-            valueText: '0 коммитов',
-            differenceText: '0 коммитов',
-        },
-        {
-            title: '1 — 100 строк',
-            valueText: '0 коммитов',
-            differenceText: '0 коммитов',
-        },
-    ];
+    const categories = initializeCategories();
     const commits = store.getSprintCommits(sprint);
-    const { sprintIds } = store;
-    sprintIds.sort((a, b) => a - b);
-    const prevSprintId = sprintIds[sprintIds.indexOf(sprint.id) - 1] ?? sprint.id;
+    const sortedSprintIds = store.getSortedSprintIds();
+
+    const prevSprintId = store.getPreviousSprintId(sprint);
     const prevSprint = store.getSprint(prevSprintId)!;
     const prevCommits = store.getSprintCommits(prevSprint);
+
     const totalText = `${commits.length ? numberOfCommits(commits.length) : '0 коммитов'}`;
-    differenceText = `${numberDifferentText(commits.length - prevCommits.length)} с прошлого спринта`;
     const sizeCommitsCategories = getCommitSizeCategories(store, commits);
-    let sizePrevCommitsCategories = getCommitSizeCategories(store, prevCommits);
-    if (prevSprintId === sprintIds[0]) {
+
+    let differenceText;
+    let sizePrevCommitsCategories;
+
+    if (prevSprintId === sortedSprintIds[0]) {
         differenceText = `${numberDifferentText(commits.length)} с прошлого спринта`;
         sizePrevCommitsCategories = [0, 0, 0, 0];
+    } else {
+        differenceText = `${numberDifferentText(commits.length - prevCommits.length)} с прошлого спринта`;
+        sizePrevCommitsCategories = getCommitSizeCategories(store, prevCommits);
     }
+
     for (let i = 0; i < categories.length; ++i) {
         const diffCount = sizeCommitsCategories[i] - sizePrevCommitsCategories[i];
         Object.assign(categories[i], {
