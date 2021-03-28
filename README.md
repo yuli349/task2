@@ -3,8 +3,7 @@
 1. Клонировать репозиторий
 
     ```
-    git clone git@github.com/yuli349/task2.git
-    cd shri-2021-task-2-belitskaya
+    git clone https://github.com/yuli349/task2.git
     ```
 2. Установить зависимости
     
